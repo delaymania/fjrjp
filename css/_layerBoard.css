@@ -1,0 +1,104 @@
+html,body {
+	height: 100%;
+}
+
+
+* html .layer_board_bg,
+* html .layer_board {
+	position: absolute;
+}
+
+.layer_board_bg {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	
+	z-index: 1000;
+	
+	top: 0;
+	left: 0;
+	
+	display: none;
+	cursor: pointer;
+	background: #000;
+}
+
+.layer_board {
+	display: none;
+	text-align: center;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 750px;
+	margin: auto;
+}
+.layer_board .logo {
+	padding-top: 50px;
+	margin-bottom: 30px
+}
+.layer_board p {
+	font-size: 1.5em;
+	color: #fff;
+	font-weight: 500;
+	margin-bottom: 2em;
+}
+.layer_board p:last-child {
+	margin-bottom: 0;
+}
+.btn_close {
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 5%;
+	right: 20px;
+	z-index: 9999;
+}
+
+.btn_close:before,
+.btn_close:after {
+	content:'';
+	height: 4px;
+	width: 30px;
+	display:block;
+	background:#fff;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius:10px;
+	position:absolute;
+	top:16px;
+	left:0px;
+	transform:rotate(-45deg);
+	-webkit-transform:rotate(-45deg);
+	-moz-transform:rotate(-45deg);
+	-o-transform:rotate(-45deg);
+	-ms-transform:rotate(-45deg);
+}
+.btn_close:after {
+	transform:rotate(45deg);
+	-webkit-transform:rotate(45deg);
+	-moz-transform:rotate(45deg);
+	-o-transform:rotate(45deg);
+	-ms-transform:rotate(45deg);
+}
+
+@media screen and (max-width: 479px) {
+	.layer_board .logo {
+		padding-top: 25px;
+		margin-bottom: 15px;
+	}
+	.layer_board .logo img {
+		width: 120px;
+	}
+	.layer_board {
+		max-width: 400px;
+		height: 510px;
+	}
+	.layer_board p {
+		font-size: 1.2em;
+	}
+}
+

@@ -1,0 +1,331 @@
+@charset "UTF-8";
+#freaks-house.zerofreaks {
+	padding: 5em 3.5em;
+}
+#freaks-house.zerofreaks .keyvisual .sp {
+	display: none;
+}
+.zerofreaks .inBox {
+	max-width: 1409px;
+	margin: 50px auto 80px;
+	position: relative;
+}
+.zerofreaks .inBox .logo {
+	position: absolute;
+	top: 40px;
+	left: 10%;
+	width: 20% !important;
+}
+#freaks-house.zerofreaks .keyvisual img {
+	max-width: 100%;
+	width: auto !important;
+}
+#freaks-house.zerofreaks .boxtype01 {
+	text-align: center;
+}
+#freaks-house.zerofreaks .hd01 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-align: center;
+	padding: 0.2em;
+}
+.zerofreaks .plan {
+	text-align: center;
+	margin-bottom: 30px;
+}
+.zerofreaks .plan li {
+	display: inline-block;
+	width: 49%;
+}
+.infoCont {
+	padding: 0 10%;
+}
+.infoCont .priceBox {
+	background: #6a7b5e;
+	padding: 10px 20%;
+	margin-bottom: 20px;
+}
+.infoCont .priceBox dl {
+	background: #e5e5e5;
+	padding: 15px 15%;
+	text-align: center;
+}
+.infoCont .priceBox dl dt,
+.infoCont .priceBox dl dd {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 1.2;
+}
+.infoCont .priceBox dl dd .price {
+	font-family: 'Oswald', sans-serif;
+	font-size: 36px;
+	font-weight: 500;
+	margin-left: 0.2em;
+}
+.infoCont .txtBox p:first-child {
+	font-size: 14px;
+	text-align: center;
+}
+.infoCont .txtBox p:last-child {
+	font-size: 14px;
+	padding: 1em 5em;
+}
+.infoCont .txtBox p.tac {
+	text-align: center;
+}
+.cabinCont {
+	margin-bottom: 50px;
+}
+.cabinCont .ico {
+	text-align: center;
+	margin: 50px 0 30px;
+}
+.cabinCont h3 {
+	font-size: 23px;
+	font-weight: bold;
+	text-align: center;
+}
+.cabinCont ul {
+	display: table;
+	border-collapse: separate;
+	border-spacing: 10px 0;
+	margin-top: 50px;
+}
+.cabinCont ul li {
+	display: table-cell;
+	background: #d6e4bc;
+	padding: 25px 1%;
+	position: relative;
+}
+.cabinCont ul li:before {
+    content: "";
+    top: 0;
+    left: 0;
+    border-bottom: 9em solid transparent;
+    border-left: 9em solid #a0b280;
+    position: absolute;
+    z-index: 2;
+}
+.cabinCont ul li:nth-child(2) {
+	background: #c3dceb;
+}
+.cabinCont ul li:nth-child(2):before {
+	border-left-color: #99b9cc;
+}
+.cabinCont ul li:last-child {
+	background: #c1cdb8;
+}
+.cabinCont ul li:last-child:before {
+	border-left-color: #a1b195;
+}
+.cabinCont ul li .hd {
+	font-weight: bold;
+	margin-bottom: 13px;
+	padding: 0 0 0 1.8em;
+	position: relative;
+	z-index: 3;
+}
+.cabinCont ul li .syl {
+	display: inline-block;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 28px;
+	line-height: 1.2;
+	vertical-align: top;
+	margin-right: 0.3em;
+}
+.cabinCont ul li .syl strong {
+	font-size: 39px;
+	margin-left: 0.2em;
+}
+.cabinCont ul li h4  {
+	display: inline-block;
+	font-size: 14px;
+	line-height: 1.2;
+}	
+.cabinCont ul li h4 span{
+	display: inline-block;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+}
+.cabinCont .image {
+	border: solid 7px #fff;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+.cabinCont dl {
+	padding: 0 2%;
+}
+.cabinCont dl dt {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 1.6;
+	margin-bottom: 15px;
+}
+.cabinCont dl dd {
+	font-size: 16px;
+	font-weight: 500;
+}
+
+@media screen and (max-width: 1366px) {
+	.cabinCont ul li .syl {
+		display: block;
+	}
+}
+@media screen and (max-width: 1023px) {
+	.cabinCont ul li {
+		display: block;
+		padding: 25px 5%;
+		margin-bottom: 30px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.zerofreaks .inBox .logo {
+		top: -50px;
+		width: 24% !important;
+	}
+	#freaks-house.zerofreaks .boxtype01 br {
+		display: none;
+	}
+	#freaks-house.zerofreaks .boxtype01 {
+		text-align: left;
+		padding: 0 0.5em;
+	}
+	#freaks-house.zerofreaks .collabo {
+		width: 90%;
+	}
+	#freaks-house.zerofreaks .point .txt {
+		padding: 0;
+	}
+	.infoCont {
+		padding: 0 5%;
+	}
+	.infoCont .priceBox {
+		padding: 10px 10%;
+	}
+	.cabinCont ul li .syl {
+		display: inline-block;
+	}
+
+}
+@media screen and (max-width: 667px) {
+	#freaks-house.zerofreaks .boxtype_tit {
+		font-size: 2.1em;
+	}
+	#freaks-house.zerofreaks .boxtype01 {
+		font-size: 1.4em;
+		line-height: 2;
+	}
+	#freaks-house.zerofreaks .hd01 {
+		font-size: 1.8rem;
+	}
+	.cabinCont h3 {
+		font-size: 21px;
+	}
+	.cabinCont dl dd {
+		font-size: 14px;
+	}
+}
+@media screen and (max-width: 520px) {
+	#freaks-house.zerofreaks {
+		padding: 3em 1.5em 2.5em;
+	}
+
+	#freaks-house.zerofreaks .keyvisual .pc {
+		display: none;
+	}
+	#freaks-house.zerofreaks .keyvisual .sp {
+		display: block;
+	}
+	.zerofreaks .inBox {
+		margin: 5% auto 0;
+	}
+	.zerofreaks .inBox .logo {
+		width: 42% !important;
+		top: 16px;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+	#freaks-house.zerofreaks .boxtype_tit {
+		font-size: 1.6em;
+		margin-bottom: 1em;
+	}
+	#freaks-house.zerofreaks .boxtype01 {
+		padding-bottom: 2em;
+	}
+	#freaks-house.zerofreaks .hd01 {
+		font-size: 1.5rem;
+	}
+	.zerofreaks .plan,
+	.zerofreaks .point {
+		padding: 0 5%;
+	}
+	.zerofreaks .plan li {
+		display: block;
+		width: auto;
+		padding: 0 40px;
+	}
+	.infoCont .priceBox {
+		padding: 10px 6%;
+	}
+	.infoCont .txtBox p:last-child {
+		padding: 1em 0;
+	}
+	.infoCont .priceBox dl {
+		padding: 5px 7%;
+	}
+	.infoCont .priceBox dl dd .price {
+		font-size: 26px;
+	}
+	.cabinCont {
+		margin-bottom: 0;
+	}
+	.cabinCont .ico {
+		width: 50%;
+		margin: 10px auto 15px;
+	}
+	.cabinCont h3 {
+		font-size: 16px;
+	}
+	.cabinCont h3 br {
+		display: none;		
+	}
+	.cabinCont ul {
+		display: inherit;
+		padding: 20px 0;
+		margin-top: 0;
+	}
+	.cabinCont ul li {
+		margin-bottom: 15px;
+	}
+	.cabinCont ul li .hd {
+		padding: 0;
+	}
+	.cabinCont .image {
+		border-width: 5px;
+		margin-bottom: 15px;
+	}
+	.cabinCont ul li .syl {
+		font-size: 20px;
+	}
+	.cabinCont ul li .syl strong {
+		font-size: 29px;
+	}
+	.cabinCont ul li h4 span {
+		font-size: 30px;
+	}
+	.cabinCont dl dt {
+		font-size: 15px;
+	}
+	.infoCont .priceBox dl dt br {
+		display: none;
+	}
+	.infoCont {
+		padding: 0;
+	}
+}
+
+
+	

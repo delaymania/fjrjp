@@ -1,0 +1,231 @@
+@charset "UTF-8";
+
+.c21.aut2018.bor {
+	border: solid 12px #ecba00;
+}
+.c21.aut2018 .hdL {
+    position: absolute;
+    width: 822px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+	top: 13px;
+}
+.c21.aut2018 .hdL .sp {
+	display: none;
+}
+.c21.aut2018:before {
+	background: url(../img/campaign/c21aut2018/bg_c21aut2018.png)no-repeat center top;	
+}
+.c21.aut2018 .inner {
+	border: solid 8px #dbd0a5;	
+}
+.c21.aut2018 .hdM {
+	text-align: left;
+	padding-top: 505px;
+}
+.c21.aut2018 .hdM:before {
+	content: '';
+	background: url(../img/campaign/c21aut2018/img_message_aut2018.png) no-repeat;
+    position: absolute;
+    top: 516px;
+    z-index: 100;
+}
+.c21.aut2018 .hdM:after {
+	background: url(../img/campaign/c21aut2018/img_message_aut2018.png) no-repeat;
+	bottom: 44px;
+	right: -14px;
+}
+.c21.aut2018 .hdM .bracket {
+	line-height: inherit;
+}
+.c21.aut2018 .hdM .bracket .strong{
+	font-family: inherit;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+.c21.aut2018 .inner .hdS01 {
+	background: #ffd741;
+	font-size: 3em;
+}
+.c21.aut2018 .inner .hdS01 .strong {
+	background: #e83639;
+	font-family: inherit;
+	font-size: 1.1em;
+	color: #fff;
+	font-weight: inherit;
+}
+.c21.aut2018 .inner .item {
+	padding: 0;
+}
+.c21.aut2018 .inner .item li {
+	margin: 1.5rem 0.9% 2rem;
+}
+.c21.aut2018 .inner .item li .title {
+	font-size: 1.5em;
+}
+.c21.aut2018 .inner .item li .title.s {
+	font-size: 1.4em;
+}
+.c21.aut2018 .inner .item li:last-child {
+	margin-right: 0;
+}
+.c21.aut2018 .inner .att li {
+	font-weight: bold;
+	margin-bottom: 0.3rem;
+}
+.c21.aut2018 .inner .ttype01 {
+	font-size: 1.6em;
+	padding: 0 1.5rem 1.8rem;
+}
+.c21.aut2018 .inner .flow .hd {
+	background: #fff1bb;
+	color: #e83639;
+}
+.c21.aut2018 .inner .flow dl {
+	border: solid 3px #ffd741;
+}
+.c21.aut2018 .inner .flow dl dt {
+	background: #ffd741;
+}
+.c21.aut2018 .inner .att {
+	margin: 1.3rem auto 3rem 1rem;
+}
+.c21.aut2018 .inner .youtubeBlcok {
+	margin-bottom: 4rem;
+}
+.c21.aut2018 .inner .youtubeBlcok .movie {
+	display: inline-block;
+	width: 360px;
+	height: 202px;
+	margin: 0 30px;
+}
+.c21.aut2018 .inner .youtubeBlcok .movie iframe {
+	width: 100%;
+	height: 100%;
+}
+.c21.aut2018 .inner .youtubeBlcok .movie p {
+	font-size: 1.3em;
+}
+@media screen and (max-width: 768px) {
+	.c21.aut2018:before {
+		background-size: 150%;
+	}
+	.c21 .hdM:before {
+		display: block;
+	}
+	.c21.aut2018 .hdL {
+		width: 680px;
+	}
+	.c21.aut2018 .hdM {
+		padding-top: 420px;
+	}
+	.c21.aut2018 .inner .item li .title {
+		font-size: 1.4em;
+		min-height: 64px;
+	}
+	.c21.aut2018 .inner .item li {
+		margin: 0.5rem 0.9%;
+	}
+	.c21.aut2018 .inner .item li:nth-child(5) .title,
+	.c21.aut2018 .inner .item li:nth-child(7) .title {
+		font-size: 1.2em;
+	}
+	.c21.aut2018 .inner .item li:last-child .title,
+	.c21.aut2018 .inner .item li .title.s {
+		font-size: 1.1em;
+	}
+	.c21.aut2018 .hdM:before,
+	.c21.aut2018 .hdM:after {
+		display: none;
+	}
+	.c21.aut2018 .hdM br {
+		display: inherit;
+	}
+}
+@media screen and (max-width: 667px) {
+	.c21.aut2018:before {
+		background-size: auto 350px;
+	}
+	.c21.aut2018 .hdL {
+		margin-bottom: 8em;
+	}
+	.c21.aut2018 .inner .att {
+		margin-bottom: 1rem;
+	}
+	.c21.aut2018.bor {
+		border: solid 6px #ecba00;
+	}
+	.c21.aut2018 .inner {
+		border: solid 4px #dbd0a5;
+	}
+	.c21.aut2018 .inner .hdS01 .strong i {
+		font-size: inherit !important;
+	}
+	.c21.aut2018 .inner .item li {
+		margin: 0.5rem 0.6%;
+	}
+}
+@media screen and (max-width: 479px) {
+	.c21.aut2018 .hdL {
+		width: 340px;
+	}
+	.c21.aut2018 .hdL .pc {
+		display: none;
+	}
+	.c21.aut2018 .hdL .sp {
+		display: block;
+	}
+	.c21.aut2018 .hdM {
+		padding-top: 330px;
+		margin-bottom: 0;
+	}
+	.c21 .hdM:before {
+		display: none;
+	}
+	.c21.aut2018 .hdM br {
+		display: none;
+	}
+	.c21.aut2018 .inner .youtubeBlcok {
+		margin-bottom: 0;
+	}
+	.c21.aut2018 .inner .youtubeBlcok .movie {
+		width: 100%;
+		height: auto;
+		margin: 0 0 1rem 0;;
+	}
+	.c21.aut2018 .inner .youtubeBlcok .movie p {
+		text-align: left;
+	}
+	.c21.aut2018 .inner .youtubeBlcok .movie p br{
+		display: none;
+
+	}
+	.c21.aut2018 .inner .item {
+		width: auto;
+	}
+	.c21.aut2018 .inner .item li {
+		width: 100% !important;
+		margin: 0 1% 1.3rem 0 !important;
+	}
+	.c21.aut2018 .hdM .bracket {
+		display: inline;
+		background: linear-gradient(#fff 65%,#fffca3 35%,#fffca3);
+		background-size: auto;
+	}
+	.c21.aut2018 .hdM .bracket .strong {
+		font-size: 1.3em;
+	}
+	.c21.aut2018 .inner .item li .title {
+		font-size: 1.6em !important;
+	}
+	.c21.aut2018 .inner .flow .period {
+		background: none;
+	}
+	.c21.aut2018 .inner .flow .period strong {
+		display: inline-block;
+	}
+}
+
+
+	

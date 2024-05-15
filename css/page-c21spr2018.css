@@ -1,0 +1,147 @@
+@charset "UTF-8";
+
+.c21.spr2018.bor {
+	border: solid 12px #6ad1e8;
+}
+.c21.spr2018 .hdL {
+	margin-bottom: 18em;
+}
+.c21.spr2018:before {
+	background: url(../img/campaign/c21spr2018/bg_c21spr2018.png) no-repeat center top;	
+}
+.c21.spr2018 .inner {
+	border: solid 8px #2bbada;	
+}
+.c21.spr2018 .hdM {
+	text-align: left;
+	padding-left: 110px;
+}
+.c21.spr2018 .hdM:before {
+	content: '';
+	background: url(../img/campaign/c21spr2018/object01.png) no-repeat left top;
+	width: 102px;
+	height: 338px;
+    position: absolute;
+    top: -125px;
+    left: 0;
+    z-index: 100;
+}
+.c21.spr2018 .hdM:after {
+	display: none;
+}
+.c21.spr2018 .inner .hdS01 {
+	background: #fff100;
+	font-size: 3em;
+	color: #2bbada;
+}
+.c21.spr2018 .inner .hdS01 .strong {
+	background: #2bbada;
+	font-family: inherit;
+	font-size: 1.1em;
+	color: #fff;
+	font-weight: inherit;
+}
+.c21.spr2018 .inner .item {
+	width: 610px;
+	margin: 0 auto;
+}
+.c21.spr2018 .inner .item li {
+	width: 190px;
+	margin: 0 20px 3rem 0;
+}
+.c21.spr2018 .inner .item li:last-child {
+	margin-right: 0;
+}	
+.c21.spr2018 .inner .ttype01 {
+	font-size: 1.2em;
+	font-weight: normal;
+	text-align: left;
+}
+.c21.spr2018 .inner .flow .hd {
+	color: inherit;
+}
+.c21.spr2018 .inner .flow dl {
+	border: solid 3px #6ad1e8;
+}
+.c21.spr2018 .inner .flow dl dt {
+	background: #6ad1e8;
+	color: #fff;
+}
+.c21.spr2018 .inner .att {
+	margin: 0 auto 6rem 1rem;
+}
+.c21.spr2018 .inner .youtubeBlcok {
+	margin-bottom: 4rem;
+}
+.c21.spr2018 .inner .youtubeBlcok .movie {
+	display: inline-block;
+	width: 360px;
+	height: 202px;
+	margin: 0 30px;
+}
+.c21.spr2018 .inner .youtubeBlcok .movie iframe {
+	width: 100%;
+	height: 100%;
+}
+.c21.spr2018 .inner .youtubeBlcok .movie p {
+	font-size: 1.3em;
+}
+@media screen and (max-width: 768px) {
+	.c21.spr2018:before {
+		background: url(../img/campaign/c21spr2018/bg_c21spr2018sp.png) no-repeat center top;	
+	}
+	.c21 .hdM:before {
+		display: block;
+	}
+}
+@media screen and (max-width: 667px) {
+	.c21.spr2018:before {
+		background-size: auto 350px;
+	}
+	.c21.spr2018 .hdL {
+		margin-bottom: 8em;
+	}
+	.c21.spr2018 .inner .att {
+		margin-bottom: 1rem;
+	}
+	.c21.spr2018.bor {
+		border: solid 6px #6ad1e8;
+	}
+	.c21.spr2018 .inner {
+		border: solid 4px #2bbada;
+	}
+}
+@media screen and (max-width: 479px) {
+	.c21.spr2018 .hdM {
+		padding-left: 0;
+		margin-bottom: 0;
+	}
+	.c21 .hdM:before {
+		display: none;
+	}
+	.c21.spr2018 .inner .youtubeBlcok {
+		margin-bottom: 0;
+	}
+	.c21.spr2018 .inner .youtubeBlcok .movie {
+		width: 100%;
+		height: auto;
+		margin: 0 0 1rem 0;;
+	}
+	.c21.spr2018 .inner .youtubeBlcok .movie p {
+		text-align: left;
+	}
+	.c21.spr2018 .inner .youtubeBlcok .movie p br{
+		display: none;
+
+	}
+	.c21.spr2018 .inner .item {
+		width: auto;
+	}
+	.c21.spr2018 .inner .item li {
+		width: 100% !important;
+		margin: 0 1% 1.3rem 0 !important;
+	}
+}
+
+
+	

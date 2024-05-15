@@ -1,0 +1,150 @@
+@charset "UTF-8";
+.boxSponsor {
+	background: url(../img/sponsors/bg_marines.jpg) no-repeat center center;
+	background-size: 100%;
+	background-attachment: fixed;
+	padding: 75px 0;
+}
+.boxSponsor .inner {
+	width: 1000px;
+	border-top: solid 3px #fff;
+	border-bottom: solid 3px #fff;
+	box-sizing: border-box;
+	position: relative;
+	font-size: 1.4em;
+	text-align: center;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+.boxSponsor .inner:before {
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+	top: 3px;
+	left: 0;
+}
+.boxSponsor .inner:after {
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: #fff;
+	position: absolute;
+	bottom: 3px;
+	left: 0;
+}
+.boxSponsor .inner .logo {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.boxSponsor .inner p {
+	color: #fff;
+	margin-bottom: 1em;
+}
+.boxSponsor .inner p.strong {
+	font-size: 1.7em;
+	font-weight: bold;
+	margin: 1.3em 0;
+}
+.boxSponsor .inner .bnr {
+	width: 360px;
+	height: 100px;
+	margin: 40px auto 20px;
+	overflow: hidden;
+	position: relative;
+}
+.boxSponsor .inner .bnr a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 360px;
+	height: 240px;
+	margin: auto;
+	z-index: 10;
+}
+.boxSponsor .inner .bnr:hover a:before {
+	content: '';
+	width: 360px;
+	height: 100px;
+	background: rgba(0,0,0,0.6);
+	border: solid 3px #fff;
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	z-index: 20;
+}
+.boxSponsor .inner .bnr:hover a:after {
+	content: '2018.07.20 観戦ブログ';
+	position: absolute;
+	width: 360px;
+	height: 1em;
+	line-height: 1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	font-size: 21px;
+	font-family: 'Oswald',"游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
+	font-weight: bold;
+	color: #fff;
+	z-index: 30;
+}
+@media screen and (max-width: 768px) {
+	.boxSponsor {
+		background-attachment: inherit;
+	}
+	.boxSponsor .inner {
+		width: inherit;
+		margin: 0 1.3em;
+	}
+}
+@media screen and (max-width: 667px) {
+	.boxSponsor {
+		background-size: cover;
+		padding: 30px 0;
+	}
+}
+@media screen and (max-width: 520px) {
+	.boxSponsor .inner .logo img {
+		max-width: 180px;
+	}
+	.boxSponsor .inner {
+		text-align: inherit;
+		font-size: 1.3em;
+	}
+	.boxSponsor .inner p br{
+		display: none;
+	}
+	.boxSponsor .inner .bnr {
+		width: 100%;
+		height: 80px;
+		margin: 40px auto 20px;
+	}
+	.boxSponsor .inner .bnr a {
+		width: auto;
+	}
+	.boxSponsor .inner .bnr:hover a:before {
+		content: '';
+		width: auto;
+		height: 80px;
+	}
+	.boxSponsor .inner .bnr:hover a:after {
+		position: absolute;
+		width: auto;
+		height: 1em;
+		font-size: 17px;
+		text-align: center;
+	}
+
+}
+
+
+	

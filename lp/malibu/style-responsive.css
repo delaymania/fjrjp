@@ -1,0 +1,1911 @@
+
+@media (min-width: 1200px) {
+	#portfolio-wrap .portfolio-item {
+		width: 25%;
+	}
+	.pricing-box li h1 {
+		font-size: 60px;
+	}
+}
+
+@media (max-width: 1188px) {
+	#access:after {
+		width: 100%;
+		height: 212px;
+		background: url(./bg_object03.png) no-repeat center center;
+		background-size: cover;
+	}
+}
+
+@media (max-width: 1110px) {
+	#access #inner .map {
+		width: inherit;
+		padding: 0 2rem;
+	}
+	#access #inner .map:before {
+		width: 94%;
+		right: inherit;
+		left: 3rem;
+	}
+	#access #inner .map_canvas {
+		width: inherit;
+	}
+
+}
+@media (max-width: 1166px) {
+	.navbar-header {
+		position: relative;
+	}
+	.navbar-inner {
+		background: url(./bg_navbar-inner_mobile.png) repeat;
+		height: 60px;
+	}
+	.navbar .nav > li {
+		background: url(./bg_navbar-inner_mobile.png);
+	}
+
+	.navbar .show-menu {
+		display: block;
+	}
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		border-color: #9de2e3;
+	}
+	.navbar-collapse {
+		max-height: none;
+		padding: 0;
+	}
+	.navbar-nav {
+		margin: 0;
+	}
+	.navbar-inner:after {
+		content: '';
+		position: absolute;
+		bottom: -2px;
+		left: 0;
+		width: 100%;
+		height: 4px;
+		background: url(./bg_navbar-inner.png) repeat-x bottom left;
+	}
+	.navbar .nav > li > a {
+		/*padding: 0 20px;*/
+		border-bottom: 2px solid #9de2e3;
+		box-sizing: border-box;
+		font-size: 1.3rem;
+		line-height: 1.6em;
+		font-weight: bold;
+		padding: 0.8em 1.3em !important;
+	}
+	.navbar .nav > li:first-child > a {
+	border-top: 1px solid #9de2e3;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus{
+		color:#fff;
+	}
+
+	.navbar .nav > li {
+		float: none;
+	}
+	.navbar .nav > li.lifelabel {
+		display: inherit;
+	}
+
+	#navigation #info {
+		width: auto;
+		top: 2rem;
+		height: auto;
+		left: 20px;
+	}
+	#navigation #info .logo {
+		margin-bottom: 0;
+	}
+	#navigation #info #tel {
+		font-size: 2.6rem;
+	}
+}
+
+@media screen and (min-width: 1075px) and (max-width: 1100px) {
+	#modelhouse #content02,
+	#modelhouse #content03 {
+		width: inherit;
+		padding: 0 2rem;
+	}
+	#modelhouse #content02 #photo {
+		left: 3.4rem;
+	}
+	#modelhouse #content03 #photo {
+		right: 4rem;
+	}
+}
+
+@media (max-width: 1074px) {
+	/* モデルハウス
+	----------------------------------------------- */
+	#modelhouse #content02 {
+		width: inherit;
+		margin: 2rem auto;
+		position: relative;
+		padding: 0.5em 2rem;
+	}
+	#modelhouse #content02 #desc {
+		width: inherit;
+		margin: 0 0 0 auto;
+	}
+	#modelhouse #content02 #desc .logo {
+		width: 60%;
+		max-width: 160px;
+	}
+	#modelhouse #content02 #desc #text {
+		background: none;
+		font-size: 1.6rem;
+		line-height: 1.8em;
+		padding: 0;
+		width: 78%;
+		margin: 2rem auto;
+	}
+	#modelhouse #content02 #photo {
+		position: inherit;
+		top: inherit !important;
+		left: inherit;
+		z-index: inherit;
+
+		width: 80%;
+		height: inherit;
+
+		transform: inherit;
+		-ms-transform: inherit;
+		-moz-transform: inherit;
+		-webkit-transform: inherit;
+		-o-transform: inherit;
+
+		margin: 1rem auto 0;
+	}
+	#modelhouse #content02 #photo:before {
+		width: 100%;
+		height: 100%;
+	}
+	#modelhouse #content02 #photo img {
+		width: 100%;
+		height: inherit;
+	}
+
+	#modelhouse #content02 #photo:after {
+		width: 100%;
+		height: 100%;
+		left: 0;
+	}
+	#modelhouse #content03 {
+		width: inherit;
+		margin: 2rem auto;
+		position: relative;
+		padding: 0.5em 2rem;
+	}
+	#modelhouse #content03 #desc {
+		width: inherit;
+		margin-top: 1rem;
+	}
+	#modelhouse #content03 #desc .logo {
+		width: 32%;
+		max-width: 151px;
+	}
+	#modelhouse #content03 #desc #text {
+		background: none;
+		font-size: 1.6rem;
+		line-height: 1.8em;
+		padding: 0;
+		width: 78%;
+		margin: 3rem auto;
+	}
+	#modelhouse #content03 #photo {
+		position: inherit;
+		top: inherit;
+		left: inherit;
+		z-index: inherit;
+
+		width: 80%;
+		height: inherit;
+
+		transform: inherit;
+		-ms-transform: inherit;
+		-moz-transform: inherit;
+		-webkit-transform: inherit;
+		-o-transform: inherit;
+
+		margin: 1rem auto 0;
+	}
+	#modelhouse #content03 #photo:before {
+		width: 100%;
+		height: 100%;
+	}
+	#modelhouse #content03 #photo img {
+		width: 100%;
+		height: inherit;
+	}
+
+	#modelhouse #content03 #photo:after {
+		width: 100%;
+		height: 100%;
+		left: 0;
+		top: 0;
+	}	
+}
+@media (min-width: 769px) {
+	.voiceBanner {
+		display: none;
+	}
+}
+@media screen and (min-width: 769px) and (max-width: 1100px) {
+	#staff {
+		width: auto;
+		padding: 0 2rem;
+	}
+	.staffitem {
+		width: 22% !important;
+		margin: 0 4% 2rem 0 !important;
+		float: left;
+	}
+	.ih-item.circle {
+		width: inherit !important;
+		height: inherit !important;
+	}
+	.staffitem:nth-child(4n) {
+		margin-right: 0 !important;
+	}
+	.staffitem:nth-child(5n) {
+		margin-right: inherit;
+	}
+}
+
+@media (max-width: 1024px) {
+	h1 {
+		font-weight: normal;
+		text-align: left;
+	}
+	#logo .collabo {
+		display: block;
+		width: 240px;
+		margin-bottom: 0.2em;
+	}
+	#logo .comna {
+		font-size: 5.4rem;
+	}
+	.item_top {
+		top: 0;
+		opacity: 1;
+	}
+	.item_left {
+		left: 0px;
+		opacity: 1;
+	}
+	.item_right {
+		right: 0px;
+		opacity: 1;
+	}
+	.item_bottom {
+	bottom: 0;
+	opacity: 1;
+	}
+	.item_fade_in {
+		opacity: 1;
+		right: 0px;
+	}
+	.parallax {
+  	background-attachment: scroll !important;
+    background-position: center top !important;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	.flexslider{ text-align:left;}
+
+	#home .section-title h1 {
+		font-size: 110px;
+		line-height: 100px;
+		letter-spacing:-3px;
+		font-weight: 400;
+	}
+
+	.project-description{ text-align:inherit;}
+	.navbar .nav > li > a{ padding:0 15px;}
+	.mybutton a, .mybutton button {
+		-webkit-perspective: 1000px;
+		-moz-perspective: 1000px;
+		perspective: 1000px;
+		letter-spacing: 0;
+	}
+	.mybutton a span, .mybutton button span {
+		-webkit-transition: -webkit-transform 0.3s;
+		-moz-transition: -moz-transform 0.3s;
+		transition: transform 0.3s;
+		-webkit-transform-origin: 50% 0;
+		-moz-transform-origin: 50% 0;
+		transform-origin: 50% 0;
+		-webkit-transform-style: preserve-3d;
+		-moz-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+	}
+	.mybutton a:hover span, .mybutton button:hover span {
+		-webkit-transform: rotateX(90deg) translateY(-22px);
+		-moz-transform: rotateX(90deg) translateY(-22px);
+		transform: rotateX(90deg) translateY(-22px);
+	}
+	.csstransforms3d .mybutton a span::before, .csstransforms3d .mybutton button span::before {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		content: attr(data-hover);
+		-webkit-transition: background 0.3s;
+		-moz-transition: background 0.3s;
+		transition: background 0.3s;
+		-webkit-transform: rotateX(-90deg);
+		-moz-transform: rotateX(-90deg);
+		transform: rotateX(-90deg);
+		-webkit-transform-origin: 50% 0;
+		-moz-transform-origin: 50% 0;
+		transform-origin: 50% 0;
+	}
+
+	.mybutton2 a, .mybutton2 button {
+	overflow: hidden;
+	margin: 0 15px;
+	}
+	.mybutton2 a span, .mybutton2 button span {
+		display: block;
+		-webkit-transition: -webkit-transform 0.3s;
+		-moz-transition: -moz-transform 0.3s;
+		transition: transform 0.3s;
+	}
+	.mybutton2 a:hover span, .mybutton2 button:hover span {
+		-webkit-transform: translateX(100%);
+		-moz-transform: translateX(100%);
+		transform: translateX(100%);
+	}
+	.mybutton2 a::before{
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		width: 100%;
+		height: 100%;
+		color: #fff;
+		content: attr(data-hover);
+		-webkit-transition: -webkit-transform 0.3s;
+		-moz-transition: -moz-transform 0.3s;
+		transition: transform 0.3s;
+		-webkit-transform: translateX(-25%);
+	}
+	.mybutton2 a:hover::before{
+		-webkit-transform: translateX(0%);
+		-moz-transform: translateX(0%);
+		transform: translateX(0%);
+	}
+
+}
+@media (max-width: 910px) {
+	#contact #inner #thanks #photo {
+		width: 100%;
+		height: inherit;
+	}
+	#contact #inner #thanks #photo:before {
+		width: 100%;
+		height: 100%;
+		bottom: -10px;
+		right: -10px;
+		z-index: 100;
+	}
+	#contact #inner #thanks #photo .desktop {
+		width: 100%;
+		height: inherit;
+	}
+	#contact #inner #thanks #photo:after {
+		width: 100%;
+		height: 100%;
+	}
+}
+@media (max-width: 830px) {
+	#contact #inner #thanks #photo {
+		margin-bottom: 3rem;
+	}
+	#contact #inner #thanks #txt p:first-child {
+		text-align: inherit;
+	}
+	#contact #inner #thanks #txt {
+		width: inherit;
+		padding: 0 2rem;
+		margin: 3rem auto;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 900px) {
+	#date .content,
+	#limmited_event .content{
+		width: inherit;
+		padding: 2rem;
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+	#gallery #inner ul {
+		width: inherit;
+		padding: 2.4rem;
+	}
+	#gallery #inner ul li {
+		width: 32%;
+		margin: 0 2% 2.4rem 0;
+	}
+	#gallery #inner ul li a {
+		width: 100%;
+	}
+
+	#gallery #inner ul li a:before,
+	#gallery #inner ul li a:after {
+		width: 100%;
+		height: 100%;
+	}
+	#contact #inner {
+		width: inherit;
+		padding:  2rem;
+	}
+	#contact #inner .flow li {
+		width: 30%;
+		margin-right: 3.3%
+	}
+	#contact #inner .flow li:before {
+		width: 10%;
+		right: -10%;
+	}
+}
+@media (max-width: 900px) {
+	#media {
+		width: inherit;
+		padding: 0 2rem;
+	}
+	#media p {
+		padding: 0;
+		font-weight: normal;
+		line-height: inherit;
+	}
+	#contact #inner dl.content #day {
+		display: block;
+		float: none;
+	}
+	#contact #inner dl.content #day .wpcf7-list-item:last-child {
+		display: block;	
+	}
+	#contact #inner dl.content #day .wpcf7-list-item-label:last-child {
+		margin-left: 4px;
+	}
+
+}
+@media (max-width: 830px) {
+	#blockbanner ul {
+		width: auto;
+		padding: 0;
+		background: none;
+	}
+	#blockbanner ul li {
+		margin-bottom: 1.6rem;
+	}
+	#blockbanner {
+		margin: 4rem auto 0;
+	}
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.flexslider{ text-align:center;}
+	#portfolio-wrap .portfolio-item {
+		width: 50%;
+	}
+	.project-description{ text-align:center;}
+	.navbar .nav > li > a{ padding:0 12px;}
+
+	#home .section-title h1 {
+		font-size: 80px;
+		line-height:80px;
+		font-weight: 600;
+	}
+
+}
+
+/* ExtraSmall devices (tablets, 768px and down) */
+@media (max-width: 768px) {
+	body#malibu .intro-pattern {
+		background: url(./bg_mainvisual_malibu.jpg) no-repeat 40% center;
+		background-size: cover;
+
+	}
+	#home #copy {
+		height: 400px;
+	}
+	.flexslider{ text-align:center;}
+	#logo .name {
+		padding-bottom: 0.5em;
+	}
+	#home .section-title h1 {
+		font-size: 33px;
+		line-height: 36px;
+		margin:0 0 10px 0;
+		padding:0 0 10px 0;
+		border-color: #666;
+		letter-spacing:0;
+		font-weight: 600;
+		border-top: solid 10px #83cdce;
+	}
+	#intro-loader {
+		width: 18px;
+		height: 18px;
+		position: absolute;
+		top: 107px;
+		left: 40px;
+		background: url("../images/intro-loader.gif");
+	}
+	#logo {
+		position: inherit;
+		top: inherit;
+		left: 0;
+		right: 0;
+		font-size: 2rem;
+	}
+	#logo .leadtxt {
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+	}
+	#logo .comna {
+		font-size: 4.1rem;
+	}
+	#ico {
+		width: 20%;
+		top: 1.5rem;
+		right: 2.8em;
+	}
+	#ico img {
+		width: 100%;
+
+	}
+	#btn_scroll {
+		width: 10%;
+	}
+	#logo img {
+
+		height: auto;
+	}
+	#home p.lead {
+		font-size: 16px;
+		line-height: 21px;
+		margin: 0 0 25px;
+	}
+	#home h1 {
+		margin: 30px 0.8em 1.5rem;
+	}
+	.fullscreen-slider-arrow {
+		bottom: 10px;
+		margin-top: 0;
+		top: auto;
+		width: 23px;
+		overflow: hidden;
+	}
+	#slider_left {
+		left: 18px;
+	}
+	#slider_right {
+		right: 18px;
+	}
+	h1 {
+		font-size: 20px;
+		font-weight: normal;
+	}
+
+	.section-content {
+		padding: 60px 0;
+	}
+	.section-title .line {
+		display: none;
+	}
+	.section-title h1 {
+		font-weight: normal;
+		font-size: 48px;
+		border-bottom: 1px solid #DEDEDE;
+		line-height: 50px;
+		margin: 0 0 8px;
+		padding: 4px 0 5px 0;
+	}
+	.section-title .lead {
+		margin: 25px 0 0 0;
+	}
+	.element-line {
+		margin-top: 40px;
+	}
+
+	#ajaxpage .section-title h1 {
+		font-size: 40px;
+	}
+	.mybutton.ultra a,
+	.mybutton.ultra button,
+	.mybutton2.ultra a,
+	.mybutton2.ultra button{
+		font-size: 13px;
+		line-height: 40px;
+	}
+	.mybutton.ultra a span,
+	.mybutton.ultra button span,
+	.mybutton2.ultra a span,
+	.mybutton2.ultra button span {
+		padding: 0 25px;
+	}
+	.flexslider {
+		text-align: center;
+	}
+
+	.pricing-5-col .pricing-box {
+		width: 100%;
+		margin: 0;
+	}
+	.pricing-5-col .pricing-box .pricing-featured {
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		position: relative;
+		margin: 0;
+	}
+	.pricing-5-col .pricing-box ul {
+		border-right: solid 1px #eee;
+	}
+	.call-number {
+		font-size: 40px;
+		line-height: 65px;
+		font-weight: 600;
+	}
+
+	.timeline-content #timeline .timeline-item, .timeline-content #timeline .timeline-item:nth-child(2n) {
+		clear: both;
+		float: none;
+		margin-bottom: 0;
+		width: 100%;
+	}
+	.timeline-content #timeline .timeline-item .post, .timeline-content #timeline .timeline-item:nth-child(2n) .post {
+		margin: 140px 0 25px 0;
+	}
+	.timeline-content #timeline .timeline-item .post-info, .timeline-content #timeline .timeline-item:nth-child(2n) .post-info {
+		left: 0;
+		right: 0;
+		margin: 0;
+		top: -105px;
+		width: 100%;
+		background: none;
+	}
+	.timeline-content #timeline .timeline-item .post-info h5 {
+		position: absolute;
+		right: 0;
+		top: 50px;
+		font-size: 13px;
+		text-align: right;
+		margin: 0;
+	}
+	.timeline-content #timeline .timeline-item .post-info h5.info-date {
+		left: 0;
+		right: auto;
+		text-align: left;
+	}
+	.timeline-content #timeline .timeline-item .post-info h5.info-date small{
+		font-size: 100%;
+	}
+	.timeline-content #timeline .timeline-item .post-arrow, .timeline-content #timeline .timeline-item:nth-child(2n) .post-arrow {
+		display: none;
+	}
+
+	#filters a {
+		clear: both;
+		display: block;
+		margin: 12px auto;
+		width: 80%;
+	}
+	#filters a span {
+		width: 100%;
+	}
+	#portfolio-wrap .portfolio-item {
+		width: 100%;
+	}
+	.project-media, .project-description {
+		margin: 40px 0 0 0;
+		text-align:center;
+	}
+
+	#map_canvas {
+		height: 350px;
+	}
+	#navigation #info .logo .leadtxt {
+		display: none;
+	}
+	#navigation #info .logo .leadtxt.mobile {
+		display: inline-block;
+		font-size: 1em;
+	}
+	#ico {
+		left: 0;
+		right: 0;
+		top: auto;
+		bottom: 45%;
+		margin: auto;
+		width: 40%;
+		text-align: center;
+	}
+	#ico img {
+		width: 100%;
+
+	}
+	#ico .img {
+		display: none;
+	}
+	#ico .movie {
+		display: inherit;
+		width: 30%;
+		margin: 0 auto;
+	}
+
+	/* display
+	----------------------------------------------- */
+	.visible-pc {
+		display: none;
+	}
+	.visible-ts {
+		display: block;
+	}
+	/* モデルハウス見学会開催日
+	----------------------------------------------- */
+	#date,
+	#limmited_event {
+		padding: 0 2rem;
+	}
+	#date .content,
+	#limmited_event .content{
+		width: inherit;
+		padding: 2rem;
+	}
+	#date .content dl,
+	#limmited_event .content dl{
+		padding: 2em 0 0;
+	}
+	#date .content p.box,
+	#limmited_event .content p.box {
+		padding: 1em;
+	}
+	#date .content p.ind,
+	#limmited_event .content p.ind{
+		padding: 0 0 0 1em;
+		text-indent: -1em;
+	}
+	#date .content .attention {
+		padding: 10px 20px;
+		border-top: solid 4px #81c7cf;
+	}
+	#date .content .attention.bk {
+		border-top: solid 4px #000;
+	}
+	#date .content .attention h4 {
+		padding:  0 0 15px;
+	}
+	#date .content .attention h4 span {
+		font-size: 14px;
+	}
+	#date .content dl,
+	#limmited_event .content dl {
+		display: table;
+		width: 100%;
+	}
+	#date .content dl dt,
+	#limmited_event .content dl dt {
+		width: 11%;
+	}
+	#date .content dl dd {
+		width: 80%;
+		position: relative;
+		padding-left: 2%;
+		padding-bottom: 2rem;
+	}
+	#date .content dl dd .reservation {
+		width: 190px;
+	}
+	#date .content dl dd .reservation a {
+		width: 74%;
+	}
+
+	/* モデルハウス
+	----------------------------------------------- */
+	#modelhouse #content02 #photo,
+	#modelhouse #content03 #photo {
+		width: 100%;
+	}
+	#modelhouse #content02 #desc #text,
+	#modelhouse #content03 #desc #text {
+		width: inherit;
+	}
+	#modelhouse #content04 {
+		background: url(./bg_object06.png) no-repeat -38rem bottom ;
+		margin-top: 4rem;
+		padding: 0 2rem;
+	}
+	#modelhouse #content04 ul {
+		width: inherit;
+		margin: 1rem auto;
+		padding: 0 2rem;
+	}
+	#modelhouse #content04 ul li:last-child {
+		width: 100%;
+	}
+	#modelhouse #content04 ul li:last-child img {
+		width: 100%;
+	}
+
+	/* ギャラリー
+	----------------------------------------------- */
+	#gallery {
+		padding: 136px 0 2rem;
+	}
+	#gallery:after {
+		height: 216px;
+		top: 10px;
+		margin: auto;
+		background-size: 748px;
+	}
+	#gallery #desktop {
+		display: none;
+	}
+	#gallery #inner {
+		padding: 150px 2rem 2rem;
+	}
+	#gallery #mobile {
+	display: inherit;
+	}
+	/* THETA
+	----------------------------------------------- */
+	#theta {
+		padding: 8rem 3rem 4rem;
+	}
+	.thetaSec:before {
+		content: none;
+	}
+
+	/* メディア
+	----------------------------------------------- */
+	#media {
+		margin: 3rem auto;
+	}
+	#media #box {
+		overflow: auto;
+	}
+	#media #box ul {
+		width: 180%;
+		text-align: left;
+	}
+	#media #box ul li {
+		width: 44%;
+	}
+	#media #box ul li:last-child {
+		margin-right: 3.5%;
+	}
+	#media ul li .lk {
+		font-size: 1.5rem;
+	}
+	/* スタッフ
+	----------------------------------------------- */
+	#staff {
+		margin: 3rem auto 0;
+		width: inherit;
+	}
+	#staff #item {
+		padding: 0 2rem;
+	}
+	.staffitem {
+		width: 30% !important;
+		margin: 0 5% 2rem 0 !important;
+		float: left;
+	}
+	.staffitem:nth-child(3n) {
+		margin-right: 0 !important;
+	}
+	.ih-item.circle {
+		width: 100% !important;
+		height: 100% !important;
+	}
+	/* アクセス
+	----------------------------------------------- */
+	#access {
+		overflow: hidden;
+	}
+	#access #inner .map:before {
+		width: 94%;
+		right: inherit;
+		left: 3rem;
+	}
+	#access #inner .map_canvas {
+		width: inherit;
+	}
+	#access #inner #btn a {
+		padding: 2.8rem 0;
+	}
+	#access #inner .lead .address .tel span {
+		display: none;
+	}
+	#access #inner .lead .address .tel a {
+		display: inherit;
+		font-size: 4rem;
+		color:  #454545;
+	}
+	/* お問い合わせ
+	----------------------------------------------- */
+	#contact h2 {
+		background: #fff url(./bg_hd_contact.png) no-repeat center 54px;
+		padding: 0.6em 0 1.1em;
+	}
+	#contact #inner {
+		width: inherit;
+		margin: 2rem auto;
+		padding: 0 2rem;
+	}
+	#contact #inner .flow li {
+		width: 30.3%;
+		margin-right: 3%;
+	}
+	#contact #inner p {
+		font-size: 1.5rem;
+	}
+	#contact #inner form input[type="text"], #contact #inner form input[type="tel"], #contact #inner form input[type="email"], #contact #inner form select, #contact #inner form textarea {
+		width: 100%;
+	}
+	#contact #inner dl dt {
+		width: 40%;
+	}
+	#contact #inner dl dd {
+		width: 60%;
+	}
+	#contact #inner form .address #postcode {
+		width: 36%;
+	}
+	#contact #inner dl.content .time {
+		width: 60%;
+	}
+	#contact #inner dl.content #day {
+		margin: 0;
+	}
+	#contact #inner form .pref {
+		width: 60%;
+	}
+	#contact #inner dl.address .zip {
+		width: 24%;
+	}
+	/* scrollbar */
+	#contact #inner #privacypolicy #content {
+		overflow-y: auto;
+	}
+	#contact #inner #privacypolicy #content::-webkit-scrollbar {
+		width: 13px;
+		background: #e3f4f2;
+	}
+	#contact #inner #privacypolicy #content::-webkit-scrollbar:vertical {
+		height: 13px;
+		background: #e3f4f2;
+	}
+	#contact #inner #privacypolicy #content::-webkit-scrollbar-thumb{
+		background: #81ced3;
+		border-radius: 4px;
+	}
+	#contact #inner #privacypolicy #content::-webkit-scrollbar-thumb:vertical {
+		background: #81ced3;
+		border-radius: 4px;
+	}
+	#confirm textarea {
+		height: 5em;
+	}
+	#confirm dl dd p {
+		margin: 0 auto !important;
+	}
+	footer {
+		padding-bottom: 84px;
+	}
+	footer #footerFloatingMenu {
+		width: 100%;
+		background: #dedfe0;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		z-index: 500;
+	}
+	footer #footerFloatingMenu #btn {
+		width: 80%;
+		background: #ece9e3 url(./bg_btn_mobile.png) no-repeat center center;
+		background-size: 280px;
+		margin: 0 auto;
+	}
+	footer #footerFloatingMenu #btn a {
+		display: block;
+		font-size: 1.5rem;
+		text-align: center;
+		color: #124c55;
+		font-weight: bold;
+		margin: 0.5em 0;
+		padding: 1.6em;
+	}
+	#back-top {
+		display: none !important;
+	}
+	.sideBanner {
+		display: none;
+	}
+	.voiceBanner {
+		width: 64%;
+		margin: 40px auto 20px;
+	}
+	.voiceBanner a span {
+		position: relative;
+		display: block;
+		background: #000 url("../images/ico_arrow04.png") no-repeat 10% center;
+		font-size: 14px;
+		font-weight: bold;
+		color: #fff;
+		text-align: center;
+		margin-top: 10px;
+		padding: 1em;
+	}
+}
+@media (max-width: 767px) {
+	#date .content .vr .pc {
+		display: none;
+	}
+	#date .content dl dd {
+		width: inherit;
+	}
+	#date .content dl dd .time span {
+		font-size: 1.6rem;
+		padding: 0 1em;
+		margin-right: 0.4em;
+
+		-webkit-border-radius: 1.8rem;
+		-moz-border-radius: 1.8rem;
+		border-radius: 1.8rem;
+	}
+	#date .content dl dd .reservation {
+		position: relative;
+		right: inherit;
+		top: inherit;
+		bottom: inherit;
+		margin: 1rem auto 0;
+		width: 86%;
+		height: 60px;
+	}
+	#date .content dl dd .reservation:before {
+		background-size: 100%;
+		width: 18px;
+		height: 60px;
+	}
+	#date .content dl dd .reservation:after {
+		background-size: 100%;
+		width: 18px;
+		height: 60px;
+	}
+	#date .content dl dd .reservation a {
+		display: block;
+		font-size: 1.6rem;
+
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		margin: 0 auto;
+	}
+	#date .content dl dd .reservation a span {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 64%;
+		margin: auto;
+		height: 2em;
+	}
+	#date .content dl dd .reservation a span {
+		width: 9.4em;
+	}
+	#contact #inner form #confirm input.back {
+		float: none;
+		position: inherit;
+		top: inherit;
+		bottom: inherit;
+		left: inherit;
+		max-width: 200px;
+		width: 50%;
+		margin: 2rem auto 0;
+	}
+
+}
+
+/* iphone6,6Plus,6S,6S Plus,7 横向きサイズまで対応 */
+@media (max-width: 736px) {
+	/* モデルハウス見学会開催日
+	----------------------------------------------- */
+	#date .content {
+		margin: 110px auto 0;
+	}
+	#date .content h2 {
+		width: 260px;
+		height: 198px;
+		background: url(./bg_date.png) no-repeat center center;
+		margin: -110px auto 0;
+		padding:  76px 0;
+	}
+	#date .content h2 img,
+	#limmited_event .content h2 img{
+		width: 100%;
+	}
+	#date .content dl dt,
+	#limmited_event .content dl dt {
+		display: block;
+		width: 100%;
+		height: inherit;
+		font-size: 1.6rem;
+		padding:  0.5em 0;
+		margin-bottom: 0.8em;
+	}
+	#date .content dl dt br,
+	#limmited_event .content dl dt br{
+		display: none;
+	}
+	#date .content dl dd,
+	#limmited_event .content dl dd{
+		display: block;
+		padding-left: inherit;
+	}
+	#date .content dl dd .day br,
+	#limmited_event .content dl dd .day br{
+		display: inline;
+	}
+	/* スタッフ
+	----------------------------------------------- */
+	.staffitem.yoshida .ih-item.circle.effect19 .info p {
+		padding-top: 0.2em;
+	}
+	.staffitem.namiki .ih-item.circle.effect19 .info p,
+	.staffitem.sato .ih-item.circle.effect19 .info p {
+		padding-top: 0.5em;
+	}
+	.ih-item.circle.effect19 .info.position01 h3 {
+		padding: 1.2em 0 0 0 !important;
+	}
+	/* お問い合わせ
+	----------------------------------------------- */
+	#contact h2 span:before,
+	#contact h2 span:after {
+		display: none;
+	}
+	#contact #inner #privacypolicy #content {
+		width: inherit;
+	}
+	#contact #inner dl.content .time .wpcf7-not-valid-tip {
+		position: inherit;
+		top: inherit;
+		right: inherit;
+	}
+	footer {
+		padding-bottom: 57px;
+	}
+
+	footer #footerFloatingMenu #btn a {
+		margin: 0.4em 0;
+		padding: 0.8em;
+	}
+	footer #footerFloatingMenu #btn {
+		background-size: 180px;
+	}
+
+}
+@media (max-width: 724px) {
+	#contact #inner dl dt {
+		width: 30%;
+		padding-right: 2%;
+	}
+}
+@media (max-width: 680px) {
+	#modelhouse #content04 h2 {
+		width: inherit;
+		margin: 0.5em auto;
+		font-size: 2rem;
+		font-weight: normal;
+		text-align-last: left;
+		padding: 0 4rem;
+	}
+	/* アクセス
+	----------------------------------------------- */
+	#access:after {
+		width: 100%;
+		height: 140px;
+		background-size: 150%;
+	}
+}
+@media (max-width: 728px) {
+	#home #copy {
+		width: 82%;
+		height: 251px;
+	}
+	#home #copy img.mobile {
+		max-width: 458px;
+	}	
+}
+@media screen and (min-width: 415px) and (max-width: 767px) {
+	#date .content .vr .mobile {
+		display: inherit;
+		width: 70%;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 667px) {
+	#logo {
+	    font-size: 1.4rem;
+	}
+	#logo .collabo {
+		width: 200px;
+	}
+	#logo .leadtxt {
+		font-size: 1.1rem;
+	}
+	#logo .comna {
+		font-size: 2.4rem;
+	}
+	#logo .lifelabel {
+		width: 60px;
+	}
+	#logo .name {
+		padding-top: 0.5em;
+		padding-bottom: 0.8em;
+	}
+	#navigation #info .telbox {
+		margin-right: 7px;
+	}
+	#navigation #info .telbox a {
+		color: #379479;
+		text-shadow: none;
+	}
+	#navigation #info .telbox .studio {
+		background: #fff url(./ico_freedial.png) no-repeat 8px center;
+		background-size: 15px;
+		padding: 5px 15px 5px 30px;
+		border-radius: 16px;
+		-webkit-border-radius: 16px;
+		-moz-border-radius: 16px;
+	}
+	#navigation #info .telbox .tel {
+		display: none;
+	}
+}
+@media (max-width: 640px) {
+	#ico .movie {
+		width: 50%;
+	}
+	#contact #inner .flow li {
+		font-size: 1.3rem;
+		text-align: inherit;
+		padding: 1em 0 1em 0.7em;
+		z-index: 50;
+	}
+	#contact #inner .flow li:before {
+		right: -12px;
+		z-index: 20;
+	}
+	#contact #inner .flow li span {
+		float: none;
+		display: block;
+	}
+
+	#contact #inner form {
+		padding: 2em;
+	}
+	#contact #inner dl {
+		display: inherit;
+	}
+	#contact #inner dt {
+		display: inherit !important;
+		float: none;
+		width: inherit !important;
+		margin-bottom: 0.5em;
+
+	}
+	#contact #inner dt br {
+		display: none;
+	}
+	#contact #inner dd {
+		display: inherit !important;
+		width: 100% !important;
+	}
+	#contact #inner #thanks #photo .mobile {
+		display: inherit;
+		position: relative;
+		z-index: 200;
+		width: 100%;
+		height: inherit;
+	}
+	#contact #inner #thanks #photo .desktop {
+		display: none;
+	}
+
+}
+
+@media (max-width: 600px) {
+	#staff #lead {
+		width: inherit;
+		background: none;
+		padding: 0 2rem;
+	}
+
+	#access #inner .lead {
+		display: inherit;
+		width: inherit;
+		padding: 2.4rem 1.2rem;
+		font-size: 1.5rem;
+	}
+	#access #inner .lead .address {
+		display: inherit;
+		width: inherit;
+		vertical-align: inherit;
+		margin-bottom: 10px;
+	}
+
+
+	#access #inner .lead .info {
+		display: inherit;
+		width: inherit;
+		vertical-align: inherit;
+		padding-top: 0;
+	}
+	#contact h2 {
+		background: #fff url(./bg_hd_contact.png) no-repeat center 90%;
+		padding: 0.7em 0;
+		background-size: 64%;
+	}
+	#contact h2 br {
+		display: inherit;
+	}
+	#blockbanner {
+		margin: 3rem auto 0;
+	}
+	#blockbanner ul {
+		display: none;
+	}
+	#blockbanner .mobile {
+		display: block;
+		text-align: center;
+	}
+	#blockbanner .mobile a {
+		display: block;
+		width: 70%;
+		margin: 0 auto 2rem;
+	}
+	#blockbanner .title {
+		margin-bottom: 2rem;
+	}
+
+	#blockbanner .title img {
+		max-width: 287px;
+		width: 70%;
+	}
+	#blockbanner .mobile a img {
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 590px) {
+	#modelhouse #content01 .lead {
+		width: inherit;
+		padding: 0 2rem 0 2rem;
+	}
+}
+@media (max-width: 580px) {
+	#bottom #inner {
+		width: inherit;
+		margin: 1rem 2rem;
+	}
+}
+@media (max-width: 520px) {
+	.youtube {
+		margin-top: 30px;
+	}
+	.youtube iframe {
+		width: 84%;
+		height: 200px;
+		margin: 15px auto 0;
+	}
+	.voiceBanner {
+		width: 72%;
+		margin: 20px auto;
+	}
+	.voiceBanner a img {
+		max-width: 100%;
+	}
+	.voiceBanner a span {
+		font-size: 12px;
+		background-size: 8%;
+	}
+	.grad-trigger01 {
+		width: 100%;
+		background: url(./bg_noise01.gif);
+		margin: auto;
+		padding: 0.7em 0;
+		font-size: 1.3rem;
+		text-align: center;
+		cursor: pointer;
+		transition: .2s ease;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		z-index: 40;
+	}
+	.grad-trigger01::after{
+		content: "More";
+		display: block;
+		width: 90%;
+		background: #efefef;
+		font-family: 'Oswald', sans-serif;
+		font-size: 1.4rem;
+		font-weight: bold;
+		margin: 0 auto;
+		padding: 0.6em;
+	}
+	.grad-trigger01:hover{
+		background: #fff;
+		color: #a8d2c8;
+	}
+	.wpp-list {
+		position: relative;
+		overflow: hidden;
+	}
+	.wpp-list.is-hide01 {
+		height: 550px;
+	}
+	.grad-trigger01::before {
+		display: table;
+		content: '+';
+		font-family: 'Oswald', sans-serif;
+		font-size: 2.4rem;
+		color: #8baea6;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 20%;
+		margin: auto;
+		line-height: 1;
+	}
+	.grad-trigger01.is-show01::before {
+		content: '-';
+	}
+
+	.grad-trigger01.is-show01 {
+		bottom: 0;
+	}
+	.grad-trigger01.is-show01 + .wpp-list::before {
+		display: none;
+	}
+}
+
+@media (max-width: 500px) {
+	#access:after {
+		background-size: 180%;
+	}	
+}
+
+/* iphone6,6Plus,6S,6S Plus,7 縦向きのヘッダー */
+@media (max-width: 414px) {
+	#logo .leadtxt i {
+		font-size: inherit;
+	}
+	#home .name {
+		display: inline;
+		line-height: 1.8;
+	}
+	.navbar .nav > li > a {
+		padding: 1.2em 1.3em !important;
+	}
+
+	/* モデルハウス見学会開催日
+	----------------------------------------------- */
+	#date .content .vr .mobile {
+		display: block;
+		width: 100%;
+	}
+	#date .content dl dd {
+		width: inherit;
+	}
+	#date .content dl dd .day,
+	#limmited_event .content dl dd .day {
+		font-size: 3rem;
+		text-align: center;
+	}
+	#date .content dl dd .time,
+	#limmited_event .content dl dd .time{
+		font-size: 2rem;
+		margin-bottom: 1em;
+	}
+	#date .content dl dd .time span,
+	#limmited_event .content dl dd .time span{
+		font-size: 1.8rem;
+		padding: 0 1em;
+		margin-right: 0.4em;
+
+		-webkit-border-radius: 1.8rem;
+		-moz-border-radius: 1.8rem;
+		border-radius: 1.8rem;
+	}
+	#date .content dl dd .reservation,
+	#limmited_event .content dl dd .reservation{
+		width: 94%;
+	}
+	/* モデルハウス
+	----------------------------------------------- */
+	#modelhouse {
+	margin-top: 6rem;
+	}
+	#modelhouse #content01 {
+		background: url(./bg_malibu01_sp.jpg) no-repeat 99% top;
+		background-size: cover;
+		min-height: 700px;
+	}
+	#modelhouse #content01 h2 img {
+		width: 180px;
+	}
+	#modelhouse #content01 .lead {
+		width: inherit;
+		font-size: 1.6rem;
+	}
+	#modelhouse #content02 #desc #text,
+	#modelhouse #content03 #desc #text {
+		padding: 0 2rem;
+	}
+	#modelhouse #content04 {
+		background: none;
+		margin-top: 3rem;
+	}
+	#modelhouse #content04 .logo {
+		width: 80%;
+		margin: 0 auto;
+	}
+	#modelhouse #content04 .logo img {
+		width: 100%;
+	}
+	#modelhouse #content04 h2 {
+		padding: 0 2rem;
+	}
+	#modelhouse #content04 h2 br {
+		display: none;
+	}
+	#modelhouse #content04 h2 span {
+		background-size: 50%;
+		padding: 0 0 0.6em 0;
+	}	
+	#modelhouse #content04 #button {
+		max-width: 340px;
+		width: 100%;
+		margin: 0 auto;
+	}
+	#modelhouse #content04 #button img {
+		width: 100%;
+	}
+	#modelhouse #content04 #button .click {
+		position: absolute;
+		left: -10px;
+		top: 36%;
+		max-width: 76px;
+		width: 16%;
+	}
+	#modelhouse #content04 ul {
+		padding: 0;
+	}
+	#modelhouse #content04 ul li {
+		font-size: 1.3rem;
+		font-weight: normal;
+		padding-left: 1em;
+		text-indent: -1em;
+		margin-bottom: 0.5em;
+		position: relative;
+		z-index: 20;
+	}
+	#modelhouse #content04 ul li:last-child {
+		display: none;
+	}
+	/* メディア
+	----------------------------------------------- */
+	#media h2 {
+		width: 120px;
+		margin: 3rem auto;
+	}
+	#media h2 img {
+		width: 100%;
+	}
+
+	/* ギャラリー
+	----------------------------------------------- */
+	#gallery {
+		padding: 87px 0 1rem;
+	}
+	#gallery h2 {
+		max-width: 160px;
+		top: -22px;
+	}
+	#gallery #inner {
+		padding: 100px 2rem 1rem;
+	}
+	#gallery h2 img {
+		width: 100%;
+	}
+	#gallery:after {
+		background: url(./img_malibu02.png) no-repeat center top;
+		height: 230px;
+		top: -21px;
+		background-size: 660px;
+	}
+	/* THETA
+	----------------------------------------------- */
+	#theta {
+		padding: 4rem;
+	}
+	#theta h2 {
+		max-width: 240px;
+	}
+	#theta h2 img {
+		width: 100%;
+	}
+	.thetaSec {
+		margin-bottom: 5rem;
+	}
+	.thetaSec iframe {
+		border: solid 7px #fff;
+	}
+	#theta h3 {
+		font-size: 2.6rem;
+	}
+	.thetaSec:last-child {
+		margin-bottom: 0;
+	}
+
+	/* スタッフ
+	----------------------------------------------- */
+	#staff {
+		background: url(./bg_line01.png) no-repeat center 15px;
+		background-size: 800px;
+	}
+	#staff h2 {
+		width: 180px;
+		margin: 0 auto;
+	}
+	#staff h2 img {
+		width: 100%;
+	}
+	#staff #lead {
+		background: none;
+		width: inherit;
+		margin: 1em auto 2em;
+		font-size: 1.5rem;
+		font-weight: normal;
+		padding:  0 2rem;
+		line-height: inherit;
+	}
+	#staff #lead br {
+		display: none;
+	}
+	.staffitem {
+		width: 46% !important;
+		margin: 0 8% 2rem 0 !important;
+	}
+	.staffitem:nth-child(3n) {
+		margin-right: 8% !important;
+	}
+	.staffitem:nth-child(5n) {
+		margin-right: inherit;
+	}
+	.staffitem:nth-child(2n) {
+		margin-right: 0 !important;
+	}
+	.ih-item.circle {
+		width: 100% !important;
+		height: 100% !important;
+		padding: 4px !important;
+	}
+	.ih-item.circle.effect19 .info h3 {
+		font-size: 1.9rem !important;
+		margin: 0 !important;
+		padding: 1.4em 0 0 0 !important;
+	}
+	.ih-item.circle.effect19 .info.position01 h3 {
+		padding: 0.8em 0 0 0 !important;
+	}
+	.ih-item.circle.effect19 .info h3 span {
+		font-size: 0.6em !important;
+	}
+	.ih-item.circle.effect19 .info p {
+		font-size: 1.1rem !important;
+	}
+	/* アクセス
+	----------------------------------------------- */
+	#access:after {
+		background-size: 200%;
+	}
+
+	#access h2 {
+		padding: 1rem 0;
+	}
+	#access h2 img {
+		width: 80%;
+	}
+	#access #inner {
+		padding: 0 2rem 3rem;
+	}
+	#access #inner .lead .info dl dt {
+		float: left;
+		width: 80px;
+		height: 26px;
+		background: #808080;
+		font-size: 1.3rem;
+		color: #fff;
+		font-weight: bold;
+		text-align: center;
+		line-height: 26px;
+		margin-right: 2rem;
+
+		position: relative;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+	#access #inner .lead .info dl dt:before {
+		content: '';
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 13px 0 13px 13px;
+		border-color: transparent transparent transparent #808080;
+
+		position: absolute;
+		right: -12px;
+		top: 0;
+		bottom: 0;
+	}
+	#access #inner .lead .info dl dd {
+		padding-top: 0.2em;
+	}
+
+	#access #inner .map {
+		padding: 0;
+	}
+	#access #inner .map:before {
+		width: 99%;
+		height: 398px;
+		right: inherit;
+		left: 1rem;
+	}
+	
+	#access #inner #btn {
+		width: 232px;
+		margin: 3rem auto 0;
+		position: relative;
+		z-index: 500;
+	}
+	#access #inner #btn:before {
+		content: '';
+		width: 100%;
+		height: 8px;
+		background: url(./bg_line02.png);
+		background-size:contain;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	#access #inner #btn:after {
+		content: '';
+		width: 100%;
+		height: 8px;
+		background: url(./bg_line02.png);
+		background-size:contain;
+
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	#access #inner .map_canvas {
+		height: 400px;
+	}
+	#access #inner #btn a {
+		background-size: 7px;
+		font-weight: bold;
+		padding: 2rem 0;
+
+	}
+	/* お問い合わせ
+	----------------------------------------------- */
+	#contact {
+		margin: 2rem 0;
+	}
+	#contact h2 {
+		background: #fff url(./bg_hd_contact.png) no-repeat center 90%;
+		padding: 0.7em 0;
+		background-size: 64%;
+	}
+	#contact h2 span {
+		font-size: 1.7rem;	
+	}
+	#contact h2 br {
+		display: inherit;
+	}
+	#contact #inner {
+		width: inherit;
+		margin: 2rem auto;
+		padding: 0 2rem;
+	}
+	#contact #inner p {
+		text-align: inherit;
+	}
+	#contact #inner dl dd p i {
+		padding-top: 0;
+		margin-right: 0;
+	}
+	#contact #inner form .pref,
+	#contact #inner dl.content .time {
+		width: 100%;
+	}
+	#contact #inner dl#buildplace .buildplacepref,
+	#contact #inner dl.content .day {
+		display: block;
+	}
+	#bottom #inner {
+		margin: 0 auto 1em;
+		padding: 0;
+	}
+	#contact #inner .flow li {
+		font-size: 1.2rem;
+	}
+	input[type="submit"],
+	input[type="button"] {
+		width: 238px;
+		height: 128px;
+		background-size: 238px;
+		margin: 2rem auto 0;
+	}
+	#contact #inner #thanks {
+		margin-top: 2rem;
+	}
+	#contact #inner #thanks #txt {
+		width: inherit;
+		padding: inherit;
+	}
+	#contact #inner dl.content .otherday {
+		width: inherit !important;
+	}
+	.tellk,
+	.tellk a {
+		text-decoration: underline;
+		color: #000;
+	}
+
+	.common .wpcf7-form-control-wrap .check .wpcf7-list-item input,
+	.common .wpcf7-form-control-wrap .check .wpcf7-list-item span {
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+@media (max-width: 360px) {
+	#contact #inner .flow li i {
+		font-size: 1.1rem;
+	}
+}
+/* iphone5,5S縦向きのヘッダー */
+@media (max-width: 320px) {
+	#contact #inner .flow li {
+		font-size: 1rem;
+		padding: 1.4em 0 1.4em 0.7em;
+	}
+}

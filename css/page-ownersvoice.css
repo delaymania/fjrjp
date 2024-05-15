@@ -1,0 +1,1427 @@
+@charset "UTF-8";
+.lum-close-button {
+	cursor: pointer;
+}
+#voice.archive {
+	background: url("../img/voice/bg_voice02.jpg")repeat-y center top;
+	padding-bottom: 70px;
+}
+#voice.archive:before {
+	display: none;
+}
+#voice.archive h3 {
+	text-align: center;
+	padding-top: 80px;
+}
+.voice_single .keyvisual {
+	position: relative;
+	height: 1000px;
+}
+.voice_single .keyvisual .image {
+	position: absolute;
+	width: 1920px;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.voice_single .keyvisual .textBox {
+	max-width: 1000px;
+	margin: 0 auto;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.voice_single .keyvisual .textBox .inner {
+	max-width: 690px;
+	background: #fff;
+	padding: 14px 50px;
+	position: relative;
+}
+.voice_single .keyvisual .textBox .inner:before {
+	content: '';
+	background: url("../img/voice/bg_triangle02.png") no-repeat;
+	width: 689px;
+	height: 66px;
+	position: absolute;
+	top: -66px;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.voice_single .keyvisual .textBox .inner .voice_num {
+	position: relative;
+    font-family: 'Oswald', sans-serif;
+	line-height: 1.4;
+}
+.voice_single .keyvisual .textBox .inner .voice_num dt {
+	font-size: 69px;
+	font-weight: bold;
+}
+.voice_single .keyvisual .textBox .inner .voice_num dd {
+	font-size: 140px;
+	font-weight: bold;
+	position: absolute;
+	top: 0;
+	right: 0;
+	line-height: 1.2;
+}
+.voice_single .keyvisual .textBox .inner .voice_num span {
+	font-size: 69px;
+	color: #a8d2c8;
+}
+.voice_single .keyvisual .textBox .inner .tl {
+	font-size: 19px;
+	font-weight: bold;
+	line-height: 1.6;
+}
+.voice_single .tagList {
+	padding: 16px 0;
+}
+
+.voice_single .tagList li {
+	display: inline-block;
+	border: solid 2px #000;
+	box-sizing: border-box;
+	border-radius: 22px;
+	background: url("../img/voice/ico_tag02.png") no-repeat 13px center;
+	margin-top: 10px;
+	margin-right: 9px;
+	transition: 1s;
+}
+.voice_single .tagList li a {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 4px 18px 4px 43px;
+	border-radius: 22px;
+	transition: 1s;
+}
+.voice_single .tagList li:hover {
+	border: solid 2px #e5e5e5;
+	transition: 1s;
+}
+.voice_single .tagList li a:hover {
+	text-decoration: none;
+	background: #e5e5e5;
+	transition: 1s;
+}
+.voice_single .hd {
+	background: #000;
+	font-size: 19px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding: 1.3em 1em;
+	margin-top: 30px;
+}
+.voice_single .ContBox.bg02.no14 .hd {
+	letter-spacing: -0.01em;
+}
+.voice_single .textBox01 {
+	background: #f7f6f1;
+}
+.voice_single .textBox01 .under_contents {
+	padding: 2em 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+.voice_single .ContBox {
+	margin: 70px 0 140px;
+}
+.voice_single .ContBox.left {
+	padding-left: 10%;
+}
+.voice_single .ContBox.right {
+	padding-left: 52%;
+	padding-right: 5%;
+}
+.voice_single .ContBox.bg01 {
+	background: url("../img/voice/bg_voice01_img01.jpg") no-repeat right center;
+}
+.voice_single .ContBox.bg01.no02 {
+	background: url("../img/voice/bg_voice02_img01.jpg") no-repeat 384% center;
+}
+.voice_single .ContBox.bg01.no03 {
+	background: url("../img/voice/bg_voice03_img01.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg01.no04 {
+	background: url("../img/voice/bg_voice04_img01.jpg") no-repeat 160% top;
+}
+.voice_single .ContBox.bg01.no05 {
+	background: url("../img/voice/bg_voice05_img01.jpg") no-repeat 160% top;
+}
+.voice_single .ContBox.bg01.no06 {
+	background: url("../img/voice/bg_voice06_img01.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg01.no07 {
+	background: url("../img/voice/bg_voice07_img01.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg01.no08 {
+	background: url("../img/voice/bg_voice08_img01.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg01.no09 {
+	background: url("../img/voice/bg_voice09_img01.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg01.no10 {
+	background: url("../img/voice/bg_voice10_img01.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg01.no11 {
+	background: url("../img/voice/bg_voice11_img01.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg01.no12 {
+	background: url("../img/voice/bg_voice12_img01.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg01.no13 {
+	background: url("../img/voice/bg_voice13_img01.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg01.no14 {
+	background: url("../img/voice/bg_voice14_img01.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg01.no15 {
+	background: url("../img/voice/bg_voice15_img01.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg02.no01 {
+	background: url("../img/voice/bg_voice01_img02.jpg") no-repeat left top;
+}
+.voice_single .ContBox.bg02.no02 {
+	background: url("../img/voice/bg_voice02_img02.jpg") no-repeat -46% top;
+}
+.voice_single .ContBox.bg02.no03 {
+	background: url("../img/voice/bg_voice03_img02.jpg") no-repeat left top;
+}
+.voice_single .ContBox.bg02.no04 {
+	background: url("../img/voice/bg_voice04_img02.jpg") no-repeat left top;
+}
+.voice_single .ContBox.bg02.no05 {
+	background: url("../img/voice/bg_voice05_img02.jpg") no-repeat left top;
+}
+.voice_single .ContBox.bg02.no06 {
+	background: url("../img/voice/bg_voice06_img02.jpg") no-repeat left top;
+}
+.voice_single .ContBox.bg02.no07 {
+	background: url("../img/voice/bg_voice07_img02.jpg") no-repeat left top;
+}
+.voice_single .ContBox.bg02.no08 {
+	background: url("../img/voice/bg_voice08_img02.jpg") no-repeat left top;
+}
+.voice_single .ContBox.bg02.no09 {
+	background: url("../img/voice/bg_voice09_img02.jpg") no-repeat left top;
+}
+.voice_single .ContBox.bg02.no10 {
+	background: url("../img/voice/bg_voice10_img02.jpg") no-repeat left top;
+}
+.voice_single .ContBox.bg02.no11 {
+	background: url("../img/voice/bg_voice11_img02.jpg") no-repeat left top;
+}
+.voice_single .ContBox.bg02.no12 {
+	background: url("../img/voice/bg_voice12_img02.jpg") no-repeat left top;
+}
+.voice_single .ContBox.bg02.no13 {
+	background: url("../img/voice/bg_voice13_img02.jpg") no-repeat left top;
+}
+.voice_single .ContBox.bg02.no14 {
+	background: url("../img/voice/bg_voice14_img02.jpg") no-repeat left top;
+}
+.voice_single .ContBox.bg02.no15 {
+	background: url("../img/voice/bg_voice15_img02.jpg") no-repeat left top;
+}
+.voice_single .ContBox.bg03 {
+	background: url("../img/voice/bg_voice01_img03.jpg") no-repeat right center;
+}
+.voice_single .ContBox.bg03.no02 {
+	background: url("../img/voice/bg_voice02_img03.jpg") no-repeat 141% center;
+}
+.voice_single .ContBox.bg03.no03 {
+	background: url("../img/voice/bg_voice03_img03.jpg") no-repeat right center;
+}
+.voice_single .ContBox.bg03.no04 {
+	background: url("../img/voice/bg_voice04_img03.jpg") no-repeat 160% center;
+}
+.voice_single .ContBox.bg03.no05 {
+	background: url("../img/voice/bg_voice05_img03.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg03.no06 {
+	background: url("../img/voice/bg_voice06_img03.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg03.no07 {
+	background: url("../img/voice/bg_voice07_img03.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg03.no08 {
+	background: url("../img/voice/bg_voice08_img03.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg03.no09 {
+	background: url("../img/voice/bg_voice09_img03.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg03.no10 {
+	background: url("../img/voice/bg_voice10_img03.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg03.no11 {
+	background: url("../img/voice/bg_voice11_img03.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg03.no12 {
+	background: url("../img/voice/bg_voice12_img03.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg03.no13 {
+	background: url("../img/voice/bg_voice13_img03.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg03.no14 {
+	background: url("../img/voice/bg_voice14_img03.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg03.no15 {
+	background: url("../img/voice/bg_voice15_img03.jpg") no-repeat right top;
+}
+.voice_single .ContBox.bg02.no01,
+.voice_single .ContBox.bg02.no02,
+.voice_single .ContBox.bg02.no03 {
+	padding-top: 90px;
+	margin: 70px 0 100px;
+}
+.voice_single .ContBox.bg03.no01 {
+	margin: 70px 0 100px;
+}
+.voice_single .keyvisual.no03 .image {
+	left: -320px;
+}
+.voice_single .keyvisual.no04 .image,
+.voice_single .keyvisual.no05 .image {
+	left: -320px;
+}
+.voice_single.stayhome .keyvisual .textBox .inner .voice_num dd {
+	right: -77px;
+}
+.voice_single.stayhome .keyvisual .textBox .inner .voice_num span.special {
+	font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
+	font-size: 30px;
+}
+.voice_single.stayhome .ContBox {
+	background: #d1d6d7 url("../img/voice/voice_bangai01_bg01.png") repeat-y center 100px;
+	margin: 0 0 50px;
+	padding: 60px 0;
+}
+.voice_single.stayhome .ContBox .inner {
+	display: block;
+	background: #fff;
+	border: solid 5px #000;
+	box-sizing: border-box;
+	border-radius: 5px;
+	max-width: 1000px;
+	height: auto;
+	width: auto;
+	margin: 0 auto 50px;
+}
+.voice_single.stayhome .ContBox .inner:last-child {
+	margin-bottom: 0;
+}
+.voice_single.stayhome .ContBox .inner .title {
+	border-bottom: solid 7px #000;
+	box-sizing: border-box;
+	background: #fff;
+	font-size: 19px;
+	font-weight: bold;
+	text-align: center;
+	padding: 2em 1.3em 0.8em;
+}
+.voice_single.stayhome .ContBox .inner .title br {
+	display: none;
+}
+.voice_single.stayhome .ContBox .inner .in {
+	padding: 30px 65px;
+}
+.voice_single.stayhome .ContBox .inner .in .pic {
+	position: relative;
+	padding: 0 57px 57px 0;
+	margin-bottom: 20px;
+}
+.voice_single.stayhome .ContBox .inner .in .pic.sp {
+	display: none;
+}
+.voice_single.stayhome .ContBox .inner .in .pic:before {
+	content: '';
+	background: #000;
+	width: 100%;
+	height: 3px;
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+}
+.voice_single.stayhome .ContBox .inner .in .pic:after {
+	content: '';
+	background: #000;
+	width: 3px;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 20px;
+}
+.voice_single.stayhome .ContBox .inner .in p {
+	font-size: 14px;
+	line-height: 2.4;
+	margin-bottom: 2.4em;
+}
+.voice_single.stayhome .ContBox .inner .in p:last-child {
+	margin-bottom: 0;
+}
+.voice_single.stayhome .ContBox .inner .in p.thanks {
+	text-align: right;
+}
+.voice_single.stayhome .ContBox .inner .in p.thanks .txt {
+	background: url("../img/icon_instagram.png") no-repeat left center;
+	background-size: contain;
+	padding-left: 22px;
+}
+
+.voice_single.stayhome .ContBox .inner .in p.thanks a {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.voice_single.stayhome .ContBox .inner .gpPic {
+	position: relative;
+	padding: 10% 0 10% 35%;
+}
+.voice_single.stayhome .ContBox .inner .gpPic .pic:nth-child(2) {
+	width: 47%;
+	padding: 0 23px 23px 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+}
+.voice_single.stayhome .ContBox .inner .gpPic .pic:nth-child(2) .bg img {
+	background: #fff;
+	padding: 0 18px 18px 0;
+}
+.voice_single.stayhome .ContBox .inner .gpPic .pic:last-child {
+	width: 29%;
+	padding: 0 37px 37px 0;
+	position: absolute;
+	bottom: 0;
+	left: 40px;
+	z-index: 2;
+}
+
+@media screen and (min-width: 1367px) {
+	.voice_single .ContBox.bg01.no02 {
+		background: url("../img/voice/bg_voice02_img01.jpg") no-repeat 194% center;
+	}
+	.voice_single .ContBox.bg02.no02 {
+		background: url("../img/voice/bg_voice02_img02.jpg") no-repeat left top;
+	}
+
+}
+@media screen and (min-width: 1600px) {
+	.voice_single .ContBox.bg01.no02 {
+		background: url("../img/voice/bg_voice02_img01.jpg") no-repeat 150% center;
+	}
+	.voice_single .ContBox.bg03.no02 {
+		background: url("../img/voice/bg_voice02_img03.jpg") no-repeat 150% center;
+	}
+	.voice_single .ContBox.bg01.no04 {
+		background: url("../img/voice/bg_voice04_img01.jpg") no-repeat 120% top;
+	}
+	.voice_single .ContBox.bg01.no05 {
+		background: url("../img/voice/bg_voice05_img01.jpg") no-repeat right top;
+	}
+	.voice_single .ContBox.bg03.no04 {
+		background: url("../img/voice/bg_voice04_img03.jpg") no-repeat right center;
+	}
+	.voice_single .keyvisual.no03 .image,
+	.voice_single .keyvisual.no04 .image,
+	.voice_single .keyvisual.no05 .image,
+	.voice_single .keyvisual.no06 .image {
+		left: inherit;
+	}
+
+}
+@media screen and (min-width: 1920px) {
+	.voice_single .ContBox.bg01.no02 {
+		background: url("../img/voice/bg_voice02_img01.jpg") no-repeat right center;
+	}
+	.voice_single .ContBox.bg03.no02 {
+		background: url("../img/voice/bg_voice02_img03.jpg") no-repeat right center;
+	}
+	.voice_single .ContBox.bg03.no06 {
+		background: url("../img/voice/bg_voice06_img03.jpg") no-repeat 114% top;
+	}
+}
+@media screen and (max-width: 1600px) {
+	.voice_single .keyvisual.no14  .image {
+		left: -14%;
+	}
+	.voice_single .ContBox.bg01.no13 {
+		background: url("../img/voice/bg_voice13_img01.jpg") no-repeat right -200px top	
+	}
+	.voice_single .ContBox.bg02.no13 {
+		background: url("../img/voice/bg_voice13_img02.jpg") no-repeat left -200px top;
+	}
+	.voice_single .ContBox.bg03.no13 {
+		background: url("../img/voice/bg_voice13_img03.jpg") no-repeat right -200px top;
+	}
+	.voice_single .ContBox.bg01.no14 {
+		background: url("../img/voice/bg_voice14_img01.jpg") no-repeat right -200px top	
+	}
+	.voice_single .ContBox.bg02.no14 {
+		background: url("../img/voice/bg_voice14_img02.jpg") no-repeat left -200px top;
+	}
+	.voice_single .ContBox.bg03.no14 {
+		background: url("../img/voice/bg_voice14_img03.jpg") no-repeat right -200px top;
+	}
+	.voice_single .ContBox.bg01.no15,
+	.voice_single .ContBox.bg03.no15 {
+		background-position: right -200px top;		
+	}
+	.voice_single .ContBox.bg02.no15 {
+		background-position: left -200px top;		
+	}
+
+}
+@media screen and (max-width: 1500px) {
+	.voice_single .keyvisual.no06 .image {
+		left: -240px;
+	}
+	.voice_single .ContBox.bg01.no06 {
+		background: url("../img/voice/bg_voice06_img01.jpg") no-repeat 220% top;
+	}
+	.voice_single .ContBox.bg02.no06 {
+		background: url("../img/voice/bg_voice06_img02.jpg") no-repeat -200% top;
+	}
+	.voice_single .ContBox.bg01.no09 {
+		background: url("../img/voice/bg_voice09_img01.jpg") no-repeat right -300px top;
+	}
+	.voice_single .ContBox.bg02.no09 {
+		background: url("../img/voice/bg_voice09_img02.jpg") no-repeat left -275px top;
+	}
+	.voice_single .ContBox.bg02.no09 .hd {
+		text-align: center;
+	}
+	.voice_single .ContBox.bg03.no09 {
+		background: url("../img/voice/bg_voice09_img03.jpg") no-repeat right -300px top;
+	}
+
+}
+@media screen and (max-width: 1410px) {
+	.voice_single .keyvisual.no08 .image {
+		left: -440px;
+	}
+	.voice_single .keyvisual.no09 .image {
+		left: -440px;
+	}
+	.voice_single .ContBox.bg01.no08 {
+		background: url("../img/voice/bg_voice08_img01.jpg") no-repeat right -500px top;
+	}
+	.voice_single .ContBox.bg02.no08 {
+		background: url("../img/voice/bg_voice08_img02.jpg") no-repeat left -275px top;
+	}
+
+}
+@media screen and (max-width: 1250px) {
+	.voice_single .keyvisual.no06 .image {
+		left: -440px;
+	}
+
+}
+.voice_single .ContBox .inner {
+	display: table-cell;
+	width: 700px;
+	height: 958px;
+	vertical-align: middle;
+}
+.voice_single .ContBox.bg01.no14 .inner {
+	padding-top: 5rem;
+}
+.voice_single .ContBox .hd {
+	margin-top: 0;
+} 
+.voice_single .ContBox .inner .comme {
+	border: solid 5px #000;
+	box-sizing: border-box;
+	background: #fff;
+	border-radius: 7px;
+	padding: 45px 60px;
+	margin-top: 15px;
+}
+.voice_single .ContBox .inner .comme p {
+	font-size: 14px;
+	line-height: 2.4;
+	margin-bottom: 2.4em;
+}
+.voice_single .ContBox .inner .comme p .strong {
+	background: linear-gradient(#fff 48%,#fffca3 35%,#fffca3);
+	font-weight: bold;
+}
+.voice_single .ContBox .inner .comme p:last-child {
+	margin-bottom: 0;
+}
+.voice_single  .gallery h4 {
+	background: url("../img/voice/bg_title_voice.gif") no-repeat center top;
+	font-family: 'Oswald', sans-serif;
+	font-size: 49px;
+	font-weight: bold;
+	text-align: center;
+	padding: 64px 0 0;
+	line-height: 1.2;
+	margin-bottom: 50px;
+}
+.voice_single .gallery ul {
+	max-width: 1000px;
+	margin: auto;
+}
+.voice_single .gallery ul li {
+	display: inline-block;
+	float: left;
+	width: 32%;
+	margin-right: 2%;
+	margin-bottom: 60px;
+}
+.voice_single .gallery ul li:nth-child(3n) {
+	margin-right: 0;
+}
+
+.voice_single .gallery ul li p {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.6;
+	margin-top: 10px;
+}
+.voice_single .desc_comme {
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 1.6;
+	text-align: center;
+	padding: 0 1.3em;
+	margin-bottom: 100px;
+}
+.voice_single .infoBox {
+	margin-top: 30px;
+}
+.voice_single .ctl {
+	text-align: center;
+	margin-bottom: 24px;
+}
+.voice_single .infoBox .bg {
+	background: url("../img/voice/bg_warehouse.jpg") no-repeat center center;
+	padding: 50px 30px;
+}
+.voice_single .infoBox.fun .bg {
+	background: url("../img/voice/bg_fun.jpg") no-repeat center center;	
+}
+.voice_single .infoBox.malibu .bg {
+	background: url("../img/voice/bg_malibu.jpg") no-repeat center center;	
+}
+.voice_single .infoBox.brooklynhouse .bg {
+	background: url("../img/voice/bg_brooklynhouse.jpg") no-repeat center center;
+}
+.voice_single .infoBox.nordichouse .bg {
+	background: url("../img/voice/bg_nordic.jpg") no-repeat center center;
+}
+.voice_single .infoBox.housecanvas .bg {
+	background: url("../img/voice/bg_housecanvas.jpg") no-repeat center center;
+}
+.voice_single .infoBox.tools .bg {
+	background: url("../img/voice/bg_tools.jpg") no-repeat center center;
+}
+.voice_single .infoBox .bg .inner {
+	background: #f7f6f1;
+	max-width: 790px;
+	margin: 0 auto;
+	padding: 30px 40px;
+	position: relative;
+}
+.voice_single .infoBox .bg .inner .imgBox {
+	display: inline-block;
+	max-width: 300px;
+	padding-left: 75px;	
+}
+.voice_single .infoBox.no06 .bg .inner .imgBox {
+	padding-left: 50px;	
+}
+.voice_single .infoBox.no06 .bg .inner .logo02 {
+	padding-left: 0;
+}
+.voice_single .infoBox.brooklynhouse .bg .inner .imgBox {
+	padding-left: 35px;
+}
+.voice_single .infoBox.brooklynhouse .bg .inner .logo02 {
+	padding-top: 4em;
+}
+.voice_single .infoBox .bg .inner .logo01 {
+	position: absolute;
+	top: 25px;
+	left: 48px;
+}
+.voice_single .infoBox .bg .inner .logo02 {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 25px;
+}
+.voice_single .infoBox .bg .inner .txt {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1.6;
+	vertical-align: top;
+	padding-top: 2em;
+	padding-left: 25px;
+}
+.voice_single .infoBox.brooklynhouse .bg .inner .txt {
+	padding-top: 3em;
+}
+.voice_single .infoBox.fun .bg .inner .txt {
+	padding-top: 1em;
+}
+.voice_single .infoBox.nordichouse .bg .inner .txt {
+	padding-top: 1em;
+	padding-left: 0;
+	text-align: center;
+}
+.voice_single .infoBox.nordichouse .bg .inner .imgBox {
+	float: left;
+}
+.voice_single .infoBox.nordichouse .bg .inner .logo02 {
+	width: 57%;
+	text-align: center;
+	padding-top: 40px;
+	padding-left: 0;
+}
+.voice_single .infoBox.nordichouse.housecanvas .bg .inner .logo02 {
+	padding-top: 15px;
+}
+.voice_single .infoBox.nordichouse.tools .bg .inner .logo02 {
+	width: 55%;
+	padding-top: 5px;
+}
+.voice_single .infoBox.nordichouse .bg .inner .txt {
+	width: 57%;
+}
+.voice_single .infoBox.nordichouse .bg .inner .txt br {
+	display: none;
+}
+.voice_single .infoBox .bg .inner .btn {
+	width: 220px;
+	position: absolute;
+	right: 145px;
+	bottom: 40px;
+}
+.voice_single .infoBox.malibu .bg .inner .btn {
+	bottom: 30px;
+}
+
+.voice_single .infoBox .bg .inner .btn a {
+	display: block;
+	border: solid 2px #000;
+	box-sizing: border-box;
+	background: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	padding: 15px;
+}
+.voice_single .infoBox .bg .inner .btn a:hover {
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+}
+.voice_single .backBtn {
+	border-top: solid 1px #000;
+	box-sizing: inherit;
+	padding: 38px 0 0;
+}
+.voice_single .backBtn a {
+	display: block;
+	max-width: 430px;
+	background: #a8d2c8;
+	font-size: 14px;
+	color: #000;
+	font-weight: bold;
+	text-align: center;
+	padding: 1.3em;
+	margin: auto;
+	position: relative;
+}
+.voice_single .backBtn a:after {
+    content: ' ';
+    width: 5px;
+    height: 5px;
+    border-top: 1px solid #000;
+    border-right: 1px solid #000;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -2.5px;
+}
+.voice_single .backBtn a:hover {
+	background: #000;
+	color: #fff;
+	text-decoration: none;
+}
+.voice_single .backBtn a:hover:after {
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+@media screen and (max-width: 1600px) {
+	.voice_single .keyvisual.no10 .image {
+		left: -150px;
+	}
+	.voice_single .keyvisual.no11 .image {
+		left: -250px;
+	}
+	.voice_single .ContBox.left {
+		padding-left: 5%;
+	}
+	.voice_single .ContBox.right {
+		padding-left: 46%;
+	}
+	.voice_single .ContBox.bg01.no10 {
+		background: url("../img/voice/bg_voice10_img01.jpg") no-repeat 156% top;
+	}
+	.voice_single .ContBox.bg03.no10 {
+		background: url("../img/voice/bg_voice10_img03.jpg") no-repeat 217% top;
+	}
+	.voice_single .ContBox.bg01.no11 {
+		background: url("../img/voice/bg_voice11_img01.jpg") no-repeat 180% top;
+	}
+	.voice_single .ContBox.bg03.no11 {
+		background: url("../img/voice/bg_voice11_img03.jpg") no-repeat 140% top;
+	}
+
+}
+@media screen and (max-width: 1366px) {
+	.voice_single .keyvisual.no05 .image {
+		left: -550px;
+	}
+	.voice_single .keyvisual.no10 .image {
+		left: -250px;
+	}
+	.voice_single .ContBox.bg01.no04 {
+		background: url("../img/voice/bg_voice04_img01.jpg") no-repeat 300% top;
+	}
+	.voice_single .ContBox.bg02.no04 {
+		background: url("../img/voice/bg_voice04_img02.jpg") no-repeat -115% top;
+	}
+	.voice_single .ContBox.bg03.no04 {
+		background: url("../img/voice/bg_voice04_img03.jpg") no-repeat 264% center;
+	}
+	.voice_single .ContBox.bg01.no05 {
+		background: url("../img/voice/bg_voice05_img01.jpg") no-repeat 256% top;
+	}
+	.voice_single .ContBox.bg01.no10 {
+		background: url("../img/voice/bg_voice10_img01.jpg") no-repeat 236% top;
+	}
+	.voice_single .ContBox.bg02.no10 {
+		background: url("../img/voice/bg_voice10_img02.jpg") no-repeat -100% top;
+	}
+	.voice_single .ContBox.bg03.no10 {
+		background: url("../img/voice/bg_voice10_img03.jpg") no-repeat 387% top;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.voice_single .keyvisual {
+		height: inherit;
+	}
+	.voice_single .keyvisual .image {
+		position: inherit;
+		width: auto;
+		top: inherit;
+		bottom: inherit;
+		left: inherit !important;
+		right: inherit;
+	}
+	.voice_single .keyvisual .textBox {
+		position: inherit;
+		bottom: inherit;
+		left: inherit !important;
+		right: inherit;
+	}
+	.voice_single .keyvisual .textBox .inner {
+		margin: auto;
+	}
+	.voice_single .ContBox {
+		padding: 570px 5% 0 !important;
+		margin: 70px 0;
+	}	
+	.voice_single .ContBox.bg01 {
+		background: url("../img/voice/bg_voice01_img01.jpg") no-repeat right top;
+		background-size: 100% !important;
+	}
+	.voice_single .ContBox.bg02,
+	.voice_single .ContBox.bg03 {
+		background-size: 100% !important;
+	}
+	.voice_single .ContBox.bg02.no01 {
+		background: url("../img/voice/bg_voice01_img02.jpg") no-repeat left top;
+		margin: 70px 0;
+	}
+	.voice_single .ContBox.bg01.no02 {
+		background: url("../img/voice/bg_voice02_img01.jpg") no-repeat left top;
+		margin: 70px 0;
+	}
+	.voice_single .ContBox.bg02.no02 {
+		margin: 70px 0;
+		background: url("../img/voice/bg_voice02_img02.jpg") no-repeat 10% top;
+	}
+	.voice_single .ContBox.bg03 {
+		background: url("../img/voice/bg_voice01_img03.jpg") no-repeat right top;
+	}
+	.voice_single .ContBox.bg03.no01 {
+		margin: 70px 0;
+	}
+	.voice_single .ContBox.bg03.no02 {
+		background: url("../img/voice/bg_voice02_img03.jpg") no-repeat center top;
+		margin: 70px 0;
+	}
+	.voice_single .ContBox.bg03.no03 {
+		background: url("../img/voice/bg_voice03_img03.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg01.no04 {
+		background: url("../img/voice/bg_voice04_img01.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg02.no04 {
+		background: url("../img/voice/bg_voice04_img02.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg03.no04 {
+		background: url("../img/voice/bg_voice04_img03.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg01.no05 {
+		background: url("../img/voice/bg_voice05_img01.jpg") no-repeat 64% top;
+	}
+	.voice_single .ContBox.bg02.no05 {
+		background: url("../img/voice/bg_voice05_img02.jpg") no-repeat right top;
+	}
+	.voice_single .ContBox.bg01.no06 {
+		background: url("../img/voice/bg_voice06_img01.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg02.no06 {
+		background: url("../img/voice/bg_voice06_img02.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg03.no06 {
+		background: url("../img/voice/bg_voice06_img03.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg01.no07 {
+		background: url("../img/voice/bg_voice07_img01.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg02.no07 {
+		background: url("../img/voice/bg_voice07_img02.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg03.no07 {
+		background: url("../img/voice/bg_voice07_img03.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg01.no08 {
+		background: url("../img/voice/bg_voice08_img01.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg02.no08 {
+		background: url("../img/voice/bg_voice08_img02.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg03.no08 {
+		background: url("../img/voice/bg_voice08_img03.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg01.no09 {
+		background: url("../img/voice/bg_voice09_img01.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg02.no09 {
+		background: url("../img/voice/bg_voice09_img02.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg03.no09 {
+		background: url("../img/voice/bg_voice09_img03.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg01.no10 {
+		background: url("../img/voice/bg_voice10_img01.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg02.no10 {
+		background: url("../img/voice/bg_voice10_img02.jpg") no-repeat center top;
+	}
+	.voice_single .ContBox.bg03.no10 {
+		background: url("../img/voice/bg_voice10_img03.jpg") no-repeat center top;
+	}
+
+	.voice_single .ContBox.left {
+		padding-left: 0;
+	}
+	.voice_single .ContBox.right {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.voice_single .ContBox .inner {
+		display: inherit;
+		width: auto;
+		height: inherit;
+	}
+	.voice_single  .gallery ul {
+		padding: 0 40px;
+	}
+	.voice_single.stayhome .ContBox {
+		padding: 30px 5% !important;
+	}
+
+}
+@media screen and (max-width: 1000px) {
+	.voice_single .textBox01 .under_contents {
+		padding: 2em 30px;
+	}
+}
+@media screen and (max-width: 768px) {
+	#voice .under_contents {
+		padding: 40px 0 0;
+		margin-top: 20px;
+	}
+	#voice.archive h3 {
+		padding: 30px 3% 0;
+	}
+	.voice_single .keyvisual .image {
+		padding-top: 60px;
+	}
+	.voice_single .keyvisual .textBox .inner {
+		max-width: 100%;
+	}
+	.voice_single .keyvisual .textBox .inner:before {
+		width: 100%;
+		height: 75px;
+		background: url("../img/voice/bg_triangle03.png") no-repeat;
+		top: -75px;
+		background-size: 100%;
+	}
+	.voice_single .tagList {
+		padding: 16px 25px !important;
+	}
+	.voice_single .tagList.bottom {
+		text-align: inherit;
+	}
+
+	.voice_single .infoBox .bg {
+		background: url("../img/voice/bg_warehouse_s.jpg") no-repeat;
+		background-size: cover;
+	}
+	.voice_single .infoBox.fun .bg {
+		background: url("../img/voice/bg_fun_s.jpg") no-repeat;
+		background-size: cover;
+	}
+	.voice_single .infoBox.malibu .bg {
+		background: url("../img/voice/bg_malibu_s.jpg") no-repeat;
+		background-size: cover;
+	}
+	.voice_single .infoBox .bg .inner {
+		text-align: center;
+	}
+	.voice_single .infoBox .bg .inner .imgBox,
+	.voice_single .infoBox.no06 .bg .inner .imgBox {
+		padding-left: 0 !important;
+	}
+	.voice_single .infoBox.no06 .bg .inner .imgBox {
+		max-width: 268px;
+	}
+	.voice_single .infoBox .bg .inner .logo01 {
+		position: inherit;
+		top: inherit;
+		left: inherit;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 3%;
+	}
+	.voice_single .infoBox .bg .inner .txt {
+		padding-left: 0;
+		padding-top: 1em;
+		text-align: center;
+		position: absolute;
+		width: 46%;
+		top: 132px;
+		left: 0;
+		right: 40px;
+		margin: 0 0 0 auto;
+	}
+	.voice_single .infoBox.brooklynhouse .bg .inner .txt {
+		padding-top: 0;
+	}
+	.voice_single .infoBox .bg .inner .btn,
+	.voice_single .infoBox.malibu .bg .inner .btn {
+		position: inherit;
+		right: inherit;
+		bottom: inherit;
+		width: 76%;
+		margin: 10px auto 0;
+	}
+	.voice_single.stayhome .keyvisual .textBox .inner .voice_num dd {
+		right: 0;
+	}
+	.voice_single .ContBox.bg01.no13,
+	.voice_single .ContBox.bg02.no13,
+	.voice_single .ContBox.bg03.no13 {
+		background-position: inherit;
+	}
+	.voice_single .ContBox.bg01.no14,
+	.voice_single .ContBox.bg02.no14,
+	.voice_single .ContBox.bg03.no14 {
+		background-position: inherit;
+	}
+	.voice_single .ContBox.bg01.no15,
+	.voice_single .ContBox.bg02.no15,
+	.voice_single .ContBox.bg03.no15 {
+		background-position: inherit;
+	}
+}
+
+@media screen and (max-width: 667px) {
+	#voice.archive {
+		background: url("../img/voice/bg_voice02.jpg")no-repeat center center;
+	}
+	.voice_single .keyvisual .image img {
+		width: 100%;
+	}
+	.voice_single .hd {
+		background: #f7f6f1;
+		padding: 1.3em 30px 0;
+		text-align: left;
+		color: #000;
+		margin-top: 15px;
+	}
+	.voice_single .ContBox.bg01.no06 .hd,
+	.voice_single .ContBox.bg01.no07 .hd,
+	.voice_single .ContBox.bg02.no07 .hd {
+		text-align: center;
+	}
+	.voice_single .hd span {
+		display: block;
+		padding-bottom: 1em;
+		position: relative;
+		line-height: 1.4;
+	}
+	.voice_single .hd span:before {
+		content: '';
+		width: 100%;
+		height: 1px;
+		background: #000;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.voice_single .ContBox {
+		margin: 30px 0;
+		padding: 0 !important;
+	}
+	.voice_single .ContBox.bg01,
+	.voice_single .ContBox.bg02,
+	.voice_single .ContBox.bg03 {
+		background: none !important;
+	}
+	.voice_single .ContBox .hd {
+		background: #000;
+		color: #fff;
+		padding: 1em 30px;
+		line-height: 1.4;
+	}
+	.voice_single .ContBox .inner {
+		padding: 0 30px !important;
+		margin-top: -50px;
+		position: relative;
+	}
+	.voice_single .ContBox .inner .comme {
+		border: solid 3px #000;
+		padding: 30px;
+	}
+	.voice_single .ContBox .inner .comme p {
+		line-height: 1.8;
+	}
+	button.lum-gallery-button:hover,
+	button.lum-gallery-button:focus {
+		background: inherit;
+	}
+	.voice_single  .gallery ul {
+		padding: 0 30px;
+	}
+	.voice_single .desc_comme {
+		margin-bottom: 60px;
+	}
+	.voice_single.stayhome .ContBox .inner {
+		padding: 0;
+		margin-bottom: 25px;
+	}
+	
+	.voice_single.stayhome .ContBox .inner .in {
+		padding: 30px 5%;
+	}
+	.voice_single.stayhome .ContBox .inner .in p {
+		line-height: 1.8;
+	}
+	.voice_single .infoBox.nordichouse .bg .inner .logo02 {
+		width: 52%;
+	}
+	.voice_single .infoBox.nordichouse .bg .inner .txt {
+		width: 47%
+	}
+	.voice_single .infoBox.nordichouse .bg .inner .btn {
+		clear: both;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	#voice.archive {
+		background: url("../img/voice/bg_voice02_s.jpg")no-repeat center top;
+		background-size: cover;
+	}
+	#voice .under_contents {
+		padding: 20px 0 0;
+		margin-top: 10px;
+	}
+	#voice.archive {
+		padding-bottom: 20px;
+	}
+	.voice_single .keyvisual .textBox .inner {
+		padding: 0 1.5rem;
+	}
+	.voice_single .keyvisual .textBox .inner .voice_num dt,
+	.voice_single .keyvisual .textBox .inner .voice_num span {
+		font-size: 37px;
+	}
+	.voice_single .keyvisual .textBox .inner .voice_num dd {
+		font-size: 79px;
+	}
+	.voice_single .keyvisual .textBox .inner .tl {
+		font-size: 14px;
+	}
+	.voice_single .keyvisual .textBox .inner:before {
+		top: -37px;
+	}
+	.voice_single .tagList {
+		padding: 0 !important;
+		margin-top: 12px;
+	}
+	.voice_single .tagList li {
+		background: url("../img/voice/ico_tag02.png") no-repeat 7px center;
+		background-size: 12px;
+		margin-bottom: 5px;
+		border-radius: 15px;
+		margin-top: 0;
+		margin-right: 2px;
+	}
+	.voice_single .tagList li a {
+		font-size: 10px;
+		padding: 5px 12px 4px 20px;
+	}
+	.voice_single .hd {
+		font-size: 15px;
+		padding: 1.3em 15px 0;
+	}
+	.voice_single .hd.textc {
+		text-align: center;
+	}
+	.voice_single .textBox01 .under_contents {
+		font-size: 12px;
+		font-weight: normal;
+		padding: 1em 15px;
+	}
+	.voice_single .ContBox .inner {
+		padding: 0 15px !important;
+		margin-top: -40px;
+	}
+	.voice_single .ContBox {
+		margin: 15px 0 !important;
+	}
+	.voice_single .ContBox .hd {
+		padding: 1em 15px;
+	}
+	.voice_single .ContBox .hd br {
+		display: none;
+	}
+	.voice_single .ContBox .inner .comme {
+		padding: 20px;
+	}
+	.voice_single .ContBox .inner .comme p {
+		margin-bottom: 1.3em;
+		font-size: 13px;
+	}
+	.voice_single .gallery h4 {
+		font-size: 24px;
+		background-size: 240px;
+		padding: 30px 0 0;
+		margin-bottom: 20px;
+	}
+	.voice_single  .gallery ul {
+		padding: 0 15px;
+	}
+	.voice_single  .gallery ul li {
+		width: 48%;
+		margin-right: 4%;
+		margin-bottom: 13px;
+	}
+	.voice_single  .gallery ul li:nth-child(2n) {
+		margin-right: inherit !important;
+	}
+	.voice_single  .gallery ul li:nth-child(3n) {
+		margin-right: 4%;
+	}
+	.voice_single .gallery ul li p {
+		font-size: 12px;
+		margin-top: 8px;
+	}
+	.voice_single .desc_comme {
+		font-size: 12px;
+		margin-bottom: 30px;
+		text-align: left;
+	}
+	.voice_single .infoBox {
+		margin-top: 15px;
+	}
+	.voice_single .infoBox .ctl {
+		padding: 0 10%;
+		margin-bottom: 13px;
+	}
+	.voice_single .infoBox .bg {
+		padding: 24px 15px;
+	}
+	.voice_single .infoBox .bg .inner {
+		padding: 25px 20px;
+		text-align: inherit;
+	}
+	.voice_single .infoBox .bg .inner .imgBox{
+		width: 42%;
+	}
+	.voice_single .infoBox.malibu .bg .inner .imgBox {
+		width: 34%;
+		margin-right: 3%;
+	}
+	.voice_single .infoBox .bg .inner .logo01 {
+		width: 13%;
+		margin-left: 0;
+	}
+	.voice_single .infoBox .bg .inner .logo02 {
+		width: 41%;
+		padding-left: 4%;
+	}
+	.voice_single .infoBox.brooklynhouse .bg .inner .logo02 {
+		padding-top: 1em;
+	}
+	.voice_single .infoBox .bg .inner .txt {
+		font-size: 12px;
+		line-height: 1.2;
+	}
+	.voice_single .infoBox .bg .inner .txt {
+		width: 50%;
+		top: 82px;
+		right: 20px;
+	}
+	.voice_single .infoBox.brooklynhouse .bg .inner .txt {
+		top: 70px;
+		right: 4em;
+	}
+	.voice_single .infoBox .bg .inner .btn {
+		margin: 10px auto 0;
+	}
+	.voice_single .infoBox .bg .inner .btn a {
+		background: #fff;
+		font-size: 12px;
+		padding: 12px;
+	}
+	.voice_single .backBtn {
+		margin-top: 8px;
+		padding: 13px 18%;
+	}
+	.voice_single .backBtn a {
+		font-size: 12px;
+		padding: 14px;
+	}
+	.voicearhive {
+		padding-top: 10px;
+	}
+	.voicearhive #voice .in {
+		padding: 20px 0 10px;
+	}
+	.voicearhive .coja {
+		width: 84%;
+		margin: 0 auto;
+	}
+	.voice_single.stayhome .ContBox .inner {
+		border: solid 3px #000;
+		margin-bottom: 20px;
+	}
+	
+	.voice_single.stayhome .ContBox {
+		margin-top: 0 !important;
+	}
+	
+	.voice_single.stayhome .keyvisual .textBox .inner .voice_num dd {
+		right: -23px;
+	}
+	.voice_single.stayhome .keyvisual .textBox .inner .voice_num span.special {
+		font-size: 16px;
+	}
+	.voice_single.stayhome .keyvisual .textBox .inner .voice_num dd img {
+		max-width: 140px;
+	}
+	.voice_single.stayhome .ContBox .inner .title {
+		border-bottom: solid 5px #000;
+		font-size: 15px;
+		padding: 0.7em 1.3em;
+		line-height: 1.4;
+	}
+	.voice_single.stayhome .ContBox .inner .title br {
+		display: block;		
+	}
+	.voice_single.stayhome .ContBox .inner .in {
+		padding: 15px 5%;
+	}
+	.voice_single.stayhome .ContBox .inner .in .pic {
+		padding: 0 30px 30px 0;
+		margin-bottom: 10px;
+	}
+	.voice_single.stayhome .ContBox .inner .in .pic.sp {
+		display: block;
+	}
+	.voice_single.stayhome .ContBox .inner .in .pic:before {
+		height: 2px;
+		bottom: 10px;
+	}
+	.voice_single.stayhome .ContBox .inner .in .pic:after {
+		width: 2px;
+		right: 10px;
+	}
+	.voice_single.stayhome .ContBox .inner .in p {
+		font-size: 13px;
+		line-height: 1.8;
+		margin-bottom: 1.8em;
+	}
+	.voice_single.stayhome .ContBox .inner .gpPic {
+		padding: 0;
+	}
+	.voice_single.stayhome .ContBox .inner .in .pic {
+		padding: 0 30px 30px 0;
+	}
+	.voice_single.stayhome .ContBox .inner .gpPic .pic:nth-child(2),
+	.voice_single.stayhome .ContBox .inner .gpPic .pic:last-child {
+		display: none;
+	}
+	.ContBox.bg02.no02 .hd,
+	.ContBox.bg03.no02 .hd,
+	.ContBox.bg01.no03 .hd,
+	.ContBox.bg03.no03 .hd,
+	.ContBox.bg01.no04 .hd,
+	.ContBox.bg02.no04 .hd,
+	.ContBox.bg03.no04 .hd,
+	.ContBox.bg02.no05 .hd,
+	.ContBox.bg03.no05 .hd,
+	.ContBox.bg01.no09 .hd,
+	.ContBox.bg01.no10 .hd,
+	.ContBox.bg02.no10 .hd,
+	.ContBox.bg03.no10 .hd,
+	.ContBox.bg01.no11 .hd,
+	.ContBox.bg02.no11 .hd,
+	.ContBox.bg03.no11 .hd,
+	.ContBox.bg03.no12 .hd,
+	.ContBox.bg02.no13 .hd {
+		text-align: center;
+	}
+	.voice_single .infoBox.nordichouse .bg .inner .logo02 {
+		width: 41%;
+		margin-left: 1%;
+		padding-top: 0;
+	}
+	.voice_single .infoBox.nordichouse .bg .inner .txt {
+		padding-top: 0;
+	}
+}
+
+
+	

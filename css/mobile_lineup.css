@@ -1,0 +1,3033 @@
+@charset "utf-8";
+.under_contents {
+	width: 100%;
+	padding: 0 40px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.titstylea{
+	text-align: center;
+}
+.titstylea:before{
+	width: 20px;
+	height: 4px;
+	left: 50%;
+	bottom: -4px;
+	transform: translate(-50%,0);
+}
+.titstyleb:before{
+	width: 20px;
+	height: 4px;
+	bottom: -4px;
+}
+
+/*-------------------------------
+max-width:768px lineup ZERO-CUBE
+----------------------------------*/
+.keyvbox {
+	top: 90px;
+	margin-bottom: 85px;
+}
+
+.keyvbox dl{
+	height: auto;
+}
+.keyvbox dl dt{
+	display:block;
+	width: 100%;
+	background: url(../img/lineup/zero-cube/bg01ipad.jpg) center center no-repeat;
+	height: 100vh;
+}
+.keyvbox dl dd{
+	display: block;
+	padding: 22px 70px 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.logolifelabel {
+	width: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.keyvbox dl dd .img{
+	margin-bottom: 40px;
+	text-align: center;
+}
+.keyvbox dl dd .logotxt{
+	margin-bottom: 10px;
+	text-align: center;
+}
+.keyvbox dl dd .txt{
+	margin: 1rem auto 0.5rem;
+}
+.conceptbox{
+	padding: 1.3rem 0 2rem;
+}
+.conceptbox .txtbox{
+	width: 100%;
+}
+.conceptbox .txt{
+	text-align: center;
+	margin-top: 2rem;
+}
+.conceptbox .txtb{
+	margin-top: 2rem;
+	text-align: center;
+}
+.conceptbox .txtb .lartxt{
+	font-size: 19px;
+}
+.conceptbox .youtubebox{
+	float: left;
+	width: 100%;
+	padding-left: 0px;
+	margin-top: 2rem;
+}
+.conceptbox .youtubebox .youtubein{
+	width: 100%;
+	height: 434px;
+}
+
+.meritbox {
+	margin-top: 1rem;
+}
+.meritbox dl{
+	margin-top: 20px;
+	display: block;
+	min-height: inherit !important;
+}
+.meritbox dl dt{
+	display: block;
+	height: 400px;
+	width: 100%;
+	background: url(../img/lineup/zero-cube/bg02_tab.jpg) center bottom no-repeat;
+	background-size: cover;
+}
+.meritbox dl dd{
+	display: block;
+	padding: 2rem 40px;
+}
+.meritbox dl dd .meritli{
+	width: 100%;
+	margin-top: 0;
+}
+.merit dl dd li{
+	margin-top: 20px;
+}
+.meritbox dl dd .meritli li {
+	margin-bottom: 1.3rem;
+}
+.meritbox dl dd .meritli li:last-child {
+	margin-bottom: 0;
+}
+
+.planbox{
+	padding: 1.3rem 0 2rem;
+}
+.planbox .planin{
+	padding: 20px 0 0;
+	display: block;
+}
+.planbox .leftimg{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 20px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0 25px;
+}
+.planbox .bottimg{
+	margin-bottom: 25px;
+}
+.planbox .txtbox{
+	display: block;
+	padding: 0 28px;
+}
+.planbox .plandl dt .dtbox{
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	font-size: 12px;
+}
+.planbox .plandl dt:last-child,
+.planbox .plandl dd{
+	padding-left: 15px;
+	font-size: 11px;
+}
+.planbox .pricebox{
+	padding: 10px 0;
+	display: block;
+	text-align: center;
+}
+.planbox .pricebox .txt{
+	font-size: 12px;
+}
+.planbox .pricebox .pricein{
+	font-size: 24px;
+	text-align: center;
+	line-height: 1;
+}
+.planbox .pricebox .pricein .priin{
+	font-size: 12px;
+}
+.planbox .arrange {
+	margin-top: 2rem;
+}
+.subfunbox {
+	background: url(../img/lineup/zero-cube/bg03_tab.jpg) center center no-repeat;
+}
+.subfunbox .subfuninfo {
+	vertical-align: top;
+	padding-top: 3rem;
+}
+.subfunbox .subfuninfo .tit{
+	width: 120px;
+	height: 120px;
+	margin: 0 auto 1.3rem 0;
+	line-height: 120px;
+	font-size: 24px;
+}
+.subbox{
+	padding: 20px 0;
+}
+.frame{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.subbox .frame .tit{
+	margin-bottom: 10px;
+}
+.subbox .frame .titin{
+	line-height: 20px;
+	height: 20px;
+	padding: 0 6px;
+	font-size: 10px;
+}
+.subbox .frame .tabbox{
+	padding: 0 20px;
+}
+
+.subbox .txtbox .txt br {
+	display: none;
+}
+
+
+.boxser .titstyle{
+	padding: 10px 0 5px;
+	font-size: 20px;
+	margin-top: 2rem;
+	margin-bottom: 0;
+}
+.boxser .titstyle .ffa{
+	font-size: 11px;
+}
+.boxser .boxserli>ul>li{
+	padding: 20px 0;
+}
+.boxser .boxserli>ul>li+li{
+	border-top: 1px solid #000;
+}
+.boxser .boxserli li dt .img{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.boxser .boxserli li dt .txtbox{
+	float: left;
+	padding:0;
+	background: none;
+	width: 100%;
+}
+.boxser .boxserli li dt .btn{
+	width: 40%;
+	border: 2px solid #000;
+	margin: 2rem auto;
+	padding: 1.3em 1em;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	background: url(../img/lineup/zero-cube/ico03.png) right 20px center no-repeat;
+	background-size: 8px;
+	font-size: 1.2em;
+}
+.boxser .boxserli li dd .btn{
+	width: 40%;
+	margin: 2rem auto;
+	padding: 1.3em 1em;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	border: 2px solid #000;
+	box-sizing: border-box;
+	background: url(../img/lineup/zero-cube/ico_up.png) right 20px center no-repeat #fff;
+	background-size: 8px;
+	font-size: 1.2em;
+}
+.boxser .boxserli li dt.on .txtbox{
+	background: none;
+}
+.boxser .boxserli li dt.on .btn{
+	display: none;
+}
+.boxser .boxserli li dt .txtbox .tit{
+	line-height: 1.1;
+}
+.boxser .boxserli li dt .txtbox .tit sup{
+	font-size: 0.7em;
+}
+.boxser .boxserli li dt .txtbox .tittxt{
+	margin-bottom: 5px;
+}
+.boxser .boxserli li dt .txtbox .txt sup{
+	font-size: 10px;
+}
+.boxser .boxserli li dd{
+	margin-top: 10px;
+}
+.boxser .boxserli li dd .boxa {
+	margin-bottom: 5px;
+	padding-top: 1rem;
+}
+.boxser .boxserli li dd .boxa .txtbox{
+	width: 100%;
+	padding: 0;
+}
+.boxser .boxserli li dd .boxa .txtbox .pritxt{
+	font-size: 10px;
+}
+.boxser .boxserli li dd .boxa .txtbox .note{
+	font-size: 10px;
+}
+.boxser .boxserli li dd .boxa .txtbox .dlbox .left .leftin{
+	width: 55px;
+	height: 55px;
+	font-size: 12px;
+}
+.boxser .boxserli li dd .boxa .txtbox .dlbox .left .leftin span {
+	font-size: inherit;
+}
+.boxser .boxserli li dd .boxa .txtbox .dlbox .right{
+	font-size: 11px;
+}
+.boxser .boxserli li dd .boxa .txtbox .pribox{
+	padding: 10px 0;
+}
+.boxser .boxserli li dd .boxa .txtbox .pribox .name{
+	font-size: 12px;
+}
+.boxser .boxserli li dd .boxa .txtbox .pribox .name sup{
+	font-size: 10px;
+}
+.boxser .boxserli li dd .boxa .txtbox .pribox .prinum {
+	font-size: 24px;
+	line-height: 1;
+}
+.boxser .boxserli li dd .boxa .txtbox .pribox .prinum .ffa{
+	font-size: 12px;
+}
+.boxser .boxserli li dd .boxa .imgbox{
+	width: 100%;
+	margin-bottom: 17px;
+}
+.boxser .boxserli li dd .boxa .imgbox .tit{
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.boxser .boxserli li dd .boxb .picli {
+	margin: 0;
+}
+.boxser .boxserli li dd .boxb .picli ul{
+	margin-left: -14px;
+}
+
+.boxser .boxserli li dd .boxb .picli li{
+	width: 33%;
+	padding-left: 14px;
+	margin-top: 2rem;
+}
+.boxser .boxserli li dd .boxb .picli li .tit{
+	margin-bottom: 5px;
+}
+.boxser .boxserli li dd .boxb .picli li .img{
+	margin-bottom: 5px;
+}
+.boxser .boxserli li dd .boxb .picli li .img img {
+	width: 100%;
+}
+.boxser .boxserli li dd .boxb .picli li .litxt{
+	position: relative;
+	font-size: 10px;
+	padding-left: 10px;
+}
+.boxser .boxserli li dd .boxb .picli li .litxt+.litxt{
+	margin-top: 5px;
+}
+.boxser .boxserli li dd .boxb .picli li .litxt:before{
+	font-size: 10px
+}
+.eventbtn {
+	margin-top: 0;
+}
+.eventbtn a{
+	width: 100%;
+	background: url(../img/lineup/zero-cube/ico_event.png) 1em center no-repeat;
+	padding: 1.2em 1em;
+}
+/*--- max-width:768px lineup ZERO-CUBE STEPFLOOR ---*/
+.zero-cube-Stepfloor .logotxt {
+	width: auto;
+}
+.zero-cube-Stepfloor .logolifelabel {
+	width: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.zero-cube-Stepfloor .keyvbox dl dt {
+	background: url(../img/lineup/zero-cube-stepfloor/bg_stepfloor01_tab.jpg) no-repeat center bottom;
+	background-size: cover;
+}
+.zero-cube-Stepfloor .titstylea.concept:before {
+	right: inherit;
+}
+.zero-cube-Stepfloor .meritbox.p01 {
+	background: #fff url(../img/lineup/zero-cube-stepfloor/bg02_stepfloor_tab.jpg) no-repeat center 89px;
+}
+.meritbox.p01 dl {
+	width: inherit;
+	min-height: inherit;
+	margin: 0 auto;
+}
+.meritbox.p01 dl dt,
+.meritbox.p03 dl dt,
+.meritbox.p05 dl dt,
+.meritbox.p07 dl dt {
+	display: inherit;
+	padding: 2rem 40px;
+	margin-top: 424px;
+	height: inherit;
+}
+.meritbox.p01 dl dd,
+.meritbox.p03 dl dd,
+.meritbox.p05 dl dd,
+.meritbox.p07 dl dd {
+	padding: 0;
+}
+.meritbox.p01 dl .meritli,
+.meritbox.p03 dl .meritli,
+.meritbox.p05 dl .meritli,
+.meritbox.p07 dl .meritli {
+	width: auto;
+	margin-top: 0;
+}
+.zero-cube-Stepfloor .meritbox.p02 dl dt {
+	background: url(../img/lineup/zero-cube-stepfloor/bg03_stepfloor.jpg) no-repeat center center;
+}
+.zero-cube-Stepfloor .meritli li p {
+	width: inherit;
+}
+.zero-cube-Stepfloor dl dd .txt {
+	margin-bottom: 1.3em !important;
+}
+.drawing {
+	position: inherit;
+}
+.zero-cube-Stepfloor .meritbox.p03 {
+	background: #fff url(../img/lineup/zero-cube-stepfloor/bg04_stepfloor_tab.jpg) no-repeat center 89px;
+	
+}
+.meritbox.p02 dl {
+	margin-bottom: 0;
+}
+.meritbox.p03 dl,
+.meritbox.p05 dl,
+.meritbox.p07 dl {
+	width: auto;
+}
+.zero-cube-Stepfloor .meritbox.p03 dl {
+	min-height: inherit;
+}
+/*--- max-width:768px lineup ZERO-CUBE KAI ---*/
+.zero-cube-Kai .keyvbox dl dt {
+	background: url(../img/lineup/zero-cube-kai/bg_kai01_tab.jpg) no-repeat center bottom;
+	background-size: cover;
+}
+.zero-cube-Kai .logolifelabel {
+	float: inherit;
+	margin-right: auto;
+	padding-top: 0;
+}
+.zero-cube-Kai .titstylea.concept:before {
+	right: inherit;
+}
+.zero-cube-Kai .meritli li p {
+	width: inherit;
+}
+.zero-cube-Kai .meritbox dl {
+	margin: auto;
+}
+.zero-cube-Kai .meritbox.p01 {
+	background: #fff url(../img/lineup/zero-cube-kai/bg02_kai_tab.jpg) no-repeat center 89px;
+}
+.zero-cube-Kai .meritbox.p02 dl dt {
+	background: url(../img/lineup/zero-cube-kai/bg03_kai_tab.jpg) no-repeat center center;
+	margin-top: 20px;
+}
+.zero-cube-Kai .meritbox.p03 {
+	background: #fff url(../img/lineup/zero-cube-kai/bg04_kai_tab.jpg) no-repeat center 89px;
+}
+.zero-cube-Kai .meritbox.p04 dl dt {
+	background: url(../img/lineup/zero-cube-kai/bg05_kai_tab.jpg) no-repeat center center;
+	margin-top: 20px;
+}
+.zero-cube-Kai .meritbox.p05 {
+	background: #fff url(../img/lineup/zero-cube-kai/bg06_kai_tab.jpg) no-repeat center 89px;
+}
+.zero-cube-Kai .meritbox.p06 dl dt {
+	background: url(../img/lineup/zero-cube-kai/bg07_kai_tab.jpg) no-repeat center center;
+	margin-top: 20px;
+}
+.zero-cube-Kai .meritbox.p07 {
+	background: #fff url(../img/lineup/zero-cube-kai/bg08_kai_tab.jpg) no-repeat center 89px;
+}
+.zero-cube-Kai .boxser .boxserli li dt .txtbox .tit {
+	font-size: 23px;
+	padding: 0.3em;
+}
+.zero-cube-Kai .boxser .boxserli li dt .txtbox:after {
+	content: '';
+	display: block;
+	width: 18px;
+	height: 18px;
+	border-top: 4px solid #fff;
+	border-right: 4px solid #fff;
+	-webkit-transform: rotate(135deg);
+	transform: rotate(135deg);
+	position:absolute;
+	bottom:16px;
+	left:0;
+	right:0;
+	margin:0 auto;
+}
+.zero-cube-Kai .boxser .boxserli li dt .txtbox,
+	.zero-cube-Kai .boxser .boxserli li dt.on .txtbox {
+	background: none;
+}
+.zero-cube-Kai .boxser .boxserli li dt.on .txtbox:after {
+	display: none;
+}
+.zero-cube-Kai .planbox {
+	padding-top: 1.3rem;
+}
+.zero-cube-Kai .planbox .txtbox {
+	padding: 0;
+}
+.zero-cube-Kai .boxser .boxserli li dd {
+	padding-bottom: 0;
+	margin-top: 300px;
+}
+.zero-cube-Kai .planbox .planin.last {
+	padding: 20px 0 0;
+}
+.zero-cube-Kai .planbox .planin.last .leftimg,
+.zero-cube-Kai .planbox .planin.last .txtbox {
+	display: table-cell;
+}
+.zero-cube-Kai .planbox .planin.last .leftimg {
+	width: 60%;
+}
+.zero-cube-Kai .planbox .planin.last .txtbox {
+	width: 40%;
+}
+.txtplan {
+	width: inherit;
+}
+/*--- max-width:768px lineup ZERO-CUBE MINI ---*/
+.zero-cube-Mini .keyvbox dl dt {
+	background: url(../img/lineup/zero-cube-mini/bg_mini01_tab.jpg) no-repeat center center;
+	background-size: cover;	
+}
+.zero-cube-Mini .logolifelabel {
+	float: inherit;
+	margin-right: auto;
+	padding-top: 0;
+}
+.zero-cube-Mini .meritbox dl {
+	margin: auto;
+}
+.zero-cube-Mini .logolifelabel {
+	margin-bottom: 40px;
+}
+.zero-cube-Mini .titstylea.concept:before {
+	right: inherit;
+}
+.zero-cube-Mini .conceptbox {
+	background: #f7f6f1;
+	margin-top: 2rem;
+}
+.zero-cube-Mini .conceptbox .txtbox {
+	padding: 20px 20px 0;
+}
+.zero-cube-Mini .youtubebox {
+	padding: 0 0 2rem;
+}
+.zero-cube-Mini .youtubebox p {
+	color: inherit;
+}
+.zero-cube-Mini .meritbox {
+	margin-top: 2rem;
+}
+.zero-cube-Mini .meritbox dl dt {
+	margin-top: 20px;
+}
+.zero-cube-Mini .meritbox dl .meritli ul {
+	width: inherit;
+}
+.zero-cube-Mini .under_contents .tab_btn_box {
+	width: auto;
+	margin: 2rem auto;
+}
+.zero-cube-Mini .under_contents .tab_btn_box li {
+	padding: 0.8em 1em;
+}
+.zero-cube-Mini .planbox .leftimg {
+	padding: 0;
+}
+.zero-cube-Mini .planbox .leftimg img {
+	float: left;
+	width: 40%;
+	margin: 0 5%;
+}
+.zero-cube-Mini .planbox .plandl {
+	clear: both;
+}
+.zero-cube-Mini .planbox .pricebox .txt br {
+	display: none;
+}
+.zero-cube-Mini .planbox .plandl {
+	margin: 15px 0;
+}
+.zero-cube-Mini .planbox .pricebox .txt {
+	line-height: inherit;
+}
+.zero-cube-Mini .fun .planin {
+	width: auto;
+	margin: 0 auto 1rem;
+}
+.zero-cube-Mini .planbox .tab_content02 .leftimg img {
+	width: 44%;
+	margin: 0 3%;
+}
+.zero-cube-Mini .fun .under_contents {
+	padding: 0;
+}
+.zero-cube-Mini .fun .leftimg,
+.zero-cube-Mini .fun .txtbox {
+	display: table-cell;
+}
+.zero-cube-Mini .fun .leftimg img {
+	width: 92%;
+}
+.zero-cube-Mini .fun .planbox .img {
+	max-width: 96%;
+}
+.zero-cube-Mini .fun .pricebox {
+	padding: 1em;
+}
+.zero-cube-Mini .fun .under_contents .tab_btn_box {
+	margin: 0 auto 2rem;
+}
+.zero-cube-Mini .boxser .boxserli li dd .boxb .picli ul {
+	width: auto;
+	margin-left: -14px;
+}
+.zero-cube-Mini .planbox .txtbox {
+	padding-left: 0;
+}
+/*--- max-width:768px lineup BENTO HOUSE ---*/
+.bento-house .keyvbox dl dt {
+	background: url("../img/lineup/bento-house/bg_bentohouse01_sp.jpg")no-repeat center bottom;
+	background-size: cover;
+} 
+.bento-house .keyvbox dl dd {
+	background: url("../img/lineup/bento-house/img_meritbox_bentohouse01_tab.jpg")no-repeat center top;
+	padding-bottom: 40px;
+}
+.bento-house .keyvbox dl dd .txt {
+	width: 457px;
+}
+.bento-house .titstylea.concept:before {
+	right: inherit;
+}
+.bento-house .meritbox.p03 {
+	background: url("../img/lineup/bento-house/bg_bentohouse03_tab.jpg") no-repeat center 89px;
+	background-size: 100%;
+}
+.bento-house .meritbox.p03:before {
+	width: 100%;
+	height: 70%;
+	top: 514px;
+}
+.bento-house .meritbox.p03 dl {
+	width: auto;
+	margin-bottom: 0;
+}
+.bento-house .meritbox.p03 dl dt {
+	padding: 2rem 40px;
+	margin-top: 444px;
+	margin-left: 30px;
+	margin-right: 30px;
+	width: inherit;
+}
+.bento-house .meritbox.p03 dl .meritli {
+	margin-top: 0;
+}
+.bento-house .planbox .leftimg {
+	padding-right: 8%;
+}
+.bento-house .planbox .bottimg {
+	text-align: center;
+}
+.bento-house .planbox .txtbox {
+	padding-right: 28px;
+}
+/*--- max-width:768px lineup BROOKLYN HOUSE ---*/
+.Brooklyn-house .keyvbox {
+	background: url("../img/lineup/brooklyn-house/bg_brooklynhouse01.jpg") no-repeat 30% center;
+	background-size: cover;
+}
+.Brooklyn-house .keyvbox h2 {
+	width: auto;
+	padding-top: 60px;
+	padding-right: 2%;
+}
+.Brooklyn-house .conceptbox .txtbox {
+	width: inherit;
+}
+.Brooklyn-house .conceptbox .youtubebox {
+	width: inherit;
+	padding-left: 0;
+}
+.Brooklyn-house .conceptbox .youtubebox .youtubein {
+	width: 100%;
+	height: 434px;
+}
+.Brooklyn-house .sp-horizontal .sp-arrows {
+	display: none;
+}
+.Brooklyn-house .sp-mask {
+	height: 660px !important;
+}
+.Brooklyn-house .pointCont .sp-slide .box .textbox {
+	width: 100%;
+	min-height: 400px;
+	pointer-events: inherit;
+	top: inherit !important;
+	bottom: inherit !important;
+	left: inherit !important;
+	right: inherit !important;
+}
+.Brooklyn-house .pointCont .sp-slide .box .textbox .title h3 br:last-child {
+	display: none;
+}
+.Brooklyn-house .pointCont .sp-slide .box .textbox p br {
+	display: none;
+}
+.Brooklyn-house .planbox .inner .plan02 .pricebox {
+	right: 40px;
+}
+.Brooklyn-house .subfunbox {
+	background: url("../img/lineup/brooklyn-house/bg_brooklynhouse02_tab.jpg") no-repeat center center;
+}
+#entry_list_more ul li {
+	min-height: 456px;
+}
+#entry_list_more ul li h4 {
+	font-size: 18px;
+}
+/*-------------------------------
+max-width:768px lineup WTW HOUSE PROJECT
+----------------------------------*/
+.WtwhouseProject .mainimg {
+	padding: 30px 0;
+	background-size: cover !important;
+	margin-top: 20px;
+}
+.WtwhouseProject .mainimg .title {
+	max-width: 300px;
+	margin: auto;
+}
+.WtwhouseProject .mainimg .tittxt {
+	font-size: 22px;
+}
+.WtwhouseProject .illust {
+	text-align: center;
+	padding: 50px 12%;
+}
+.WtwhouseProject .evetextbox .txt {
+	text-align: center;
+}
+
+/*-------------------------------
+max-width:768px lineup ZERO-CUBE TOOLS
+----------------------------------*/
+.Tools .mainimg .title {
+	width: 60%;
+	text-align: center;
+	margin: 0 auto;
+}
+.Tools .mainimg .cg {
+	position: inherit;
+	top: inherit;
+	right: inherit;
+	padding-left: 15%;
+}
+.Tools .mainimg .tittxt {
+	font-size: 22px;
+	padding-top: 30px;
+}
+.Tools .mainimg .day .ffc {
+	font-size: 36px;
+}
+.Tools .mainimg .day .ffb {
+	font-size: 20px;
+}
+.Tools .evetextbox .title {
+	font-size: 36px;
+	text-align: center;
+	margin-top: 0;
+}
+.Tools .evetextbox .txt {
+	text-align: center;
+}
+.Tools .evetextbox .txt br {
+	display: none;
+}
+.Tools .evetextbox .ob01 {
+	position: inherit;
+	top: inherit;
+	right: inherit;
+	text-align: center;
+}
+.Tools .evetextbox .ob02 {
+	position: inherit;
+	bottom: inherit;
+	left: inherit;
+	margin: auto;
+}
+
+/*-------------------------------
+max-width:768px event ZERO-CUBE
+----------------------------------*/
+.mainimg{
+	height: auto;
+	background: none !important;
+}
+.mainimg .mainimgin{
+	padding-top: 22px;
+}
+.mainimg .bgbox{
+	line-height: 1.2;
+	padding: 0;
+	margin-bottom: 0;
+	height: 1.2em;
+	text-align: left;
+}
+.mainimg .day .bgbox br {
+	display: none;
+}
+
+.mainimg .day .bgbox .and {
+	font-weight: normal;
+}
+.mainimg .boxLogo,
+.mainimg .boxLogo02 {
+	display: none;
+}
+.mainimg .tit{
+	text-align: center;
+	margin: 30px auto 40px;
+}
+.mainimg .tit img{
+	margin: 0;
+}
+.mainimg .tit img {
+	vertical-align: middle;
+}
+.mainimg .tit img:first-child {
+	margin-right: 30px;
+}
+.mainimg .tittxt{
+	font-size: 24px;
+	line-height: 1.6;
+	margin-bottom: 0.6rem;
+}
+.mainimg .day {
+	margin-bottom: 0;
+}
+.mainimg .time{
+	line-height: 1.2;
+	margin-bottom: 10px;
+}
+.mainimg .time .start{
+	margin-right: 5px;
+}
+.mainimg .bgmainig{
+	height: 400px;
+	background: url(../img/event/mainimg_tab.jpg) center center no-repeat;
+	background-size: cover;
+	margin-top: 0.5rem;
+}
+.evetextbox .txt{
+	padding: 13px 0 !important;
+	line-height: 1.7;
+	text-align: left;
+}
+.evetextbox .txt .ffb{
+	font-size: 20px;
+}
+.eveplanbox{
+	padding: 2rem 0 0;
+}
+.evegallbox .ovhid{
+	padding:10px 0 12px;
+}
+.gallery ul{
+	margin-left: -20px;
+	margin-top: -20px;
+}
+.gallery ul li {
+	width: 20%;
+	padding-left: 20px;
+	margin-top: 20px;
+}
+.gallery ul li a img {
+	width: 100%;
+}
+.gallery {
+	padding: 15px 0;
+	margin-bottom: 1rem;
+}
+.port {
+	padding: 30px 0;
+}
+.port .tit{
+	margin-bottom: 10px;
+}
+.port .txt{
+	margin-top: 10px;
+}
+.port.item_open {
+	margin-top: 90px;
+}
+.close {
+	right: 2em;
+	top: 0;
+}
+.evecombox{
+	padding: 15px 0 20px;
+}
+.evecombox .txtbox{
+	margin-bottom: 15px;
+}
+.evecombox .txtbox .txt{
+	padding: 20px ;
+}
+.evecombox .boxArrange {
+	margin: 0 auto 1.5rem;
+}
+.evecombox .boxArrange p:first-child {
+	margin-bottom: 1rem;
+}
+.evecombox .boxArrange p span{
+	font-size: 1.7em;
+}
+.boxAttension {
+	margin-top: 24px;
+	margin-bottom: 24px;
+	text-align: left;
+}
+.evetable {
+	width:100%;
+}
+.evetable th {
+	width:90px;
+	font-weight:normal;
+	padding:8px 0 8px 15px;
+	vertical-align:top;
+}
+.evetable .evetablebg {
+	background:#efefef;
+}
+.evetable td {
+	padding:8px 5px 8px 17px;
+}
+.evetable td p + p {
+	margin:0;
+}
+.evetabletxt {
+	display: block;
+}
+.evetabletxt .txt {
+	display: block;
+	line-height: inherit;
+}
+.evetabletxt .link {
+    top: -26px;
+    left: 10.5em;
+}
+.evetabletxt .link.gm {
+	top: -3px;
+	left: 21.5em;
+}
+.evetabletxt .link.gm a img {
+	width: 24px;
+}
+.evetabletxt .link a {
+	text-decoration:underline;
+}
+.evetabletxt .link a img {
+	width:30px;
+}
+
+.eveinfobox {
+	padding: 1em;
+}
+.eveinfobox .eveinfo,
+.eveinfobox .eveinfo dt,
+.eveinfobox .eveinfo dt .tabbox,
+.eveinfobox .eveinfo dt .tabbox .size {
+	display: block;
+}
+.eveinfobox .tit {
+	margin-bottom: 0.3em;
+}
+.eveinfobox .eveinfo dt .tabbox {
+	width: inherit;
+	height: inherit;
+	margin-bottom: 0.3em;
+}
+.eveinfobox .eveinfo dd {
+	padding-left: 0;
+}
+.evereser {
+	margin-bottom: 0;
+}
+.evereser .under_contents {
+	padding:0 !important;
+}
+.everesertit {
+	padding: 0.8em 0;
+}
+.evereserpanle {
+	padding:13px 0 0;
+}
+.evereserbox01 {
+	float:none;
+	width:100%;
+	margin-bottom:18px;
+}
+.evereserbox01 p + p {
+	margin:18px 0 0;
+}
+.evereserbox02 {
+	float:none;
+	width:100%;
+	margin-bottom: 20px;
+}
+.evereserbox02 .tel {
+	margin:15px auto;
+	max-width:220px;
+}
+.evereserbox02 .tel .studio {
+	width: auto;
+	padding-top: 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+.evereserbox02 .tel .studio .sma {
+	font-size: 1em;
+}
+.evereserbox02 .tel a {
+	font-size:18px;
+	display:block;
+	padding:10px 0;
+	border:1px solid #000;
+	pointer-events:inherit;
+	text-decoration: none;
+}
+.evereserbox02 .tel a span {
+	display:block;
+	padding:0;
+	position:relative;
+}
+.evereserbox02 .tel a span:before {
+	background-size:100%;
+	width:20px;
+	height:30px;
+	left:10px;
+	top:50%;
+	margin-top:-15px;
+}
+.evereserbox02 .txtBox {
+	display: block;
+	border: double 3px #000;
+	box-sizing: border-box;
+	max-width: 78%;
+	font-weight: 500;
+	text-align: left;
+	text-decoration: underline;
+	padding: 0.7em 1.3em;
+	margin: 15px auto 0;
+}
+/*--- max-width:768px event ZERO-CUBE STEPFLOOR ---*/
+.zero-cube-Stepfloor .mainimg .bgmainig {
+	background: url(../img/event/mainimg_stepfloor_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+.zero-cube-Stepfloor .mainimg .tit {
+	margin: 50px auto 60px;
+}
+.zero-cube-Stepfloor .eveplanbox .eveplanin li:nth-child(3) {
+	padding: 40px 60px 0;	
+}
+/*--- max-width:768px event ZERO-CUBE KAI ---*/
+.zero-cube-Kai .mainimg .bgmainig {
+	background: url(../img/event/mainimg_kai_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+.zero-cube-Kai .evetextbox {
+	padding: 0;
+}
+.zero-cube-Kai .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+/*--- max-width:768px event ZERO-CUBE MINI ---*/
+.zero-cube-Mini .mainimg .bgmainig {
+	background: url(../img/event/mainimg_mini_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+.zero-cube-Mini .evetextbox {
+	padding: 0;
+}
+.zero-cube-Mini .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.zero-cube-Mini .evetextbox .txt:last-child {
+	padding-bottom: 0;
+}
+/*--- max-width:768px event BENTO HOUSE ---*/
+.bento-house .mainimg .textBox {
+	display: inherit;
+	padding: 0;
+}
+.bento-house .mainimg .bgmainig {
+	background: url(../img/event/mainimg_bentohouse_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+.bento-house .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.bento-house .evetextbox .txt br {
+	display: none;
+}
+.bento-house .evetextbox {
+	padding: 0;
+}
+/*--- max-width:768px event BROOKLYN HOUSE ---*/
+.brooklyn-house .mainimg .bgmainig {
+	background: url(../img/event/mainimg_brooklynhouse_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+.brooklyn-house .eveplanbox .eveplanin li:nth-child(3) img {
+	position: inherit;
+	top: inherit;
+	left: inherit;
+	max-width: 100%;
+}
+.brooklyn-house .eveplanbox .eveplanin li .table {
+	display: inherit;
+	vertical-align: inherit;
+	height: inherit;
+}
+.brooklyn-house .eveinfobox {
+	padding: 20px 30px;
+}
+.brooklyn-house .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.brooklyn-house .evetextbox {
+	padding: 0;
+}
+/*--- max-width:768px event HOUSE CANVAS ---*/
+.house-canvas .mainimg .bgmainig {
+	background: url(../img/event/mainimg_housecanvas_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+.house-canvas .evetextbox {
+	padding: 0;
+}
+
+.house-canvas .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.house-canvas .eveplanbox .eveplanin li:last-child .eveinfobox {
+	width: auto;
+}
+.house-canvas .eveplanbox .eveplanin li {
+	padding: 0 60px;
+}
+.house-canvas .eveplanbox .eveplanin li:last-child {
+	padding: 0 20px;
+}
+.house-canvas .eveplanbox .eveplanin.zero-cube li:nth-child(2) {
+	margin-left: 0;
+}
+.limitted_event .inner {
+	width: auto;
+}
+.limitted_event .inner .desc {
+	padding-left: 35px;
+	width: 450px;
+}
+.limitted_event .inner .freedial {
+	width: auto;
+}
+/*--- max-width:768px event DAYTONA HOUSE TYPE-B ---*/
+.daytona-house .mainimgin {
+	background: #000;
+	padding-top: 100px;
+	padding-bottom: 50px;
+	margin-bottom: 20px;
+}
+.daytona-house .mainimg .tit {
+	display: none;
+	background: #333;
+	padding: 10px;
+	margin: 30px auto 20px;
+}
+.daytona-house .mainimg .tittxt {
+	color: #fff;
+}
+.daytona-house .mainimg .tit img:first-child,
+.daytona-house .mainimg .tit img {
+	width: inherit;
+	margin-right: 0;
+}
+.daytona-house .mainimg .bgmainig {
+	background: url(../img/event/mainimg_daytonahouse_tab.jpg) center center no-repeat;
+	background-size: cover;
+}
+.daytona-house .evetextbox {
+	padding: inherit;
+}
+.daytona-house .evetextbox .txt {
+	padding: 10px 0;
+	font-size: 17px;
+    line-height: 1.7;
+    text-align: left;
+}
+.daytona-house .evetextbox .txt br {
+	display: none;
+}
+.daytona-house .evetextbox .txt .ffb {
+	font-size: 20px;
+}
+/*--- max-width:768px event DAYTONA HOUSE GLB ---*/
+.daytona-house.glb .mainimg .bgmainig {
+	background: url(../img/event/mainimg_glb_tab.jpg) center center no-repeat;
+	background-size: cover;
+	
+}
+.daytona-house.glb .evetextbox .txt .ffb {
+	font-size: 20px;
+}
+/*--- max-width:768px event HYVA AND STYLE ---*/
+.hyva .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.hyva .mainimg .bgmainig {
+	background: url(../img/event/mainimg_hyva_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+/*--- max-width:768px event NORDIC HOUSE ---*/
+.NordicHouse .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.NordicHouse .mainimg .bgmainig {
+	background: url(../img/event/mainimg_nordichouse_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+/*--- max-width:768px event Blanc Ange ---*/
+.BlancAnge .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.BlancAnge .mainimg .bgmainig {
+	background: url(../img/event/mainimg_blancange_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+/*--- max-width:768px event BLOSSOM03 ---*/
+.Blossom03 .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.Blossom03 .mainimg .bgmainig {
+	background: url(../img/event/mainimg_blossom03_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+/*--- max-width:768px event HOLIDAY HOUSE ---*/
+.Holidayhouse .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.Holidayhouse .mainimg .bgmainig {
+	background: url(../img/event/mainimg_holidayhouse_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+/*--- max-width:768px event Tin House ---*/
+.Tinhouse .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.Tinhouse .mainimg .bgmainig {
+	background: url(../img/event/mainimg_tinhouse_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+
+/*--- max-width:768px event casita ---*/
+.casita .mainimg .bgmainig {
+	background: url(../img/event/mainimg_casita_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+.casita .evetextbox {
+	padding: 0;
+}
+.casita .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+/*--- max-width:768px event Sunny Track House ---*/
+.sunnytrackhouse .mainimg .bgmainig {
+	background: url(../img/event/mainimg_sunnytrackhouse_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+.sunnytrackhouse .evetextbox {
+	padding: 0;
+}
+.sunnytrackhouse .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.sunnytrackhouse .evetextbox .txt:last-child {
+	padding-bottom: 0;
+}
+
+/*--- max-width:768px event Mr.Standard ---*/
+.mrstandard .mainimg .bgmainig {
+	background: url(../img/event/mainimg_mrstandard_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+.mrstandard .evetextbox {
+	padding: 0;
+}
+.mrstandard .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.mrstandard .evetextbox .txt:last-child {
+	padding-bottom: 0;
+}
+/*--- max-width:768px event amadanabase ---*/
+.amadanabase .mainimg .bgmainig {
+	background: url(../img/event/mainimg_amadanabase_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+.amadanabase .evetextbox {
+	padding: 0;
+}
+.amadanabase .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.amadanabase .evetextbox .txt:last-child {
+	padding-bottom: 0;
+}
+/*--- max-width:768px event THE HOUSE GARAGE PROJECT ---*/
+.gordonmiller .mainimg .bgmainig {
+	background: url(../img/event/mainimg_gordonmiller_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+.gordonmiller .evetextbox {
+	padding: 0;
+}
+.gordonmiller .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.gordonmiller .evetextbox .txt:last-child {
+	padding-bottom: 0;
+}
+/*--- max-width:768px event SOUSOU ---*/
+.sousou .mainimg .bgmainig {
+	background: url(../img/event/mainimg_sousou_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+.sousou .evetextbox {
+	padding: 0;
+}
+.sousou .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.sousou .evetextbox .txt:last-child {
+	padding-bottom: 0;
+}
+/*--- max-width:768px event DULTON HOME ---*/
+.dultonhome .mainimg .bgmainig {
+	background: url(../img/event/mainimg_dultonhome_tab.jpg) no-repeat center center;
+	background-size: cover;
+}
+.dultonhome .evetextbox {
+	padding: 0;
+}
+.dultonhome .evetextbox .txt .ffb {
+	font-size: inherit;
+}
+.dultonhome .evetextbox .txt:last-child {
+	padding-bottom: 0;
+}
+/*--- max-width:768px online ---*/
+.online .evecombox .under_contents {
+	padding: 0;
+}
+.online .evecombox .under_contents .under_contents {
+	padding: 0 40px;
+}
+.online .ol-cont-01 {
+	margin: 0 0 50px;
+}
+.online .ol-cont-01 ul {
+	margin-top: 7px;
+}
+.online .ol-cont-01 ul li {
+	display: block;
+	background: none;
+}
+.online .ol-cont-01 ul li span {
+	display: inline;
+	background: linear-gradient(transparent 60%, #fffca3 60%);
+	padding: 2px 0 2px 16px;
+	position: relative;
+}
+
+.online .ol-cont-01 ul li span:before {
+	content: '';
+	background: url("../img/online_ico05.png") no-repeat left center ;
+	background-size: 100%;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+.online .ol-cont-01 ul li+li {
+	margin-left: 0;
+}
+.online .ol-cont-01 .splink {
+	display: block;
+	margin-top: 20px;
+	text-align: center;
+}
+.online .ol-cont-01 .splink li {
+	display: inline;
+	width: 48%;
+	margin-right: 4%;
+}
+.online .ol-cont-01 .splink li:last-child {
+	margin-right: 0;
+}
+.online .ol-cont-02 .step h3 {
+	font-size: 15px;
+	line-height: 1.2;
+}
+.ui-datepicker {
+	width: 81%;
+}
+.ui-timepicker-div dl dd {
+	margin: 0 10px 10px 30%;
+}
+.ui_tpicker_time {
+	font-size:13px;
+	font-weight:bold;
+}
+.ui-state-default, .ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+.ui-timepicker-div dl dt {
+	font-size: 1.1em;
+}
+.ui-state-active, .ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	font-size: 1.3em;
+}
+.ui-datepicker .ui-datepicker-title {
+	font-size: 1.2em;
+}
+button.ui-button-icon-only {
+	width: 3.4em;
+}
+/*--- max-width:768px ZERO-CUBE FREAK'S ---*/
+.ZerocubeFreaks .titleBox:before {
+	width: 100px;
+	background-size: 100%;
+	left: -30px;
+}
+.ZerocubeFreaks .image:before {
+	background-size: 100%;
+	left: -10%;
+	width: 400px;
+}
+.ZerocubeFreaks #freaks-house .collabo {
+	padding: 4em 1em;
+}
+/*--- max-width:768px FREAK'S HOUSE ---*/
+.FreaksHouse .mainimg .bgmainig {
+	background: url(../img/event/mainimg_freakshouse_tab.jpg) center center no-repeat;
+	background-size: cover;
+}
+.FreaksHouse .evetextbox {
+	margin-top: 30px;
+	padding: 30px 0;
+}
+.FreaksHouse .evetextbox br {
+	display: none;
+}
+.FreaksHouse .mainimg .tit img {
+	width: 45%;
+	
+}
+@media screen and (max-width: 667px) {
+/*-------------------------------
+max-width:667px lineup ZERO-CUBE
+----------------------------------*/
+	.keyvbox dl dt {
+		height: 730px;
+		background: url(../img/lineup/zero-cube/bg01_sp.jpg) center center no-repeat;
+	}
+	.conceptbox .youtubebox .tit{
+		font-size: 11px;
+	}
+	.conceptbox .youtubebox .tittxt{
+		font-size: 11px;
+	}
+	.planbox .arrange {
+		text-align: left;
+		text-indent: -1em;
+		margin-left: 1em;
+		padding: 0 20px;
+	}
+	.mainimg .tit img{
+		width: 110px;
+	}
+	.mainimg .tit img:first-child {
+		width: 80px;
+	}
+/*--- max-width:667px lineup ZERO-CUBE STEPFLOOR ---*/
+	.titstylea:before {
+		bottom: 0;
+	}
+/*--- max-width:667px lineup BROOKLYN HOUSE ---*/
+	.Brooklyn-house .planbox .pricebox {
+		padding: 10px 30px;
+	}
+	.Brooklyn-house .planbox .inner .plan02 .pricebox dt {
+		font-size: 17px;
+		vertical-align: top;
+	}
+	.Brooklyn-house .planbox .inner .plan02 .pricebox .pricein {
+		font-size: 22px;
+	}
+/*--- max-width:667px event ZERO-CUBE STEPFLOOR ---*/
+	.zero-cube-Stepfloor .mainimg .tit img:last-child {
+		width: 400px;
+	}
+	.zero-cube-Stepfloor dl dd .txt {
+		margin-bottom: 0;
+	}
+/*--- max-width:667px event ZERO-CUBE KAI ---*/
+	.zero-cube-Kai .boxser .boxserli li dd {
+		margin-top: 230px;
+	}
+	.zero-cube-Kai .mainimg .tit img:last-child{
+		width: 130px;
+	}
+	.zero-cube-Kai .boxser {
+		margin-bottom: 0;
+	}
+/*--- max-width:667px event ZERO-CUBE MINI ---*/
+	.zero-cube-Mini .mainimg .tit {
+		margin: 0;
+	}
+	.zero-cube-Mini .mainimg .tit img:first-child {
+		width: 64px;
+		margin: 20px 10px 20px auto;
+	}
+	.zero-cube-Mini .mainimg .tit img:last-child {
+		width: 76%;
+		max-width: 395px;
+		margin: 2rem auto;
+	}
+/*--- max-width:667px event BENTO HOUSE ---*/
+	/* スライダー slider */
+	.sec10 .sliderBox {
+		width: auto;
+		margin-bottom: 10px;
+	}
+	.sec10 .slideList {
+		width: auto;
+	}
+	.sec10 .sliderBox .arrow li {
+		display: inherit;
+		margin-top: -36px;
+		position: absolute;
+		top: 50%;
+		z-index: 10;
+		cursor: pointer;
+	}
+	.sec10 .sliderBox .arrow .prev {
+		left: 7px;
+	}
+	.sec10 .sliderBox .arrow .next {
+		right: 7px;
+	}
+	.sec10 .slideList li {
+		margin: 0 5px;
+	}
+	.sec10 .slideList li p {
+		font-size: 13px;
+	}
+	.bento-house .subfunbox .subfuninfo .txt {
+		font-size: 18px;
+	}
+	.bento-house .mainimg .tit img:last-child {
+		width: 100%;
+		max-width: 240px;
+	}
+/*--- max-width:667px event BROOKLYN HOUSE ---*/
+	.brooklyn-house .mainimg .tit {
+		margin: 0 auto 20px
+	}
+	.brooklyn-house .mainimg .tit img:first-child {
+		width: 78%;
+		max-width: 388px;
+		margin-right: 0;
+	}
+	.Brooklyn-house .sp-mask {
+		height: 600px !important;
+	}
+
+/*--- max-width:667px event HOUSE CANVAS ---*/
+	.house-canvas .mainimg .tit {
+		margin: 0;
+	}
+	.house-canvas .mainimg .tit img:first-child {
+		width: 64px;
+		margin: 20px 20px 20px auto;
+	}
+	.house-canvas .mainimg .tit img:last-child {
+		width: 70%;
+		max-width: 330px;
+		margin: 2rem auto;
+	}
+	.limitted_event .inner .desc {
+		padding-left: 35px;
+		width: 355px;
+	}
+/*--- max-width:667px event WTW HOUSE PROJECT ---*/
+	.WtwhouseProject .mainimg .title {
+		max-width: 220px;
+		margin: auto;
+	}
+	.WtwhouseProject .mainimg .tittxt br {
+		display: inline-block;
+	}
+	.WtwhouseProject .mainimg .day {
+		line-height: 1.2;
+	}
+	.WtwhouseProject .mainimg .day dd {
+		margin-left: 0;
+	}
+	.WtwhouseProject .mainimg .start {
+		font-size: 1.4rem;
+	}
+	.WtwhouseProject .mainimg .start {
+		display: block;
+		margin-right: 0;
+	}
+	.WtwhouseProject .mainimg .spe {
+		display: block;
+		margin-right: 0;
+	}
+	.WtwhouseProject .mainimg .spe {
+		font-size: 27px;
+	}
+	.WtwhouseProject .mainimg.no {
+		background: url("../img/lineup/wtwhouseproject/bg_sea02.jpg") no-repeat center top !important;
+	}
+	.WtwhouseProject .mainimg .desc br {
+		display: inherit;
+	}
+	.WtwhouseProject .linkBanner {
+		margin-top: 15px;
+	}
+/*--- max-width:667px event casita ---*/
+	.casita .mainimg .tit img:first-child {
+		width: auto;
+		margin-right: 0;
+	}
+/*--- max-width:667px online ---*/
+	.online .ol-cont-02 {
+		padding: 0;
+	}
+/*--- max-width:667px FREAK'S HOUSE ---*/
+	.FreaksHouse .mainimg .tit img:first-child {
+		width: 45%;
+	}
+/*--- max-width:667px event Sunny Track House ---*/
+	.sunnytrackhouse .mainimg .tit {
+		margin: 0;
+	}
+	.sunnytrackhouse .mainimg .tit img:first-child {
+		width: 64px;
+		margin: 20px 10px 20px auto;
+	}
+	.sunnytrackhouse .mainimg .tit img:last-child {
+		width: 70%;
+		max-width: 395px;
+		margin: 2rem auto;
+	}
+	.sunnytrackhouse .evetextbox .txt:first-child br {
+		display: block;
+	}
+	
+/*--- max-width:667px event Mr.Standard ---*/
+	.mrstandard .mainimg .tit {
+		margin: 0;
+	}
+	.mrstandard .mainimg .tit img:first-child {
+		width: 64px;
+		margin: 20px 10px 20px auto;
+	}
+	.mrstandard .mainimg .tit img:last-child {
+		width: 70%;
+		max-width: 395px;
+		margin: 2rem auto;
+	}
+/*--- max-width:667px event amadana base ---*/
+	.amadanabase .mainimg .tit {
+		margin: 0;
+	}
+	.amadanabase .mainimg .tit img:first-child {
+		width: 64px;
+		margin: 20px 10px 20px auto;
+	}
+	.amadanabase .mainimg .tit img:last-child {
+		width: 70%;
+		max-width: 395px;
+		margin: 2rem auto;
+	}
+/*--- max-width:667px event THE HOUSE GARAGE PROJECT ---*/
+	.gordonmiller .mainimg .tit {
+		margin: 0;
+	}
+	.gordonmiller .mainimg .tit img:first-child {
+		width: 86px;
+		margin: 20px 20px 20px auto;
+	}
+	.gordonmiller .mainimg .tit img:last-child {
+		width: 36%;
+		max-width: 395px;
+		margin: 2rem auto;
+	}
+/*--- max-width:667px event SOUSOU ---*/
+	.sousou .mainimg .tit {
+		margin: 0;
+	}
+	.sousou .mainimg .tit img:first-child {
+		width: 86px;
+		margin: 20px 20px 20px auto;
+	}
+	.sousou .mainimg .tit img:last-child {
+		width: 36%;
+		max-width: 395px;
+		margin: 2rem auto;
+	}
+/*--- max-width:667px event DULTON HOME ---*/
+	.dultonhome .mainimg .tit {
+		margin: 0;
+	}
+	.dultonhome .mainimg .tit img:first-child {
+		width: 86px;
+		margin: 20px 20px 20px auto;
+	}
+	.dultonhome .mainimg .tit img:last-child {
+		width: 36%;
+		max-width: 395px;
+		margin: 2rem auto;
+	}
+	.dultonhome .mainimg .tit {
+		margin: 0 auto 20px;
+	}
+	.dultonhome .mainimg .tit img:first-child {
+		width: 78%;
+		max-width: 140px;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.under_contents {
+		padding: 0 20px;
+	}
+	.logolifelabel {
+		width: 52px !important;
+		margin: 10px auto 40px;
+	}
+	.mainimg .bgbox{
+		line-height: 0.8;
+	}
+/*-------------------------------
+max-width:479px lineup zero-cube
+----------------------------------*/
+	.keyvbox {
+		top: 60px;
+		margin-bottom: 50px;
+	}
+	.keyvbox dl dt {
+		background-size: cover;
+		height: 70vh;
+	}
+	.keyvbox dl dt #gooddesign {
+		margin-left: 20px;
+	}
+	.keyvbox dl dd .txt{
+		width: auto;
+		font-size: 1.3em;
+	}
+	.titstylea {
+		font-size: 20px;
+	}
+	.conceptbox {
+		padding: 60px 0 20px;
+	}
+	.conceptbox .txt {
+		margin-top: 1rem;
+	}
+	.conceptbox .txtb .bor{
+		font-size: 15px;
+	}
+	.conceptbox .txt,
+	.conceptbox .txtb {
+		font-size: 13px;
+	}
+	.conceptbox .txt {
+		text-align: left;
+	}
+	.conceptbox .txt br {
+		display: none;
+	}
+	.conceptbox .youtubebox .youtubein{
+		height: 217px;
+	}
+	.meritbox dl dd{
+		display: block;
+		padding: 2rem 20px;
+	}
+	.meritbox dl dt{
+		background: url(../img/lineup/zero-cube/bg02_sp.jpg) center bottom no-repeat;
+		height: 200px;
+		background-size: cover;
+	}
+	.meritbox dl dd .tit{
+		font-size: 14px;
+	}
+	.meritbox dl dd .txt{
+		font-size: 13px;
+		line-height: 1.8;
+	}
+	.titstyleb{
+		font-size: 20px;
+	}
+	.planbox .leftimg {
+		width: 70%;
+		margin: 0 auto 20px;
+	}
+	.planbox .planin #gooddesign02 {
+		left: 0;
+	}
+	.eveplanbox .eveplanin li span {
+		bottom: -5px;
+	}
+	.eveplanbox .eveplanin.zero-cube li:nth-child(2){
+		margin-left: 10px;
+	}
+	.eveplanbox .eveplanin li:nth-child(2) span {
+		margin-left:-10px;
+	}
+	.planbox .arrange {
+		margin-top: 1rem;
+	}		
+	.planbox .arrange span {
+		font-size: 1.3em;
+	}
+
+	.subfunbox{
+		background: url(../img/lineup/zero-cube/bg03_sp.jpg) center center no-repeat;
+		height: 272px;
+	}
+	.subfunbox .subfunin{
+		height: 272px;
+	}
+	.subfunbox .subfuninfo {
+		padding-top: 2rem;
+	}
+	.subfunbox .subfuninfo .tit{
+		width: 95px;
+		height: 95px;
+		line-height: 93px;
+		font-size: 20px;
+	}
+	.subfunbox .subfuninfo .txt{
+		font-size: 13px;
+	}
+	.subbox .frame table .txta{
+		font-size: 11px;
+	}
+	.subbox .frame table .txtb{
+		font-size: 11px;
+	}
+	.subbox .frame table .txtb .ffb{
+		font-size: 10px;
+	}
+	.subbox .frame table .ico{
+		font-size: 20px;
+		width: 10%;
+	}
+	.subbox .txtbox .txt{
+		font-size: 13px;
+	}
+	.boxser .titstyle{
+		font-size: 18px;
+	}
+	.boxser .boxserli li dt .txtbox .tit{
+		font-size: 20px;
+	}
+	.boxser .boxserli li dt .txtbox .tittxt{
+		font-size: 14px;
+		line-height: 1.4
+	}
+	.boxser .boxserli li dt .txtbox .txt{
+		font-size: 13px;
+	}
+	.boxser .boxserli li .lohasPlan {
+		border-spacing: 5px 0;
+	}
+	.boxser .boxserli li .lohasPlan dd {
+		margin-top: 0.5em;
+	}
+	.boxser .boxserli li .lohasPlan dd .tl {
+		font-size: 1em;
+		line-height: 1.2;
+	}
+	.boxser .boxserli li .lohasPlan dd .tl br {
+		display: inherit;
+	}
+	.boxser .boxserli li .lohasPlan dd .pr {
+		font-size: 1em;
+		line-height: 1.2;
+		margin-top: 0.4em;
+	}
+	.boxser .boxserli li .lohasPlan dd .pr br {
+		display: inherit;
+	}
+	.boxser .boxserli li dt .btn,
+	.boxser .boxserli li dd .btn {
+		width: 60%;
+		margin: 1rem auto 0.3rem;
+		padding: 1.3em 1em;
+		font-size: 12px;
+	}
+	.boxser .boxserli li dd .boxb .picli .kids li {
+		min-height: 262px;
+		margin-bottom: 0;
+	}
+	.boxser .boxserli li dd .boxb .picli li {
+		width: 50%;
+		margin-bottom: 1.3em;
+	}
+	.boxser .boxserli li dd .boxb .picli li .tit{
+		font-size: 12px;
+	}
+	.boxser .boxserli li dd .boxb .picli li .txt{
+		font-size: 11px;
+	}
+	.boxser .boxserli li dd .boxb .picli li{
+		margin-top: 1rem;
+	}
+	.boxser .boxserli li dd .boxa .imgbox .tit {
+		font-size: 1.5em;
+		text-align: left;
+		line-height: 1.4;
+	}
+	.subbox {
+		padding: 20px 0 0;
+	}
+	.subbox .frame table td:nth-child(5){
+		width: 33%;
+	}
+	.eventbtn a{
+		width: 100%;
+		background: url(../img/lineup/zero-cube/ico_event.png) 1em center no-repeat;
+		font-size: 1.3em;
+		padding: 0.8em 1em;
+	}
+	.evegallbox {
+		margin-top: 0;
+	}
+/*--- max-width:479px lineup ZERO-CUBE STEPFLOOR ---*/
+	.zero-cube-Stepfloor .keyvbox dl dd {
+		padding: 22px 50px 20px;
+	}
+	.keyvbox dl dd .logotxt {
+		font-size: 1.7em;
+		margin-bottom: 28px;
+	}
+	.zero-cube-Stepfloor .meritbox.p01 {
+		background: #fff url(../img/lineup/zero-cube-stepfloor/bg02_stepfloor_sp.jpg) no-repeat center 69px;
+		background-size: 100%;
+	}
+	.meritbox.p01 dl dt,
+	.meritbox.p03 dl dt,
+	.meritbox.p05 dl dt,
+	.meritbox.p07 dl dt {
+		padding: 2rem 20px;
+		margin-top: 218px;
+	}
+	.zero-cube-Stepfloor .meritbox.p01 .meritli li p,
+	.zero-cube-Stepfloor .meritbox.p03 .meritli li p {
+		font-size: 1.3em;
+		line-height: 1.8;
+	}
+	.zero-cube-Stepfloor .meritbox.p02 dl dt {
+		background-size: 116%;
+	}
+	.zero-cube-Stepfloor .meritbox.p03 {
+		background: #fff url(../img/lineup/zero-cube-stepfloor/bg04_stepfloor_sp.jpg) no-repeat center 69px;
+		background-size: 100%;
+	}
+	.boxSub p {
+		font-size: 1.2em;
+	}
+	.zero-cube-Stepfloor .meritbox dl dd .tit {
+		font-size: 16px;
+	}
+	.meritbox dl .tit {
+		font-size: 15px;
+	}
+/*--- max-width:479px lineup ZERO-CUBE KAI ---*/
+	.zero-cube-Kai .meritbox.p01 {
+		background: #fff url(../img/lineup/zero-cube-kai/bg02_kai_sp.jpg) no-repeat center 69px;
+		background-size: 100%;
+	}
+	.zero-cube-Kai .meritbox.p03 {
+		background: #fff url(../img/lineup/zero-cube-kai/bg04_kai_sp.jpg) no-repeat center 69px;
+		background-size: 100%;
+	}
+	.zero-cube-Kai .meritbox.p05 {
+		background: #fff url(../img/lineup/zero-cube-kai/bg06_kai_sp.jpg) no-repeat center 69px;
+		background-size: 100%;
+	}
+	.zero-cube-Kai .meritbox.p07 {
+		background: #fff url(../img/lineup/zero-cube-kai/bg08_kai_sp.jpg) no-repeat center 69px;
+		background-size: 100%;
+	}
+	.zero-cube-Kai .meritbox dl dd .tit {
+		font-size: 15px;
+	}
+	.zero-cube-Kai .meritbox.p01 .meritli li p,
+	.zero-cube-Kai .meritbox.p03 .meritli li p,
+	.zero-cube-Kai .meritbox.p05 .meritli li p,
+	.zero-cube-Kai .meritbox.p07 .meritli li p{
+		font-size: 1.3em;
+		line-height: 1.8;
+	}
+	.zero-cube-Kai .meritbox.p02 dl dt,
+	.zero-cube-Kai .meritbox.p04 dl dt,
+	.zero-cube-Kai .meritbox.p06 dl dt{
+		background-size: 100%;
+		margin-top: 20px;
+	}
+	.zero-cube-Kai .boxser .boxserli li dt .txtbox {
+		padding: 4em 0.7em;
+	}
+	.zero-cube-Kai .boxser .boxserli li dt .txtbox .tit {
+		width: 180px;
+		font-size: 18px;
+	}
+	.zero-cube-Kai .boxser .boxserli li dd {
+		margin-top: 85px;
+	}
+	.zero-cube-Kai .boxser .boxserli li .act1 {
+		background: url(../img/lineup/zero-cube-kai/bg09_kai_sp.jpg) no-repeat top center;
+		background-size: 100%;
+	}
+	.zero-cube-Kai .boxser .boxserli li .act2 {
+		background: url(../img/lineup/zero-cube-kai/bg10_kai_sp.jpg) no-repeat top center;
+		background-size: 100%;
+	}
+	.zero-cube-Kai .boxser .boxserli li .act2custom {
+		background: url(../img/lineup/zero-cube-kai/bg11_kai_sp.jpg) no-repeat top center;
+		background-size: 100%;
+		margin-bottom: 25px;
+	}
+	.zero-cube-Kai .boxser .boxserli li .act1 dt {
+		background: url(../img/lineup/zero-cube-kai/bg09_kai_sp.jpg) no-repeat center center;
+		background-size: 100%;
+	}
+	.zero-cube-Kai .boxser .boxserli li .act2 dt {
+		background: url(../img/lineup/zero-cube-kai/bg10_kai_sp.jpg) no-repeat center center;
+		background-size: 100%;
+	}
+	.zero-cube-Kai .boxser .boxserli li .act2custom dt {
+		background: url(../img/lineup/zero-cube-kai/bg11_kai_sp.jpg) no-repeat center center;
+		background-size: 100%;
+	}
+	.zero-cube-Kai .boxser .boxserli li dt .txtbox:after {
+		width: 12px;
+		height: 12px;
+		border-top: 3px solid #fff;
+		border-right: 3px solid #fff;
+		bottom: 14px;
+	}
+	.zero-cube-Kai .boxser .boxserli li .act1 .planin .leftimg.mainpic {
+		width: 100%;
+	}
+/*--- max-width:479px lineup ZERO-CUBE MINI ---*/
+	.zero-cube-Mini .keyvbox dl dd {
+		padding: 22px 40px 20px;
+	}	
+	.zero-cube-Mini .keyvbox dl dd .txt	{
+		width: inherit;
+	}
+	.zero-cube-Mini .logotxt br {
+		display: block;
+	}
+	.zero-cube-Mini .logolifelabel {
+		margin-bottom: 32px;
+	}
+	.zero-cube-Mini .keyvbox dl dt {
+		background: url(../img/lineup/zero-cube-mini/bg_mini01_sp.jpg) no-repeat center center;
+		background-size: cover;	
+	}
+	.zero-cube-Mini .keyvbox dl dd .txt br {
+		display: none;
+	}
+	.keyvbox dl dd .img {
+		width: 90%;
+		margin: auto;
+	}
+/*--- max-width:479px lineup BENTO HOUSE ---*/
+	.bento-house .keyvbox dl dd .txt {
+		width: auto;
+	}
+	.bento-house .keyvbox dl dt #gooddesign {
+		width: 70px;
+	}
+	.bento-house .titstylea {
+		margin-bottom: 15px;
+	}
+	.bento-house .conceptbox.lead .txtbox,
+	.bento-house .conceptbox .txtb {
+		text-align: left;
+	}
+	.bento-house .conceptbox .txt,
+	.bento-house .conceptbox .txtb {
+		display: inline;
+	}
+	.bento-house .meritbox.p03 {
+		background: url("../img/lineup/bento-house/bg_bentohouse03_sp.jpg") no-repeat center 60px;
+		background-size: 100%;
+	}
+	.bento-house .meritbox.p03:before {
+		top: 300px;
+		height: 87.6%;
+	}
+	.bento-house .meritbox.p03 dl dt {
+		padding: 1.3rem 20px;
+		margin-top: 220px;
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.bento-house .meritbox dl .txt {
+		line-height: inherit;
+	}
+	.bento-house .boxSub.first {
+		margin-top: 1rem;
+	}
+	.bento-house .planbox .leftimg {
+		padding-right: 12%;
+	}
+	.bento-house .boxSub h5 {
+		font-size: 1.8em;
+		text-align: center;
+	}
+	.bento-house .boxSub .in img {
+		float: none;
+		max-width: inherit;
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	.bento-house .planbox {
+		padding: 0 0 2rem;
+	}
+
+	.bento-house .subfunbox {
+		background: url("../img/lineup/bento-house/bg_bentohouse04_sp.jpg")no-repeat center center;
+		background-size: cover;
+	}
+	.bento-house .subfunbox .subfuninfo {
+		padding: 10px 15px;
+		margin-bottom: 20px;
+	}
+	.bento-house .subfunbox .subfuninfo .txt {
+		font-size: 14px;
+	}
+	.bento-house .mainimg .tit img:first-child {
+		margin-right: 10px;
+		
+	}
+	.bento-house #gooddesign02 {
+		width: 64px;
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+	.bento-house .planbox .planin #gooddesign02 {
+		width: 80px;
+		left: 0;
+	}
+/*--- max-width:479px lineup BROOKLYN HOUSE ---*/
+	.Brooklyn-house .keyvbox {
+		height: 60vh;
+	}
+	.Brooklyn-house .keyvbox h2 {
+		max-width: 240px;
+		padding-top: 64vh;
+		padding-left: 1em;
+	}
+	.Brooklyn-house .conceptbox .txtbox {
+		margin-top: 10vh;
+	}
+	.Brooklyn-house .txt.productname {
+		font-family: inherit;
+		font-size: 13px;
+		font-weight: normal;
+		margin-top: 0;
+	}
+	.Brooklyn-house .txt.productname span {
+		font-size: 1em;
+	}
+	.Brooklyn-house .planbox .inner {
+		margin: 20px auto 0;
+	}
+	.Brooklyn-house .planbox .inner .plan02 .pricebox {
+		position: inherit;
+		bottom: inherit;
+		right: inherit;
+		margin: 10px 45px 0;
+		padding: 20px;
+	}
+	.Brooklyn-house .planbox .inner .plan02 .pricebox dt {
+		font-size: 15px;
+		margin-right: 0.5em;
+	}
+	.Brooklyn-house .planbox .inner .plan02 .pricebox .pricein .prna {
+		font-size: 13px;
+		font-weight: normal;
+		margin-right: 0.5em;
+	}
+	.Brooklyn-house .planbox .inner .plan02 .pricebox dd,
+	.Brooklyn-house .planbox .inner .plan02 .pricebox .pricein .priin{
+		font-size: 12px;
+	}
+	#entry_list_more {
+		margin-top: 12px;
+	}
+	#entry_list_more ul li:nth-child(3n) {
+		margin-right: 2%;
+	}
+	#entry_list_more ul li:nth-child(2n) {
+		margin-right: 0;
+	}
+	#entry_list_more ul li {
+		width: 49%;
+		padding: 14px 10px;
+		margin-top: 7px;
+		min-height: 378px;
+	}
+	#entry_list_more ul li h4 strong {
+		width: 36px;
+		height: 36px;
+		line-height: 36px;
+		font-size: 26px;
+	}
+	#entry_list_more ul li p {
+		line-height: 1.6;
+	}
+	#entry_list_more ul li:nth-child(22) h4 {
+		font-size: 13px;
+	}
+	
+/*-------------------------------
+max-width:479px event ZERO-CUBE
+----------------------------------*/
+	.mainimg .tittxt{
+		font-size: 17px;
+	}
+	.mainimg .day .ffc{
+		font-size: 26px;
+	}
+	.mainimg .day .ffb{
+		font-size: 16px;
+	}
+	.mainimg .start{
+		font-size: 2em;
+	}
+	.mainimg .time{
+		font-size: 2em;
+	}
+	.mainimg .day .bgbox br {
+		display: block;
+	}
+	.mainimg .day .bgbox .and {
+		vertical-align: top;
+	}
+	.mainimg .bgmainig{
+		height: 240px;
+	}
+	.evetextbox .txt {
+		font-size: 1.3em;
+	}
+	.evetextbox .txt br {
+		display: none;
+	}
+	.evetextbox .txt .ffb {
+		font-size: 1.2em;
+	}
+
+	.eveplanbox .titstyleb{
+		margin-bottom: 0px;
+	}
+	.eveplanbox .eveplanin li{
+		width: 100%;
+		padding: 0 40px;
+		margin-top: 15px;
+	}
+	.eveplanbox .eveplanin li:nth-child(3) span {
+		right: 50px;
+	}
+	.eveplanbox .eveplanin li span {
+		right: 0;
+		left: 0;
+		width: 100%;
+	}
+	.eveinfobox{
+		padding: 1em;
+		float:inherit;
+		margin: 0 -40px;
+	}
+	.eveinfobox .tit{
+		margin-bottom: 10px;
+	}
+	.eveinfobox .eveinfo{
+		display: table;
+	}
+	.eveinfobox .eveinfo dt {
+		display: table-cell;
+	}
+	.eveinfobox .eveinfo dt .tabbox{
+		display: table;
+		width: 55px;
+		height: 55px;
+	}
+	.eveinfobox .eveinfo dt .tabbox .size{
+		display: table-cell;
+		font-size: 12px;
+	}
+	.eveinfobox .eveinfo dd{
+		font-size: 11px;
+		padding-left: 0.8em;
+	}
+	.gallery ul li {
+		width: 50%;
+	}
+	.close {
+		width: 18px;
+		height: 18px;
+		background: url(../img/event/ico06.png) no-repeat;
+		background-size: 100% 100%;
+	}
+	.port .tit{
+		font-size: 1.8em;
+	}
+	.port .txt {
+		font-size: 1.3em;
+		text-align: left;
+	}
+	.port .txt br {
+		display: none;
+	}
+	.everesertit {
+		font-size: 15px;
+	}
+	.evereserbox01,
+	.evereserbox02{
+		font-size: 12px;
+	}
+	.evereserbox02 {
+		margin-bottom: 0;
+	}
+	.evecombox {
+		padding: 0 0 20px;
+	}
+	.evecombox .txtbox .txt{
+		font-size: 1.2em;
+	}
+	.evecombox .boxArrange {
+		margin: 2rem auto;
+	}
+	.evecombox .boxArrange p span {
+		font-size: 1.3em;
+		line-height: inherit;
+	}
+	.evecombox .boxArrange p span br {
+		display: none;
+	}
+	.evecombox .attention {
+		margin-bottom: 20px;
+	}
+	.evecombox .attention h4 {
+		padding: 0.7em 1.3em;
+		text-align: left;
+	}
+	.evecombox .attention h4 span {
+		font-size: 1.3em;
+	}
+	.evecombox .attention .tt {
+		padding: 12px 20px;
+	}
+	.evecombox .attention .tt p {
+		font-size: 1.2em;
+	}
+	.boxAttension {
+		margin-top: 15px;
+		margin-bottom: 0;
+		padding: 0 20px;
+		font-size: 1.3em;
+		font-weight: normal;
+	}
+	.evetable th,
+	.evetable td {
+		font-size: 1.2em;
+	}
+	.evetable th {
+		width:75px;
+	}
+	.Tools .mainimg .start {
+		padding-left: 0;
+		margin-right: 7px;
+	}
+	.manseki_txt {
+		font-size: 18px;
+	}
+	.evetabletxt .link {
+		position: inherit;
+		top: inherit;
+		left: inherit;
+	}
+	.evetabletxt .link.gm {
+		left: 10.5em;
+	}
+	.evetabletxt .link a {
+		font-size: 1.1em;
+	}
+	.evetabletxt .link a img {
+		margin-right: 5px;
+	}
+/*--- max-width:479px event ZERO-CUBE STEPFLOOR ---*/
+	.zero-cube-Stepfloor .mainimg .tit {
+		margin: 20px auto;
+	}
+	.zero-cube-Stepfloor .mainimg .tit img:first-child {
+		margin-right: 0;
+		width: 64px;
+	}
+	.zero-cube-Stepfloor .mainimg .tit img:last-child {
+		width: auto;
+		margin: 2rem auto;
+	}
+	.zero-cube-Stepfloor .subbox .frame table td.fun {
+		width: 22%;
+	}
+	.zero-cube-Stepfloor .subbox .frame table td:nth-child(5) {
+		width: 30%;
+	}
+
+/*--- max-width:479px lineup ZERO-CUBE KAI ---*/
+	.zero-cube-Kai .keyvbox dl dd .txt {
+		width: inherit;
+	}
+	.zero-cube-Kai .keyvbox dl dd {
+		padding: 22px 50px 20px;
+	}
+	.zero-cube-Kai .keyvbox dl dd .img {
+		width: 160px;
+		margin: 0 auto 30px;
+	}
+	.zero-cube-Kai .boxser .boxserli>ul>li {
+		padding: 25px 0 0;
+	}
+	.zero-cube-Kai .planbox .planin.last .leftimg,
+	.zero-cube-Kai .planbox .planin.last .txtbox {
+		display: block;
+	}
+	.zero-cube-Kai .planbox .planin.last .leftimg {
+		padding: 0;
+	}
+	.zero-cube-Kai .planbox .planin.last .txtbox {
+		width: 86%;
+		margin: 0 auto;
+	}
+	.zero-cube-Kai .toggle .conceptbox {
+		padding: 63px 0 0;
+	}
+/*--- max-width:479px lineup ZERO-CUBE MINI ---*/
+	.zero-cube-Mini .conceptbox {
+		margin-top: 6rem;
+	}
+	.zero-cube-Mini .conceptbox .txtbox {
+		padding: 20px 0 0;
+	}
+	.zero-cube-Mini .planbox .leftimg {
+		width: 100%;
+	}
+	.zero-cube-Mini .under_contents .tab_btn_box {
+		margin: 20px auto;
+	}
+	.zero-cube-Mini .subbox .frame table td:nth-child(5) {
+		width: 17%;
+	}
+	.zero-cube-Mini .fun {
+		padding-top: 1.3rem;
+	}
+	.zero-cube-Mini .fun .leftimg,
+	.zero-cube-Mini .fun .txtbox {
+		display: block;
+	}
+	.zero-cube-Mini .fun .leftimg img {
+		max-width: 100%;
+		float: none;
+	}
+	.zero-cube-Mini .planbox .txtbox {
+		padding: 0;
+	}
+/*--- max-width:479px lineup BROOKLYN HOUSE ---*/
+	.Brooklyn-house .conceptbox {
+		padding: 70px 0 30px;
+	}
+	.brooklyn-house .eveplanbox .eveplanin li {
+		margin-bottom: 20px;
+	}
+	.brooklyn-house .eveplanbox .eveplanin li:nth-child(3) {
+		margin-bottom: 0;
+	}
+	.brooklyn-house .eveplanbox .eveplanin li:last-child {
+		padding: 0 20px!important;
+		margin-bottom: 0;
+	}
+
+	.brooklyn-house .eveplanbox .eveplanin li span {
+		bottom: -20px;
+	}
+	.brooklyn-house .eveinfobox {
+		margin: 0;
+	}
+	.brooklyn-house .eveinfobox .tit {
+		float: none;
+	}
+	.Brooklyn-house .conceptbox .youtubebox .youtubein {
+		height: 248px;
+	}
+	.Brooklyn-house .pointCont {
+		padding: 20px 0 0;
+	}
+	.Brooklyn-house .sp-mask {
+		height: 380px !important;
+	}
+	.Brooklyn-house .pointCont .sp-slide .box .textbox {
+		min-height: 160px;
+		padding: 5px 12px 15px;
+	}
+	.Brooklyn-house .pointCont .sp-slide .box .textbox dl {
+		margin-right: 7px;
+	}
+	.Brooklyn-house .pointCont .sp-slide .box .textbox .title dt {
+		font-size: 18px;
+	}
+	.Brooklyn-house .pointCont .sp-slide .box .textbox .title dd {
+		font-size: 30px;
+	}
+	.Brooklyn-house .pointCont .sp-slide .box .textbox .title h3 {
+		font-size: 15px;
+	}
+	.Brooklyn-house .pointCont .sp-slide .box .textbox .title h3 br:first-child {
+		display: inherit;
+	}
+	.Brooklyn-house .pointCont .sp-slide .box .textbox p {
+		font-size: 13px;
+		line-height: 1.6;
+		margin-top: 10px;
+	}
+	.Brooklyn-house .subfunbox {
+		background: url("../img/lineup/brooklyn-house/bg_brooklynhouse02_sp.jpg") no-repeat center center;
+		background-size: 104%;
+	}
+	.Brooklyn-house .subfunbox .subfuninfo .tit {
+		font-size: 24px;
+		margin-bottom: 20px;
+	}
+	.more_btn {
+		font-size: 14px;
+		top: -30px;
+	}
+	.more_btn.active {
+		top: inherit;
+		margin: 0 auto 20px;
+	}
+
+/*--- max-width:479px lineup HOUSE CANVAS ---*/
+	.house-canvas .eveplanbox {
+		padding: 0;
+	}
+	.limitted_event {
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+	.limitted_event .inner .ico {
+		width: 36px;
+		left: 20px
+	}
+	.limitted_event .inner h4 {
+		margin: auto;
+		width: 39%;
+	}
+	.limitted_event .inner h4 img {
+		display: block;
+		margin: auto;
+	}
+	.limitted_event .inner h4 img:first-child {
+		width: 64%;
+	}
+	.limitted_event .inner .exterior {
+		float: none;
+		max-width: 200px;
+		margin: auto;
+		text-align: center;
+	}
+	.limitted_event .inner .desc {
+		float: none;
+		width: auto;
+		padding: 0 5em;
+		margin-top: 20px;
+	}
+	.limitted_event .inner .desc .strong {
+		font-size: 14px;
+	}
+	.limitted_event .inner .desc p {
+		font-size: 13px;
+	}
+	.limitted_event .inner .day dt {
+		width: auto;
+		font-size: 12px;
+		padding: 0 2em;
+	}
+	.limitted_event .inner .day dd {
+		font-size: 12px;
+	}
+	.limitted_event .inner .freedial dt {
+		font-size: 12px;
+	}
+	.limitted_event .inner .freedial dd {
+		font-size: 25px;
+	}
+/*--- max-width:479px event DAYTONA HOUSE TYPE-B ---*/
+	.daytona-house .mainimg .tit {
+		padding: 5px;
+	}
+	.daytona-house .mainimgin {
+		padding-bottom: 20px;
+		margin-bottom: 0;
+	}
+	.daytona-house .evegallbox {
+		margin-top: 1rem;
+	}
+	.daytona-house .evetextbox .txt {
+		font-size: 1.3em;
+	}
+	.daytona-house .evetextbox .txt .ffb {
+		font-size: 1.2em;
+	}
+	.daytona-house .evecombox .txtbox .txt {
+		font-size: 1.3em;
+	}
+	.daytona-house .gallery ul li:last-child {
+		display: inherit;
+	}
+/*--- max-width:479px event DAYTONA HOUSE GLB ---*/
+	.daytona-house.glb .evetextbox .txt .ffb {
+		font-size: 1.2em;
+	}
+	.glb .exterior {
+		margin-top: 15px;
+		padding: 0 30px;
+	}
+/*--- max-width:479px event WTW HOUSE PROJECT ---*/
+	.WtwhouseProject .mainimg {
+		margin-top: 10px;
+	}
+	.WtwhouseProject .mainimg .title {
+		max-width: 200px;
+	}
+	.WtwhouseProject .mainimg .tittxt {
+		font-size: 19px;
+		margin-top: 30px;
+	}
+	.WtwhouseProject .mainimg .day dd {
+		font-size: 24px;
+	}
+	.WtwhouseProject .illust {
+		padding: 30px 5%;
+	}
+	.WtwhouseProject .evetextbox { 
+		padding: 15px 0 0;
+		background-size: cover;
+	}
+	.WtwhouseProject .evetextbox .txt {
+		text-align: left;
+		padding: 10px 0;
+	}
+	.WtwhouseProject .nobr br{
+		display: inline-block;
+	}
+	.WtwhouseProject .evetextbox .txt .ffc:after {
+		right: -0.7em;
+	}
+	.WtwhouseProject .evecombox .attention {
+		margin-top: 20px;
+	}
+	.WtwhouseProject .mainimg .desc {
+		font-size: 11px;
+	}
+	.WtwhouseProject .linkBanner {
+		padding: 0 20px;
+	}
+/*--- max-width:479px event ZERO-CUBE TOOLS ---*/
+	.Tools .mainimg {
+		padding: 20px 0 0;
+	}
+	.Tools .mainimg .tittxt {
+		font-size: 19px;
+		padding-top: 15px;
+	}
+	.Tools .mainimg .tittxt br {
+		display: inline-block;
+	}
+	.Tools .mainimg .day {
+		padding-bottom: 15px;
+	}
+	.Tools .mainimg .day .ffc {
+		font-size: 26px;
+	}
+	.Tools .mainimg .day dd {
+		font-size: 24px;
+	}
+	
+	.Tools .mainimg .start {
+		font-size: 1.4rem;
+	}
+	.Tools .evetextbox .ob01 {
+		width: 64%;
+		margin: auto;
+	}
+	.Tools .evetextbox .ob02 {
+		width: 54%;
+	}
+	.Tools .evetextbox .collabo {
+		width: 72%;
+		margin: auto;
+	}
+	.Tools .evetextbox .txt {
+		text-align: left;
+		padding: 10px 0;
+	}
+	.Tools .evetextbox .title {
+		font-size: 24px;
+		text-align: center;
+	}
+	.Tools .evetextbox .txt.titce {
+		text-align: center;
+	}
+	.Tools .evetextbox .txt br {
+		display: block;
+	}
+/*--- max-width:479px event casita ---*/
+	.casita .mainimg .tit {
+		margin: 0 auto 15px;
+	}
+	.casita .mainimg .tit img:first-child {
+		width: 120px;
+	}
+/*--- max-width:479px online ---*/
+	.online .desc {
+		font-size: 1.3em;
+		padding: 0;
+	}
+	.online .ol-cont-01 {
+		padding: 0 6% 15px;
+		margin: 0 0 20px;
+	}
+	.online .ol-cont-01 dl dt {
+		padding: 10px 20% 10px 8%;
+		margin: 0;
+	}
+	.online .ol-cont-01 dl dd {
+		padding: 0;
+		margin: 0 30px 0 -14px
+	}
+
+	.online .ol-cont-01 .link a {
+		max-width: 100%;
+		font-size: 12px;
+	}
+	.online .ol-cont-01 ul {
+		text-align: left;
+	}
+	.online .ol-cont-01 ul li {
+		font-size: 14px;
+	}
+	.online .ol-cont-01 .image {
+		margin: 15px auto 0;
+	}
+	.online .ol-cont-01 .splink {
+		margin-top: 13px;
+	}
+	.online .ol-cont-01 .splink li {
+		text-align: center;
+		margin-bottom: 13px;
+	}
+	.online .ol-cont-02 .step {
+		float: none;
+		width: auto;
+		border-top: solid 5px #191919;
+		height: auto !important;
+		margin-bottom: 10px;
+		padding: 10px 15px 10px 5px;
+		margin-right: 0;
+	}
+	.online .ol-cont-02 .step h3 {
+		font-size: 15px;
+		margin: 0;
+		padding: 7px 0 7px 135px;
+	}
+	.online .ol-cont-02 .step .num {
+		border: solid 1px #000;
+		float: left;
+		background: none;
+		position: inherit;
+		top: inherit;
+		width: 90px;
+		height: 90px;
+		border-radius: 64px;
+	}
+	.online .ol-cont-02 .step:first-child h3 {
+		background: url("../img/online_ico01.png") no-repeat 100px center;
+		background-size: 34px;
+	}
+	.online .ol-cont-02 .step:nth-child(2) h3 {
+		background: url("../img/online_ico02.png") no-repeat 100px center;
+		background-size: 34px;
+	}
+	.online .ol-cont-02 .step:nth-child(3) h3 {
+		background: url("../img/online_ico03.png") no-repeat 100px center;
+		background-size: 34px;
+	}
+	.online .ol-cont-02 .step:last-child h3 {
+		background: url("../img/online_ico04.png") no-repeat 100px center;
+		background-size: 34px;
+	}
+	.online .ol-cont-02 .step .num .gp {
+		padding-top: 0;
+		line-height: 90px;
+	}
+	.online .ol-cont-02 .step .num .gp br {
+		display: none;
+	}
+	.online .ol-cont-02 .step .num span {
+		font-size: 12px;
+		margin-right: 0.2em;
+	}
+	.online .ol-cont-02 .step .num strong {
+		font-size: 20px;
+	}
+	.online .ol-cont-02 .step p {
+		padding: 0 15px 0 104px;
+	}
+	.online .ol-cont-02 .step p.st {
+		font-size: 12px;
+	}
+	.online .evecombox .under_contents .under_contents {
+		padding: 0 20px;
+	}
+	.online .ol-cont-03 {
+		padding: 10px 15px;
+		margin: 0 0 10px;
+	}
+	.online .ol-cont-03 dt {
+		font-size: 13px;
+	}
+/*--- max-width:479px event ZERO-CUBE FREAK'S ---*/
+	.ZerocubeFreaks .titleBox {
+		margin: 60px 0 35px;
+	}
+	.ZerocubeFreaks .titleBox p {
+		font-size: 13px;
+		margin-bottom: 10px;
+		letter-spacing: -0.01em;
+	}
+	.ZerocubeFreaks .titleBox:before {
+		left: -10px;
+		top: -60px;
+	}
+	.ZerocubeFreaks .image:before {
+		width: 200px;
+	}
+	.ZerocubeFreaks .evetextbox {
+		padding: 20px 0 0;
+	}
+	.ZerocubeFreaks #freaks-house {
+		margin-top: 4rem;
+		margin-bottom: 10px;
+	}
+	.ZerocubeFreaks #freaks-house .collabo {
+		padding: 5em 0 1em;
+	}
+/*--- max-width:479px event FREAK'S HOUSE ---*/
+	.FreaksHouse .mainimg .tit img {
+		display: block;
+		margin: auto;
+		width: 74%;
+	}
+	.FreaksHouse .mainimg .tit {
+		margin: 0 auto 20px;
+	}
+	.FreaksHouse .evetextbox .ico {
+		float: none;
+	}
+	.FreaksHouse .evetextbox {
+		margin-top: 15px;
+		padding: 10px;
+	}
+/*--- max-width:479px event HYVA AND STYLE ---*/
+	.hyva .mainimg .tit img:first-child {
+		margin-right: 10px;
+	}
+	.hyva .mainimg .tit img:last-child {
+		width: 100%;
+		max-width: 240px;
+	}
+	.hyva .evetextbox {
+		padding-top: inherit;
+	}
+/*--- max-width:479px event NORDIC HOUSE ---*/
+	.NordicHouse .mainimg .tit img:first-child {
+		margin-right: 10px;
+	}
+	.NordicHouse .mainimg .tit img:last-child {
+		width: 100%;
+		max-width: 240px;
+	}
+	.NordicHouse .evetextbox {
+		padding-top: inherit;
+	}
+/*--- max-width:479px event Blanc Ange ---*/
+	.BlancAnge .mainimg .tit img:first-child {
+		margin-right: 10px;
+	}
+	.BlancAnge .mainimg .tit img:last-child {
+		width: 100%;
+		max-width: 200px;
+	}
+	.BlancAnge .evetextbox {
+		padding-top: inherit;
+	}
+/*--- max-width:479px event BLOSSOM03  ---*/
+	.Blossom03 .mainimg .tit img:first-child {
+		margin-right: 10px;
+	}
+	.Blossom03 .mainimg .tit img:last-child {
+		width: 100%;
+		max-width: 200px;
+	}
+	.Blossom03 .evetextbox {
+		padding-top: inherit;
+	}
+/*--- max-width:479px event HOLIDAY HOUSE  ---*/
+	.Holidayhouse .mainimg .tit {
+		margin: 0 auto 20px;
+	}
+	.Holidayhouse .mainimg .tit img:first-child {
+		margin-right: 0;
+	}
+	.Holidayhouse .mainimg .tit img:last-child {
+		width: 100%;
+		max-width: 300px;
+	}
+	.Holidayhouse .evetextbox {
+		padding-top: inherit;
+	}
+/*--- max-width:479px event Tin House  ---*/
+	.Tinhouse .mainimg .tit {
+		margin: 0 auto 20px;
+	}
+	.Tinhouse .mainimg .tit img:first-child {
+		margin-right: 0;
+	}
+	.Tinhouse .mainimg .tit img:last-child {
+		width: 100%;
+		max-width: 200px;
+	}
+	.Tinhouse .evetextbox {
+		padding-top: inherit;
+	}
+
+}
+
+
+
