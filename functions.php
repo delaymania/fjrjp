@@ -48,6 +48,9 @@ function load_custom_template_for_specific_slugs( $template ) {
             case 'hello_blanc-ange':
                 $new_template = locate_template( array( 'single-hello_blanc-ange.php' ) );
                 break;
+            case 'hello_structure':
+                $new_template = locate_template( array( 'single-hello_structure.php' ) );
+                break;
             default:
                 $new_template = '';
         }

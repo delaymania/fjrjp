@@ -3663,8 +3663,11 @@ input.wpcf7c-conf:focus{
 }
 .reserve dt {
 	/*display: table-cell; 2日間のみ有効*/
-	width: 8%;
+	width: 12%;
 	font-weight: normal;
+}
+.reserve-margin {
+  margin-top: 20px;
 }
 .reserve dt i {
 	font-style: normal;
@@ -6775,24 +6778,28 @@ table.zeh th span {
 	}
 }
 @media screen and (max-width: 479px) {
-    /******form(register&login&contact)*****/
-    input[type="date"],
-    input[type="time"],
-    input[type="datetime-local"],
-    input[type="week"],
-    input[type="month"],
-    input[type="text"],
-	input[type="text"].input,
-    input[type="email"],
-    input[type="url"],
-    input[type="password"],
-    input[type="search"],
-    input[type="tel"],
-    input[type="number"],
-    textarea {
-        width: 100%;
-        display: inline;
-    }
+  /******form(register&login&contact)*****/
+  input[type="time"],
+  input[type="datetime-local"],
+  input[type="week"],
+  input[type="month"],
+  input[type="text"],
+  input[type="text"].input,
+  input[type="email"],
+  input[type="url"],
+  input[type="password"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    display: inline-block;
+  }
+  input[type="date"] {
+    width: 260px;
+    display: inline-block;
+  }
+
   .box_zip input[type="number"] {
     width: 100px;
   }

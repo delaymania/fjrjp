@@ -35,7 +35,6 @@
 					</div>
 				</div>
 	<?php endif; ?>
-<?php elseif(is_page('online') ): ?>
 
 <?php else: ?>
 				<!-- <div class="txtbox">
@@ -55,8 +54,6 @@
 				</div>
 <?php endif; ?>
 				
-<?php if (is_page('online') ): ?>
-<?php else: ?>
 
 				<table class="evetable ffa">
 					<tr>
@@ -104,15 +101,11 @@
 				</table>
 			</div>
 		</div>
-<?php endif; ?>
+
 
 		<div class="evereser">
 			<div class="under_contents">
-<?php if (is_page('online') ): ?>
-				<h4 class="everesertit ffb">予約フォーム</h4>
-<?php else: ?>
 				<h4 class="everesertit ffb">WEB来場予約</h4>
-<?php endif; ?>
 				<div class="evereserpanle cf">
 					<div class="evereserbox02">
 						<p class="ffa">当日ご希望の方は下記の番号へお電話ください。</p>
@@ -138,12 +131,14 @@
 		</div>
 		<div class="under_contents">
 			<div class="entry-content">
-      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>  
+        
+        <!--
+        <?php echo do_shortcode('[contact-form-7 id="18b730e" title="イベントページ"]'); ?>
+        -->
+        
+				<div class="iframe-container">
+					<iframe id="iframeEvent" src="https://info.fuji-realty.com/l/1063212/2024-05-24/dz4ttw" width="100%" height="2200px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+				</div>
 
-      <?php the_content(); ?>
-
-      <?php endwhile; else: ?>
-      <?php endif; ?>
-      </div>
-
+		    </div>
 		</div>

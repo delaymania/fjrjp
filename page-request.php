@@ -20,25 +20,17 @@ get_header(); ?>
             <h2 class="ttl">REQUEST<span>資料請求</span></h2>
         </div>
     </div>
-    <div class="under_contents_wrap">
+	<div class="under_contents_wrap entry-content">
+		<div class="under_contents form-layout">
 
-<div class="entry-content">
-<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/layout_lineup.css" type="text/css" media="all">
-<link rel="stylesheet" media="(max-width: 768px)" href="<?php echo get_stylesheet_directory_uri(); ?>/css/mobile_lineup.css">
-<div class="form-layout">
-<h3 class="form_title">資料請求</h3>
+			<h2 class="form_title">資料請求</h2>
 
-  
-        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>  
+			<div class="iframe-container">
+			<iframe id="iframeRequest" src="https://info.fuji-realty.com/l/1063212/2024-05-23/dz4ts9" width="100%" height="2600px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+			</div>	
 
-      <?php the_content(); ?>
-
-      <?php endwhile; else: ?>
-      <?php endif; ?>
-
-</div>
+		</div>
 	</div>
-</div>
 
 	</main><!-- .site-main -->
 

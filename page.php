@@ -28,16 +28,19 @@ get_header(); ?>
 
     
 <div class="under_contents_wrap">
+  <div class="under_contents page-content">
 
+    <div class="entry-content">
 
-      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>  
+        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>  
 
-      <?php the_content(); ?>
+        <?php the_content(); ?>
 
-      <?php endwhile; else: ?>
-      <?php endif; ?>
+        <?php endwhile; else: ?>
+        <?php endif; ?>
+    </div>
 
-
+  </div>
 </div>
 
 	</main><!-- .site-main -->

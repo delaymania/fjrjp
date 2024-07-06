@@ -36,17 +36,23 @@ get_header(); ?>
 
 <h2 class="form_title">売却無料査定お問い合わせフォーム</h2>
 <h3 class="form_sub_title">メールアドレスについてのご注意</h3>
-<p>フリーメール(Yahoo!メール、Gmail、など)をご利用の場合、弊社からのメールが届かないことや、「迷惑メール用フォルダ」などに振り分けられる場合があ ることが確認されています。ご入カいただくメールアドレスは、できるだけ<span class="form_notice">『フリーメールではないメー ルアドレス』のご利用をお勧めいたします。 </span></p>
+<p>フリーメール(Yahoo!メール、Gmail、など)をご利用の場合、弊社からのメールが届かないことや、「迷惑メール用フォルダ」などに振り分けられる場合があ ることが確認されています。ご入カいただくメールアドレスは、できるだけ<span class="form_notice">『フリーメールではないメールアドレス』のご利用をお勧めいたします。 </span></p>
 <p>また、弊社からのメールが届かない場合や、返信が遅い場合には、念のためお使いのメールソフトの「迷惑メール用フォルダ」などをご確認いただけますよう、併せてお願いいたします。</p>
   
 
-
+	<div class="iframe-container">
+    <iframe src="https://info.fuji-realty.com/l/1063212/2024-05-24/dz4tv3" width="100%" height="4600" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+  </div>
+  
+  
+<!--
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>  
 
       <?php the_content(); ?>
 
       <?php endwhile; else: ?>
       <?php endif; ?>
+-->
 
 </div>
 </div>

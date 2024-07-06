@@ -67,8 +67,28 @@
 				</dd>
 			</dl>
 		</div><!-- inner -->
-<?php require("inc/event-comment01.php"); ?>
+
+<div class="under_contents_wrap entry-content">
+<div class="under_contents form-layout">
+        <div class="evecombox">
+			<div class="under_contents">
+				<h4 class="everesertit ffb">予約フォーム</h4>
+				<div class="evereserpanle cf">
+					<div class="evereserbox02">
+						<p class="ffa">当日ご希望の方は下記の番号へお電話ください。</p>
+						<p class="ffc tel"><span class="studio">横浜スタジオ</span><a href="tel:0120767221" id="tel_yokohama"><span>0120-767-221</span></a></p>
+						<p class="ffa">営業時間／AM9:30-PM6:30　定休／火曜・水曜</p>
+					</div>
+				</div>
+			</div>	
+		</div>
 		
+		<div class="iframe-container">
+			<iframe id="iframeOnline" src="https://info.fuji-realty.com/l/1063212/2024-05-23/dz4tsl" width="100%" height="2200px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+		</div>
+</div>
+</div>
+	
 	</main><!-- .site-main -->
 
 	<?php get_sidebar( 'content-bottom' ); ?>
