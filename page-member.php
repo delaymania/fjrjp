@@ -26,7 +26,7 @@ get_header(); ?>
 					<h3 class="form_title">無料会員登録フォーム</h3>
 
 					<div class="iframe-container">
-						<iframe id="iframeMember" src="https://info.fuji-realty.com/l/1063212/2024-05-24/dz4ttz" width="100%" height="2300px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+						<iframe id="iframeMember" src="https://info.fuji-realty.com/l/1063212/2024-05-24/dz4ttz" width="100%" height="2400px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
 					</div>
           
 				</div><!-- .entry-content -->

@@ -41,7 +41,7 @@ get_header(); ?>
   
 
 	<div class="iframe-container">
-    <iframe src="https://info.fuji-realty.com/l/1063212/2024-05-24/dz4tv3" width="100%" height="4600" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+    <iframe src="https://info.fuji-realty.com/l/1063212/2024-05-24/dz4tv3" width="100%" height="4700" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
   </div>
   
   

@@ -26,7 +26,7 @@ get_header(); ?>
 			<h2 class="form_title">資料請求</h2>
 
 			<div class="iframe-container">
-			<iframe id="iframeRequest" src="https://info.fuji-realty.com/l/1063212/2024-05-23/dz4ts9" width="100%" height="2600px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+			<iframe id="iframeRequest" src="https://info.fuji-realty.com/l/1063212/2024-05-23/dz4ts9" width="100%" height="2700px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
 			</div>	
 
 		</div>
