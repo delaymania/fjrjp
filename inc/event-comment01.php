@@ -58,7 +58,19 @@
 				<table class="evetable ffa">
 					<tr>
 						<th class="evetablebg">イベント名</th>
-						<td class="evetablebg"><?php the_title(); ?></td>
+						<td class="evetablebg">
+              <?php 
+                $slug = get_post_field('post_name', get_post());
+                if ($slug === 'am6') {
+                    the_title(); 
+                    echo ' 商品説明会';
+                } elseif ($slug === 'tochi') {
+                    echo '安定収入を得るための土地活用・アパート・マンション賃貸経営説明会';
+                } else {
+                    the_title();
+                }
+              ?>
+            </td>
 					</tr>
 					<tr>
 						<th>開催日</th>
@@ -137,7 +149,7 @@
         -->
         
 				<div class="iframe-container">
-					<iframe id="iframeEvent" src="https://info.fuji-realty.com/l/1063212/2024-05-24/dz4ttw" width="100%" height="2500px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+					<iframe id="iframeEvent" src="https://info.fuji-realty.com/l/1063212/2024-05-24/dz4ttw" width="100%" height="2200px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
 				</div>
 
 		    </div>
