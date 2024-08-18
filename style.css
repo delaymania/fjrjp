@@ -679,10 +679,10 @@ body:not(.has-sidebar) .site-content {
   padding: 0 !important;
 }
 .gallery-columns-2>* {
-    width: 50%;
+    width: 49%;
 }
 .gallery-columns-2>:nth-child(1n) {
-    margin-right: 0;
+    margin-right: 2%;
 }
 .gallery-columns-2>:nth-child(2n) {
     margin-right: 0;
@@ -745,20 +745,23 @@ form.form p.no-label {
 }
 @media screen and (max-width: 767px) {
 	#iframeContact {
-		height: 1700px !important;
+		height: 2200px !important;
 	}
 	#iframeRequest {
-		height: 2900px !important;
+		height: 4200px !important;
 	}
 	#iframeOnline {
-		height: 2500px !important;
+		height: 3500px !important;
 	}
 	#iframeEvent {
-		height: 2500px !important;
+		height: 3500px !important;
 	}
 	#iframeMember {
-		height: 2500px !important;
+		height: 2800px !important;
 	}
+  #iframeSell {
+		height: 6800px !important;
+  }
 }
 
 /* --------------------------------------------------------------------------------------------------------------
