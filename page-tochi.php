@@ -27,6 +27,7 @@
 <link data-optimized="1" rel="stylesheet" id="cssanimation-css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/tochi/da689b55d25559e2e079921539600916.css" type="text/css" media="all">
 <link data-optimized="1" rel="stylesheet" id="buildico-toolkit-main-css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/tochi/fad2077e52c6566fd41c9e3622ed4646.css" type="text/css" media="all">
 <link data-optimized="1" rel="stylesheet" id="elementor-icons-shared-0-css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/tochi/815c834c19cf878824405d91363c2cb1.css" type="text/css" media="all">
+<link data-optimized="1" rel="stylesheet" id="elementor-style-css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/tochi/elementor-style.css" type="text/css" media="all">
 
 
 <div class="hfeed site" id="page" style="background-color: #fff;">
@@ -2405,6 +2406,355 @@
 </div>
 </div>
 </section>
+
+
+<section class="elementor-section elementor-top-section elementor-element elementor-element-b2b2fcb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b2b2fcb" data-element_type="section">
+    <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ca2b91d" data-id="ca2b91d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-8c2257f eael-table-align-center eael-dt-th-align-left eael-dt-td-align-left elementor-widget elementor-widget-eael-data-table" data-id="8c2257f" data-element_type="widget" data-widget_type="eael-data-table.default">
+                    <div class="elementor-widget-container">
+                        <div class="eael-data-table-wrap" data-table_id="8c2257f" data-custom_responsive="false">
+                            <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257f">
+                                <thead>
+                                    <tr class="table-header">
+                                        <th><span class="data-table-header-text">プロジェクト名</span></th>
+                                        <th><span class="data-table-header-text">LALA茅ヶ崎</span></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">住所</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">神奈川県茅ヶ崎市東海岸南三丁目</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">敷地面積</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">305㎡</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">建物構造</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">木造3階建て</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">建物種別</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">マンション</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">利回り</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">9％以上</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">竣工</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">令和6年8月</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-483bf9f elementor-widget elementor-widget-text-editor" data-id="483bf9f" data-element_type="widget" data-widget_type="text-editor.default">
+                    <div class="elementor-widget-container">
+                        <p class="p1">サザンオールスターズで有名なサザンビーチに近く湘南茅ヶ崎の人気のエリアに建築致しました。白と木目を基調にした外観は湘南海岸にピッタリな雰囲気です。</p>
+                        <p>施工写真は<a href="https://fj-r.jp/project/project-11967/">こちら&gt;&gt;</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ca1eca0" data-id="ca1eca0" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-3d2e5d7 elementor-widget elementor-widget-image" data-id="3d2e5d7" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <img loading="lazy" decoding="async" width="640" height="427" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3514.jpg" alt="">
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-27b0f3b elementor-widget elementor-widget-image-gallery" data-id="27b0f3b" data-element_type="widget" data-widget_type="image-gallery.default">
+                    <div class="elementor-widget-container">
+                        <div class="elementor-image-gallery">
+                            <div id="gallery-8" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3512" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3512.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3512-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3296" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3296.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3296-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3299" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3299.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3299-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3300" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3300.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3300-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3304" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3304.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3304-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3309" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3309.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3309-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3313" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3313.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3313-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3316" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3316.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3316-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3319" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3319.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3319-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3323" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3323.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3323-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3328" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3328.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3328-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3329" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3329.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3329-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3333" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3333.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3333-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3334" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3334.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3334-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3336" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3336.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3336-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3337" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3337.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3337-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3338" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3338.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3338-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3339" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3339.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3339-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3340" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3340.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3340-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3341" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3341.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3341-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3342" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3342.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3342-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3344" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3344.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3344-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3345" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3345.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3345-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3348" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3348.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3348-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3507" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3507.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3507-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3508" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3508.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3508-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3510" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3510.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3510-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+<figure class="gallery-item">
+    <div class="gallery-icon landscape">
+        <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3511" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3511.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+            <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3511-150x150.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+        </a>
+    </div>
+</figure>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+  
+  
 <section class="elementor-section elementor-top-section elementor-element elementor-element-c7876f3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c7876f3" data-element_type="section">
 <div class="elementor-container elementor-column-gap-default">
 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-407b477 animated fadeInLeft" data-id="407b477" data-element_type="column" data-settings="{&quot;animation&quot;:&quot;fadeInLeft&quot;}">
