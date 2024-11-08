@@ -361,6 +361,12 @@ body:not(.has-sidebar) .site-content {
   opacity: 1;
 }
 
+/* キャンペーンバナー */
+.top-page-banner {
+  max-width: 1280px;
+  margin: 50px auto 0;
+}
+
 /* 会社概要 */
 #aboutCont {
 	background: url("./img/bg_top_ab01.jpg") no-repeat center center;
@@ -557,6 +563,10 @@ body:not(.has-sidebar) .site-content {
   font-size: 24px;
   font-weight: 900;
   margin: 20px 0;
+}
+.entry-content a {
+  color: #08c;
+  text-decoration: underline;
 }
 
 /* --------------------------------------------------------------------------------------------------------------
