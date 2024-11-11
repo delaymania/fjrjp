@@ -488,6 +488,7 @@ body:not(.has-sidebar) .site-content {
   margin-bottom: 10px;
   width: 100%;
 }
+/*
 .event .ph_flame:after{
   background: #fff;
   content: ' ';
@@ -498,6 +499,7 @@ body:not(.has-sidebar) .site-content {
   width: 102%;
   z-index: 1;
 }
+*/
 .event .ph_flame img {
   display: block;
   height: auto;
@@ -514,6 +516,23 @@ body:not(.has-sidebar) .site-content {
 .event-box a {
   color: #000;
   text-decoration: none;
+}
+/* 4:3のアスペクト比になるようにクロップ */
+.event .ph_flame {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+  overflow: hidden;
+}
+.event .ph_flame img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  max-width: none;
+  min-height: 100%;
 }
 
 /*portfolio 施工事例*/
@@ -553,7 +572,7 @@ body:not(.has-sidebar) .site-content {
     width: 50%;
   }
   .event-box {
-    width: 47%;
+    width: 48%;
   }
 }
 
@@ -647,6 +666,7 @@ body:not(.has-sidebar) .site-content {
     margin-bottom: 10px;
     width: 100%;
 }
+/*
 .project-box .ph_flame:after {
     background: #fff;
     content: ' ';
@@ -657,6 +677,7 @@ body:not(.has-sidebar) .site-content {
     width: 102%;
     z-index: 1;
 }
+*/
 .project-box .ph_flame img {
     display: block;
     height: auto;
@@ -671,6 +692,24 @@ body:not(.has-sidebar) .site-content {
   margin: 5px 0;
   text-align: left;
 }
+/* 4:3のアスペクト比になるようにクロップ */
+.project-box .ph_flame {
+  position: relative;
+  width: 100%;
+  padding-top: 75%;
+  overflow: hidden;
+}
+.project-box .ph_flame img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  max-width: none;
+  min-height: 100%;
+}
+
 /*施工事例個別ページ*/
 #single-project {
   background-color: #ffefd1;
@@ -708,7 +747,7 @@ body:not(.has-sidebar) .site-content {
 }
 @media screen and (max-width: 500px) {
   .project-box {
-    width: 47%;
+    width: 48%;
   }
 }
 /* --------------------------------------------------------------------------------------------------------------
