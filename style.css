@@ -464,6 +464,7 @@ body:not(.has-sidebar) .site-content {
 .eventday .ffb {
 	font-size: 17px;
 	font-weight: bold;
+  font-family: 'Oswald', "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", sans-serif;
 }
 .event .ttl_wrap img {
     width: 35px;

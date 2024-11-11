@@ -305,4 +305,55 @@ function is_mobile() {
 	return preg_match( $pattern, $_SERVER['HTTP_USER_AGENT'] );
 }
 
+/*================================================================================================================================
+ イベントの開催日の土日自動出力
+================================================================================================================================*/
+function get_next_weekend_dates() {
+    // 現在の日付を取得
+    $today = new DateTime();
 
+    // 今日の曜日を取得（0=日曜日、1=月曜日、...、6=土曜日）
+    $dayOfWeek = $today->format('w');
+
+    // 次の土曜日と日曜日の日付を設定
+    if ($dayOfWeek == 0) {
+        // 今日が日曜日の場合は6日後が次の土曜日、7日後が次の日曜日
+        $saturday = (clone $today)->modify('next Saturday');
+        $sunday = (clone $today)->modify('next Sunday');
+    } elseif ($dayOfWeek == 6) {
+        // 今日が土曜日の場合はその日が土曜日、翌日が日曜日
+        $saturday = $today;
+        $sunday = (clone $today)->modify('+1 day');
+    } else {
+        // 今日が月曜から金曜の場合は今週の土曜日と日曜日
+        $saturday = (clone $today)->modify('next Saturday');
+        $sunday = (clone $saturday)->modify('+1 day');
+    }
+
+    // 日付の再計算（曜日のチェック）
+    if ($saturday->format('w') != 6) {
+        $saturday = (clone $today)->modify('next Saturday');
+    }
+    if ($sunday->format('w') != 0) {
+        $sunday = (clone $saturday)->modify('+1 day');
+    }
+
+    // フォーマットした日付を取得
+    $formatted_saturday = $saturday->format('n/j(土)');
+    $formatted_sunday = $sunday->format('n/j(日)');
+
+    // HTML形式で出力
+    ob_start(); // 出力をバッファリング
+    ?>
+    <div class="textwidget custom-html-widget">
+        <span class="ffb">
+            <span class="sat"><?php echo esc_html($formatted_saturday); ?></span>
+            <span class="holi"><?php echo esc_html($formatted_sunday); ?></span>
+        </span>
+    </div>
+    <?php
+    return ob_get_clean(); // バッファを返す
+}
+
+// WordPress内で使用するショートコードを作成
+add_shortcode('next_weekend_dates', 'get_next_weekend_dates');
