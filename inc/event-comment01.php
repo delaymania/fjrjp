@@ -145,7 +145,11 @@
 			<div class="entry-content">
         
 				<div class="iframe-container">
+          <iframe id="iframeEvent" src="https://info.fuji-realty.com/l/1063212/2024-11-08/f1jy74?EventName=<?php the_title(); ?>" width="100%" height="2200px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+          
+          <!-- ver1
 					<iframe id="iframeEvent" src="https://info.fuji-realty.com/l/1063212/2024-05-24/dz4ttw?EventName=<?php the_title(); ?>" width="100%" height="2200px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+          -->
 				</div>
 
 		    </div>
