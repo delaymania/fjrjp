@@ -308,7 +308,16 @@ function is_mobile() {
 /*================================================================================================================================
  イベントの開催日の土日自動出力
 ================================================================================================================================*/
-function get_next_weekend_dates() {
+function get_next_weekend_dates($atts) {
+    // ショートコードの属性を設定（デフォルト値を含む）
+    $atts = shortcode_atts(
+        array(
+            'shtdn_sat' => '', // 次の営業日（土曜日）
+            'shtdn_sun' => ''  // 次の営業日（日曜日）
+        ), 
+        $atts
+    );
+
     // 現在の日付を取得
     $today = new DateTime();
 
@@ -316,26 +325,23 @@ function get_next_weekend_dates() {
     $dayOfWeek = $today->format('w');
 
     // 次の土曜日と日曜日の日付を設定
-    if ($dayOfWeek == 0) {
-        // 今日が日曜日の場合は6日後が次の土曜日、7日後が次の日曜日
-        $saturday = (clone $today)->modify('next Saturday');
-        $sunday = (clone $today)->modify('next Sunday');
-    } elseif ($dayOfWeek == 6) {
-        // 今日が土曜日の場合はその日が土曜日、翌日が日曜日
-        $saturday = $today;
-        $sunday = (clone $today)->modify('+1 day');
-    } else {
-        // 今日が月曜から金曜の場合は今週の土曜日と日曜日
-        $saturday = (clone $today)->modify('next Saturday');
-        $sunday = (clone $saturday)->modify('+1 day');
-    }
+    $saturday = ($dayOfWeek == 6) ? $today : (clone $today)->modify('next Saturday');
+    $sunday = (clone $saturday)->modify('+1 day');
 
-    // 日付の再計算（曜日のチェック）
-    if ($saturday->format('w') != 6) {
-        $saturday = (clone $today)->modify('next Saturday');
+    // 臨時休業による入力を優先する
+    if (!empty($atts['shtdn_sat'])) {
+        // 入力された次の営業日（土曜日）を優先
+        $saturday = DateTime::createFromFormat('n/j', $atts['shtdn_sat']);
+        if (!$saturday) {
+            return '<p>無効な日付形式が入力されています: ' . esc_html($atts['shtdn_sat']) . '</p>';
+        }
     }
-    if ($sunday->format('w') != 0) {
-        $sunday = (clone $saturday)->modify('+1 day');
+    if (!empty($atts['shtdn_sun'])) {
+        // 入力された次の営業日（日曜日）を優先
+        $sunday = DateTime::createFromFormat('n/j', $atts['shtdn_sun']);
+        if (!$sunday) {
+            return '<p>無効な日付形式が入力されています: ' . esc_html($atts['shtdn_sun']) . '</p>';
+        }
     }
 
     // フォーマットした日付を取得
@@ -343,7 +349,7 @@ function get_next_weekend_dates() {
     $formatted_sunday = $sunday->format('n/j(日)');
 
     // HTML形式で出力
-    ob_start(); // 出力をバッファリング
+    ob_start();
     ?>
     <div class="textwidget custom-html-widget">
         <span class="ffb">
