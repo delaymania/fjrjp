@@ -85,7 +85,7 @@
 </div>
 
 <div class="top-page-banner">
-  <a href="https://fj-r.jp/pdf/2024-2025-shonannokoumuten.pdf" target="_blank" rel="noopener"><img src="https://fj-r.jp/wp-content/uploads/2024/12/Shonannokoumuten-1.jpg" alt="2024年年末・2025年年始の休業日"></a>
+  <a href="https://fj-r.jp/pdf/2024-2025-shonannokoumuten.pdf" target="_blank" rel="noopener"><img src="https://fj-r.jp/wp-content/uploads/2024/12/2024-2025-kyugyou.jpg" alt="2024年年末・2025年年始の休業日"></a>
 </div>
 
 <div class="top-page-banner">
