@@ -3150,7 +3150,201 @@
         </div>
     </div>
 </section>
+
   
+<section class="elementor-section elementor-top-section elementor-element elementor-element-b2b2fce elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b2b2fce" data-element_type="section">
+    <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ca2b91d" data-id="ca2b91d" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-8c2257f eael-table-align-center eael-dt-th-align-left eael-dt-td-align-left elementor-widget elementor-widget-eael-data-table" data-id="8c2257f" data-element_type="widget" data-widget_type="eael-data-table.default">
+                    <div class="elementor-widget-container">
+                        <div class="eael-data-table-wrap" data-table_id="8c2257f" data-custom_responsive="false">
+                            <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257f">
+                                <thead>
+                                    <tr class="table-header">
+                                        <th><span class="data-table-header-text">プロジェクト名</span></th>
+                                        <th><span class="data-table-header-text">藤沢市大鋸戸建賃貸</span></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">住所</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">神奈川県藤沢市大鋸</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">敷地面積</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">81.97㎡</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">建物構造</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">木造2階建</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">建物種別</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">戸建賃貸</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">利回り</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">10％以上(造成費用別途)</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">竣工</div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="td-content-wrapper">
+                                                <div class="td-content">令和6年</div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-483bf9f elementor-widget elementor-widget-text-editor" data-id="483bf9f" data-element_type="widget" data-widget_type="text-editor.default">
+                    <div class="elementor-widget-container">
+                        <p class="p1">
+高台に位置し眺望良好な立地。3LDKの戸建賃貸で大型犬もOK。室内床材にはペット対応素材を使用しています。お庭にはペット専用足洗いはも完備しています。ペットも家族。オーナー様のお気持ちが伝わってくる戸建賃貸です。
+                      </p>
+                        <p>施工写真は<a href="https://fj-r.jp/project/project-12401/">こちら&gt;&gt;</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ca1eca0" data-id="ca1eca0" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                <div class="elementor-element elementor-element-3d2e5d7 elementor-widget elementor-widget-image" data-id="3d2e5d7" data-element_type="widget" data-widget_type="image.default">
+                    <div class="elementor-widget-container">
+                        <img loading="lazy" decoding="async" width="640" height="427" src="https://fj-r.jp/wp-content/uploads/2025/01/a.jpg" alt="">
+                    </div>
+                </div>
+                <div class="elementor-element elementor-element-27b0f3e elementor-widget elementor-widget-image-gallery" data-id="27b0f3e" data-element_type="widget" data-widget_type="image-gallery.default">
+                    <div class="elementor-widget-container">                      
+                      <div class="elementor-image-gallery">
+<div id="gallery-8" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
+    <figure class="gallery-item">
+        <div class="gallery-icon landscape">
+            <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3e" data-elementor-lightbox-title="Image a" href="https://fj-r.jp/wp-content/uploads/2025/01/a.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+                <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2025/01/a.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+            </a>
+        </div>
+    </figure>
+    <figure class="gallery-item">
+        <div class="gallery-icon landscape">
+            <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3e" data-elementor-lightbox-title="Image b" href="https://fj-r.jp/wp-content/uploads/2025/01/b.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+                <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2025/01/b.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+            </a>
+        </div>
+    </figure>
+    <figure class="gallery-item">
+        <div class="gallery-icon landscape">
+            <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3e" data-elementor-lightbox-title="Image c" href="https://fj-r.jp/wp-content/uploads/2025/01/c.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+                <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2025/01/c.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+            </a>
+        </div>
+    </figure>
+    <figure class="gallery-item">
+        <div class="gallery-icon landscape">
+            <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3e" data-elementor-lightbox-title="Image d" href="https://fj-r.jp/wp-content/uploads/2025/01/d.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+                <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2025/01/d.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+            </a>
+        </div>
+    </figure>
+    <figure class="gallery-item">
+        <div class="gallery-icon landscape">
+            <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3e" data-elementor-lightbox-title="Image e" href="https://fj-r.jp/wp-content/uploads/2025/01/e.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+                <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2025/01/e.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+            </a>
+        </div>
+    </figure>
+    <figure class="gallery-item">
+        <div class="gallery-icon landscape">
+            <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3e" data-elementor-lightbox-title="Image f" href="https://fj-r.jp/wp-content/uploads/2025/01/f.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+                <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2025/01/f.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+            </a>
+        </div>
+    </figure>
+    <figure class="gallery-item">
+        <div class="gallery-icon landscape">
+            <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3e" data-elementor-lightbox-title="Image g" href="https://fj-r.jp/wp-content/uploads/2025/01/g.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+                <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2025/01/g.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+            </a>
+        </div>
+    </figure>
+    <figure class="gallery-item">
+        <div class="gallery-icon landscape">
+            <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3e" data-elementor-lightbox-title="Image h" href="https://fj-r.jp/wp-content/uploads/2025/01/h.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+                <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2025/01/h.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+            </a>
+        </div>
+    </figure>
+    <figure class="gallery-item">
+        <div class="gallery-icon landscape">
+            <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3e" data-elementor-lightbox-title="Image i" href="https://fj-r.jp/wp-content/uploads/2025/01/i.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+                <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2025/01/i.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+            </a>
+        </div>
+    </figure>
+    <figure class="gallery-item">
+        <div class="gallery-icon landscape">
+            <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3e" data-elementor-lightbox-title="Image j" href="https://fj-r.jp/wp-content/uploads/2025/01/j.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
+                <img loading="lazy" decoding="async" width="150" height="150" src="https://fj-r.jp/wp-content/uploads/2025/01/j.jpg" class="attachment-thumbnail size-thumbnail" alt="">
+            </a>
+        </div>
+    </figure>
+</div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
   
 <section class="elementor-section elementor-top-section elementor-element elementor-element-c7876f3 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c7876f3" data-element_type="section">
 <div class="elementor-container elementor-column-gap-default">
