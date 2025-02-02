@@ -84,10 +84,6 @@
   </div>
 </div>
 
-<div class="top-page-banner">
-  <a href="https://fj-r.jp/pdf/yokohama-studio-1st-anniversary-campaign.pdf" target="_blank" rel="noopener"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/20241028-fjrjp-anniversary-campaign-banner.jpg" alt="1st Anniversary Campaign"></a>
-</div>
-
 <section id="aboutCont">
 	<div class="aboutCont-in">
 		<div class="aboutCont-box">
