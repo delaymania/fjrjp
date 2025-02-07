@@ -84,6 +84,10 @@
   </div>
 </div>
 
+<div class="top-page-banner">
+  <a href="https://fj-r.jp/news/news-12431/" target="_blank" rel="noopener"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/banner-news-12431.jpg" alt="1st Anniversary Campaign"></a>
+</div>
+
 <section id="aboutCont">
 	<div class="aboutCont-in">
 		<div class="aboutCont-box">
