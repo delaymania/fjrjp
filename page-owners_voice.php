@@ -81,7 +81,7 @@ get_header(); ?>
 				</div><!-- List -->
 								
 								<div class="List">
-					<div class="sp-slide voice_no02"><a href="<?php echo esc_url( home_url( '/' ) ); ?>owners_voice/no02">
+					<div class="sp-slide voice_no03"><a href="<?php echo esc_url( home_url( '/' ) ); ?>owners_voice/no02">
 						<div class="textBox">
 																			<p class="voice_num">OWNER<span>’</span>S VOICE</p>
 							<p class="tl">千葉県 K様 <br>ZERO-CUBE +GARAGE</p>
