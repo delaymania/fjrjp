@@ -126,9 +126,9 @@ get_header(); ?>
         </div><!-- swiper-container -->
 
         <div class="map-canvas">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.477641244041!2d139.6493288!3d35.4429678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185d46842007dd%3A0x4d630051b67e4867!2z44ON44Kv44K544OIIOaoqua1nOOCueOCv-OCuOOCqg!5e0!3m2!1sja!2sjp!4v1704531589858!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.477641244041!2d139.6493288!3d35.4429678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185d367acffffb%3A0xe9e38959a4ffc963!2z5a-M5aOr44Oq44Ki44Or44OG44KjIOa5mOWNl-S5g-W3peWLmeW6lyDmqKrmtZzjgrnjgr_jgrjjgqo!5e0!3m2!1sja!2sjp!4v1740537058755!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="textC"><a href="https://goo.gl/maps/nvX2aKEchJwyZNF97" target="_blank" class="btn_access02 rev">Googleマップで見る</a></div>
+        <div class="textC"><a href="https://maps.app.goo.gl/envvbQtKgaBMWzwC6" target="_blank" class="btn_access02 rev">Googleマップで見る</a></div>
       </div><!-- .studio -->
     </div>
 	</main><!-- .site-main -->

@@ -39,12 +39,12 @@
           <div class="addressBox">
 						<div class="column">
 						  <p class="studio">[ 横浜スタジオ ]</p>
-						  <p class="address">〒231-0023 <br>神奈川県横浜市中区山下町84-5-5F<a class="gm" href="https://maps.app.goo.gl/sedVRm24wgR4ojFz8" target="_blank">Google Map</a></p>
+						  <p class="address">〒231-0023 <br>神奈川県横浜市中区山下町84-5-5F<a class="gm" href="https://maps.app.goo.gl/envvbQtKgaBMWzwC6" target="_blank">Google Map</a></p>
 						  <div class="tel_box">
 							  <p class="name pc_only"><i class="fa fa-volume-control-phone" aria-hidden="true"></i><span>0120-767-221</span></p><p class="name sp_only"><a href="tel:0120-767-221" id="tel_yokohama" onclick="yahoo_report_conversion('tel:0120-767-221')"><i class="fa fa-volume-control-phone" aria-hidden="true"></i><span>0120-767-221</span></a></p>
 						  </div>
 						  <p class="tel"><span><?php if(wp_is_mobile()) : ?><a href="tel:0452227822" id="tel_yokohama" onclick="yahoo_report_conversion('tel:045-222-7822')">TEL/045-222-7822</a><?php else:?>TEL/045-222-7822<?php endif;?></span><span class="fax">FAX/045-222-7821</span></p>
-						  <p class="time">OPEN/9:30-18:30　<br>定休日/水曜日・第一火曜日</p>
+						  <p class="time">OPEN/9:30-18:30　<br>定休日/火曜日・水曜日</p>
 						</div><!-- .column -->
 						<div class="column">
 						  <p class="studio">[ 湘南スタジオ ]</p>
