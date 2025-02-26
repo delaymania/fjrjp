@@ -387,7 +387,9 @@ wp_reset_postdata();
                 <ul class="info_btn_list clearfix">
                     <li class="info_btn"><a href="<?php echo home_url( '/want-to-sell/' ); ?>">売りたい方へ</a></li>
                     <li class="info_btn"><a href="<?php echo home_url( '/loan/' ); ?>">住宅ローン金利情報</a></li>
+                  <!--
                     <li class="info_btn"><a href="http://sumai-kyufu.jp/" target="_blank">住まい給付金</a></li>
+                  -->
                     <li class="info_btn"><a href="<?php echo home_url( '/assurance/' ); ?>">当社の保証について</a></li>
                 </ul>
               </div>
