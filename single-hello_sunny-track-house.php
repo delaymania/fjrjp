@@ -94,13 +94,9 @@ LIFE LABELがプロデュースでつくった、<br>
 							<div class="boxP">
 								<div class="leftP">
 									<h3><img src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/icon_access.svg" alt="">開催場所</h3>
-																		<div class="eventAccess">
-										<p class="nameP">船橋スタジオ</p>
-										<p class="linkP"><a href="https://www.next-at.co.jp/access/#anchor01" target="_blank" rel="noreferrer">アクセス</a></p>
-									</div>
-																		<div class="eventAccess">
-										<p class="nameP">さいたまスタジオ</p>
-										<p class="linkP"><a href="https://www.next-at.co.jp/access/#anchor03" target="_blank" rel="noreferrer">アクセス</a></p>
+                  <div class="eventAccess">
+										<p class="nameP">横浜スタジオ</p>
+										<p class="linkP"><a href="https://fj-r.jp/studio/#yokohama-studio" target="_blank" rel="noreferrer">アクセス</a></p>
 									</div>
 																	</div>
 								<div class="rightP">

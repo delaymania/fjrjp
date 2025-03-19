@@ -28,7 +28,7 @@ get_header(); ?>
         </div>
       </div>
       
-      <div class="under_contents studio yokohama">
+      <div class="under_contents studio yokohama" id="shonan-studio">
         <div class="accessBox01 cf">
           <div class="area">
             <h3><span class="en">SHONAN STUDIO</span><span class="ja">湘南スタジオ</span></h3>
@@ -65,7 +65,7 @@ get_header(); ?>
         <div class="textC"><a href="https://maps.app.goo.gl/ZhU1aTzeEpw4irff7" target="_blank" class="btn_access02 rev">Googleマップで見る</a></div>
       </div>
       
-      <div class="under_contents studio yokohama">
+      <div class="under_contents studio yokohama" id="yokohama-studio">
         <div class="accessBox01 cf">
           <div class="area">
             <h3><span class="en">YOKOHAMA STUDIO</span><span class="ja">横浜スタジオ</span></h3>
