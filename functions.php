@@ -51,6 +51,9 @@ function load_custom_template_for_specific_slugs( $template ) {
             case 'hello_structure':
                 $new_template = locate_template( array( 'single-hello_structure.php' ) );
                 break;
+            case 'hello_sunny-track-house':
+                $new_template = locate_template( array( 'single-hello_sunny-track-house.php' ) );
+                break;
             default:
                 $new_template = '';
         }

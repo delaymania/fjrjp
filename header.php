@@ -16,6 +16,44 @@
 	<meta name="format-detection" content="telephone=no"/>
 	<?php wp_head(); ?>
   
+<?php if ( is_single('hello_sunny-track-house') ): ?>
+<link rel="stylesheet" id="cptlfcf7-front-css-css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/front.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-pagenavi-css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/pagenavi-css.css" type="text/css" media="all">
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/reset.css" media="all">
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/slick.css" media="all">
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/animate.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/jquery.fancybox.css" media="all">
+<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/jquery-ui.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/style.css" media="all and (min-width : 768px)">
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/style_sp.css" media="only screen and (max-width : 767px)">
+<!--FOT-筑紫A丸ゴシック Std 'TsukuARdGothic'-->
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/jquery-3.6.1.min.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/jquery.matchHeight-min.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/jquery.biggerlink.min.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/wow.min.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/slick.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/perspective-3d-carousel.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/swiper-bundle.min.js"> </script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/jquery.fancybox.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/yubinbango.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/jquery-ui.min.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/jquery.ui.datepicker-ja.min.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/common.js"></script>
+<script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/home.js"></script>
+<script type="text/javascript" id="perspective-3d-carousel-js-js-extra">
+/* <![CDATA[ */
+	var perspec3d_carousel_options = {
+		"sliderDelay":"4000",
+	};
+/* ]]> */
+</script>
+<style>.tk-fot-tsukuardgothic-std{font-family:"fot-tsukuardgothic-std",sans-serif;}</style><script type="text/javascript" async="" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/f.txt"></script><script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/f(1).txt"></script>
+<?php endif; ?>
+
+
 <?php if ( is_single('hello_zero-cube-malibu') ): ?>
 
 <!-- Stylesheet -->
