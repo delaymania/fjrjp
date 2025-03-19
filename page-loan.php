@@ -67,6 +67,46 @@ get_header(); ?>
 <p class="lead">不動産住宅ローン・借り換えローン・住み替えローン・リフォームローンなど各種不動産ローンがございます。 </p>
 </td>
 </tr>
+  
+<tr>
+<td class="loan_box">
+<h2 class="ttl">
+<span><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/loan/icon_loan_logo_smtb.jpg" alt="三井住友信託銀行"></span><br>
+<span>三井住友信託銀行</span><br>
+</h2>
+<p class="name"><a href="https://www.smtb.jp/personal/loan/house" target="_blank">住宅ローン</a></p>
+<p class="lead"></p>
+</td>
+<td class="loan_box">
+<h2 class="ttl">
+<span><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/loan/icon_loan_logo_yokohama.jpg" alt="横浜銀行"></span><br>
+<span>横浜銀行</span><br>
+</h2>
+<p class="name"><a href="https://www.boy.co.jp/kojin/jutaku-loan/shinchiku/index.html" target="_blank">住宅ローン</a></p>
+<p class="lead"></p>
+</td>
+</tr>
+  
+<tr>
+<td class="loan_box">
+<h2 class="ttl">
+<span><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/loan/icon_loan_logo_shizuoka.jpg" alt="静岡銀行"></span><br>
+<span>静岡銀行</span><br>
+</h2>
+<p class="name"><a href="https://www.shizuokabank.co.jp/personal/loan/jyutaku/index.html" target="_blank">住宅ローン</a></p>
+<p class="lead"></p>
+</td>
+<td class="loan_box">
+<h2 class="ttl">
+<span><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/loan/icon_loan_logo_shizuokachuo.jpg" alt="静岡中央銀行"></span><br>
+<span>静岡中央銀行</span><br>
+</h2>
+<p class="name"><a href="https://www.shizuokachuo-bank.co.jp/kojin/kariru/loan/home.html" target="_blank">住宅ローン</a></p>
+<p class="lead"></p>
+</td>
+</tr>
+
+  <!--
 <tr>
 <td class="loan_box">
 <h2 class="ttl">
@@ -94,6 +134,10 @@ get_header(); ?>
 <p class="name"><a href="http://www.keiyobank.co.jp/kariru/home/index.html" target="_blank">住宅ローン</a></p>
 <p class="lead">基本保証会社を使わない独自の審査システムで、他行とは違う取組みをしている特徴があります。 </p>
 </td>
+</tr>
+  -->
+  
+<tr>
 <td class="loan_box">
 <h2 class="ttl">
 <span><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/loan/icon_loan_logo_08.jpg" alt="住信SBIネット銀行"></span><br>
@@ -102,8 +146,6 @@ get_header(); ?>
 <p class="name"><a href="https://www.netbk.co.jp/wpl/NBGate/i080101CT" target="_blank">住宅ローン</a></p>
 <p class="lead">当社は提携ローンがございますので、ネットで申し込むよりも更に金利優遇が出来ます。 </p>
 </td>
-</tr>
-<tr>
 <td class="loan_box">
 <h2 class="ttl">
 <span><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/loan/icon_loan_logo_09.jpg" alt="中央労働金庫"></span><br>
@@ -112,6 +154,7 @@ get_header(); ?>
 <p class="name"><a href="http://chuo.rokin.com/loan/jutaku_loan/" target="_blank">住宅ローン（不動産担保型）</a></p>
 <p class="lead">資金シミュレート等が出来ます。労働組合に入っている方などには条件も良く、使い勝手の良さが魅力です。 </p>
 </td>
+<!--  
 <td class="loan_box">
 <h2 class="ttl">
 <span><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/loan/icon_loan_logo_10.jpg" alt="JAいちかわ"></span><br>
@@ -120,6 +163,7 @@ get_header(); ?>
 <p class="name"><a href="http://www.ja-ichikawashi.or.jp/business/loan.php" target="_blank">ＪＡ住宅ローン</a></p>
 <p class="lead">意外に知られていませんが、JAの住宅ローンは優遇後の金利などで銀行に負けない条件が魅力です。 </p>
 </td>
+  -->
 </tr>
 <tr>
 <td class="loan_box">
@@ -132,20 +176,20 @@ get_header(); ?>
 </td>
 <td class="loan_box">
 <h2 class="ttl">
-<span><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/loan/icon_loan_logo_12.jpg" alt="東京都民銀行"></span><br>
-<span>東京都民銀行</span><br>
+<span><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/loan/icon_loan_logo_kiraboshi.jpg" alt="きらぼし銀行"></span><br>
+<span>きらぼし銀行</span><br>
 </h2>
-<p class="name"><a href="http://www.tominbank.co.jp/for_kojin/kariru/jutaku/index.html" target="_blank">住宅ローン関連</a></p>
+<p class="name"><a href="https://www.kiraboshibank.co.jp/kariru/juutaku/" target="_blank">住宅ローン関連</a></p>
 <p class="lead">他の銀行と比べると、特徴の薄いところはありますが、条件さえはまれば他では難しい案件も承認されることもあります。 </p>
 </td>
 </tr>
 <tr>
 <td class="loan_box">
 <h2 class="ttl">
-<span><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/loan/icon_loan_logo_13.jpg" alt="ゆうちょ銀行"></span><br>
-<span>ゆうちょ銀行</span><br>
+<span><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/loan/icon_loan_logo_suruga.jpg" alt="スルガ銀行"></span><br>
+<span>スルガ銀行</span><br>
 </h2>
-<p class="name"><a href="http://www.surugabank.co.jp/yl/hl/" target="_blank">ホームローン「夢舞台」</a></p>
+<p class="name"><a href="http://www.surugabank.co.jp/yl/hl/" target="_blank">住宅ローン</a></p>
 <p class="lead">一般的な住宅ローンの他に、金利はやや高くなってしまうものの、外国籍の方や確定申告者や年金生活の方、投資用向けの案件などにも積極的に取り組んでいるのが特徴。 </p>
 </td>
 <td class="loan_box">
@@ -175,6 +219,7 @@ get_header(); ?>
 <p class="lead">フラット35のご案内。実はFCが多く店舗によって審査の結果が大きく異なるので、使い勝手が難しい面がありますが、当店では実際のある信頼できる店舗と提携しております。 </p>
 </td>
 </tr>
+
 </tbody></table>
 </div>
 </article>
