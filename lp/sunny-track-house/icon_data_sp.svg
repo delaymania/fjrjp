@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="33.837" height="34.355" viewBox="0 0 33.837 34.355">
+  <g id="icon_data_sp" transform="translate(2 2)">
+    <g id="icon_data" transform="translate(0 0)">
+      <path id="路径_662" data-name="路径 662" d="M14.288,10H7.658A1.658,1.658,0,0,0,6,11.658V34.864a1.658,1.658,0,0,0,1.658,1.658H34.179a1.658,1.658,0,0,0,1.658-1.658V11.658A1.658,1.658,0,0,0,34.179,10H32.522" transform="translate(-6 -6.166)" fill="none" stroke="#9365a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="直线_1" data-name="直线 1" y2="8" transform="translate(8.617)" fill="none" stroke="#9365a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="直线_2" data-name="直线 2" y2="8" transform="translate(21.617)" fill="none" stroke="#9365a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line id="直线_3" data-name="直线 3" x2="8" transform="translate(13.617 4)" fill="none" stroke="#9365a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="路径_663" data-name="路径 663" d="M17.5,26.486l4.144,4.144L28.274,24" transform="translate(-7.969 -8.563)" fill="none" stroke="#9365a8" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
