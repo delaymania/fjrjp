@@ -152,8 +152,7 @@ LIFE LABELがプロデュースでつくった、<br>
 								<span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
 							</div>
 							<div class="colorP">
-								<p>弊社は各種ゼロキューブシリーズ含め、取り扱い住宅商品年間150棟以上の<br>
-販売・豊富な施工実績がございます。<br>
+<p>弊社は各種ゼロキューブシリーズ含め、豊富な施工実績がございます。<br>
 また、ご要望に合わせて間取り等を自由にアレンジすることが可能です。<br>
 ぜひお客様のお好みやライフスタイルに合う理想のカタチを聞かせてください。</p>
 							</div>
