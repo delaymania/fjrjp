@@ -68,7 +68,7 @@
 			</div>
 		</div>
 		
-		<div class="linkBanner"><a href="<?php echo esc_url( home_url( '/' ) ); ?>campaign/wtw_styling_campaign"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bnr_wtw_stylingcampaign.jpg" alt="WTW(ダブルリューティー)家具セット割引キャンペーン"/></a></div>
+		<div class="linkBanner"><a href="#event-mailform"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bnr_wtw_stylingcampaign.jpg" alt="WTW(ダブルリューティー)家具セット割引キャンペーン"/></a></div>
 
 <?php require("inc/event-comment01.php"); ?>
 		

@@ -3,7 +3,7 @@
 
 <?php if ( get_post_type() == 'event' && (is_single('hello_house-canvas_idee') || is_single('hello_wtwhouseproject') || is_single('hello_brooklyn-house') || is_single('online') || is_single('hello_holiday-house') || is_single('hello_tin-house') || is_single('hello_casita') || is_single('hello_dultonhome')) ): ?>
 				<div  class="boxArrange">
-					<p><span>弊社は、各種ゼロキューブシリーズ含め、取り扱い住宅商品年間<strong class="ffc">150</strong>棟以上の販売・豊富な施工実績がございます。また、ご要望に合わせて間取り等を自由にアレンジすることが可能です。ぜひお客様のお好みやライフスタイルに合う理想のカタチを聞かせてください。</span></p>
+					<p><span>弊社は、各種ゼロキューブシリーズ含め、豊富な施工実績がございます。また、ご要望に合わせて間取り等を自由にアレンジすることが可能です。ぜひお客様のお好みやライフスタイルに合う理想のカタチを聞かせてください。</span></p>
 				</div>
 <?php else: ?>
 <?php endif; ?>
@@ -144,7 +144,7 @@
 		<div class="under_contents">
 			<div class="entry-content">
         
-				<div class="iframe-container">
+				<div class="iframe-container" id="event-mailform">
           <iframe id="iframeEvent" src="https://info.fuji-realty.com/l/1063212/2024-11-08/f1jy74?EventName=<?php the_title(); ?>" width="100%" height="2200px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
 				</div>
 
