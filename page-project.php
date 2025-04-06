@@ -66,7 +66,7 @@ if ($team_query->have_posts()): ?>
         <a href="<?php echo esc_url(get_permalink()); ?>">
           <p class="ph_flame">
             <?php if (has_post_thumbnail()): ?>
-              <img class="team_pic" src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'thumb')); ?>" alt="<?php echo esc_attr(get_field('position')); ?>">
+              <img class="team_pic" src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'full')); ?>" alt="<?php echo esc_attr(get_field('position')); ?>">
             <?php endif; ?>
           </p>
           <div class="link_box"><h3 class="ttl"><?php the_title(); ?></h3></div>
@@ -113,7 +113,7 @@ if ($team_query->have_posts()): ?>
         <a href="<?php echo esc_url(get_permalink()); ?>">
           <p class="ph_flame">
             <?php if (has_post_thumbnail()): ?>
-              <img class="team_pic" src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'thumb')); ?>" alt="<?php echo esc_attr(get_field('position')); ?>">
+              <img class="team_pic" src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'full')); ?>" alt="<?php echo esc_attr(get_field('position')); ?>">
             <?php endif; ?>
           </p>
           <div class="link_box"><h3 class="ttl"><?php the_title(); ?></h3></div>
@@ -161,7 +161,7 @@ if ($team_query->have_posts()): ?>
         <a href="<?php echo esc_url(get_permalink()); ?>">
           <p class="ph_flame">
             <?php if (has_post_thumbnail()): ?>
-              <img class="team_pic" src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'thumb')); ?>" alt="<?php echo esc_attr(get_field('position')); ?>">
+              <img class="team_pic" src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'full')); ?>" alt="<?php echo esc_attr(get_field('position')); ?>">
             <?php endif; ?>
           </p>
           <div class="link_box"><h3 class="ttl"><?php the_title(); ?></h3></div>
@@ -208,7 +208,7 @@ if ($team_query->have_posts()): ?>
         <a href="<?php echo esc_url(get_permalink()); ?>">
           <p class="ph_flame">
             <?php if (has_post_thumbnail()): ?>
-              <img class="team_pic" src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'thumb')); ?>" alt="<?php echo esc_attr(get_field('position')); ?>">
+              <img class="team_pic" src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'full')); ?>" alt="<?php echo esc_attr(get_field('position')); ?>">
             <?php endif; ?>
           </p>
           <div class="link_box"><h3 class="ttl"><?php the_title(); ?></h3></div>
@@ -255,7 +255,7 @@ if ($team_query->have_posts()): ?>
         <a href="<?php echo esc_url(get_permalink()); ?>">
           <p class="ph_flame">
             <?php if (has_post_thumbnail()): ?>
-              <img class="team_pic" src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'thumb')); ?>" alt="<?php echo esc_attr(get_field('position')); ?>">
+              <img class="team_pic" src="<?php echo esc_url(get_the_post_thumbnail_url(get_the_ID(), 'full')); ?>" alt="<?php echo esc_attr(get_field('position')); ?>">
             <?php endif; ?>
           </p>
           <div class="link_box"><h3 class="ttl"><?php the_title(); ?></h3></div>
