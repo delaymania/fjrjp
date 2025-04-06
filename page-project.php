@@ -36,7 +36,7 @@ get_header(); ?>
 <div class="under_contents">
     
 <section class="project-section">
-    <h2 class="project-title">Standard House (規格住宅)</h2>
+    <h2 class="project-title">Standard house (規格住宅)</h2>
 
 <?php
 // カスタムタクソノミーのタームを指定
@@ -83,7 +83,7 @@ wp_reset_postdata();  // クエリをリセット
   
 
   <section class="project-section">
-    <h2 class="project-title">Basic House (自社規格住宅)</h2>
+    <h2 class="project-title">Basic house (自社規格住宅)</h2>
 
 <?php
 // カスタムタクソノミーのタームを指定
@@ -130,7 +130,7 @@ wp_reset_postdata();  // クエリをリセット
   
   
 <section class="project-section">
-    <h2 class="project-title">Custom House(注文住宅)</h2>
+    <h2 class="project-title">Custom house(注文住宅)</h2>
 
 <?php
 // カスタムタクソノミーのタームを指定
