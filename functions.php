@@ -66,6 +66,57 @@ function load_custom_template_for_specific_slugs( $template ) {
     return $template;
 }
 
+/*================================================================================================================================
+ Google タグ（gtag.js）イベントを GTM4WP 出力直後に挿入
+================================================================================================================================*/
+// ------------------------------
+// 1. GTM4WP の出力位置を <head> の終わりに移動
+// ------------------------------
+add_action( 'plugins_loaded', function(){
+    // gtm4wp_wp_header_begin: priority=1 → 9999
+    if ( has_action( 'wp_head', 'gtm4wp_wp_header_begin' ) ) {
+        remove_action( 'wp_head', 'gtm4wp_wp_header_begin', 1 );
+        add_action(    'wp_head', 'gtm4wp_wp_header_begin', 9999 );
+    }
+    // gtm4wp_wp_header_end:   priority=100 → 10000
+    if ( has_action( 'wp_head', 'gtm4wp_wp_header_end' ) ) {
+        remove_action( 'wp_head', 'gtm4wp_wp_header_end', 100 );
+        add_action(    'wp_head', 'gtm4wp_wp_header_end', 10000 );
+    }
+}, 20 );
+
+// ------------------------------
+// 2. 特定ページでだけ、最後の2箇所目の直後に gtag イベントを出力（バッファ方式）
+// ------------------------------
+add_action( 'template_redirect', function(){
+    // 「transmission-complete」固定ページ以外は何もしない
+    if ( ! is_page( 'transmission-complete' ) ) {
+        return;
+    }
+    ob_start( function( $buffer ){
+        $needle  = '<!-- End Google Tag Manager for WordPress by gtm4wp.com -->';
+        // 差し込むスクリプト本体（マーカーは含めない）
+        $insert  = "\n" . '<script>
+  gtag(\'event\', \'conversion_event_purchase_2\', {
+    // <event_parameters>
+  });
+</script>';
+
+        // 末尾マーカーの位置を取得
+        $pos = strrpos( $buffer, $needle );
+        if ( $pos === false ) {
+            // マーカーが見つからなければそのまま返す
+            return $buffer;
+        }
+        // マーカーの直後オフセットを計算
+        $pos_end = $pos + strlen( $needle );
+        // マーカー末尾にだけスクリプトを挿入
+        return substr( $buffer, 0, $pos_end )
+             . $insert
+             . substr( $buffer, $pos_end );
+    } );
+} );
+
 
 /*================================================================================================================================
  ウィジェット
