@@ -363,57 +363,85 @@ function is_mobile() {
  イベントの開催日の土日自動出力
 ================================================================================================================================*/
 function get_next_weekend_dates($atts) {
-    // ショートコードの属性を設定（デフォルト値を含む）
+    // デフォルト含め、４つの属性を受け取る
     $atts = shortcode_atts(
         array(
-            'shtdn_sat' => '', // 次の営業日（土曜日）
-            'shtdn_sun' => ''  // 次の営業日（日曜日）
-        ), 
+            'shtdn_sat'   => '',    // 臨時休業（土曜）
+            'shtdn_sun'   => '',    // 臨時休業（日曜）
+            'range_start' => '',    // 連休開始
+            'range_end'   => '',    // 連休終了
+        ),
         $atts
     );
 
-    // 現在の日付を取得
-    $today = new DateTime();
+    // 日本語曜日配列
+    $weekday_jp = array('日','月','火','水','木','金','土');
 
-    // 今日の曜日を取得（0=日曜日、1=月曜日、...、6=土曜日）
-    $dayOfWeek = $today->format('w');
+    // 1) 連休モード
+    if (isset($atts['range_start'], $atts['range_end'])
+        && $atts['range_start'] !== ''
+        && $atts['range_end']   !== ''
+    ) {
+        // 開始日と終了日を n/j でパース
+        $start = DateTime::createFromFormat('n/j', $atts['range_start']);
+        $end   = DateTime::createFromFormat('n/j', $atts['range_end']);
 
-    // 次の土曜日と日曜日の日付を設定
-    $saturday = ($dayOfWeek == 6) ? $today : (clone $today)->modify('next Saturday');
-    $sunday = (clone $saturday)->modify('+1 day');
+        if (!$start) return '<p>無効な開始日: ' . esc_html($atts['range_start']) . '</p>';
+        if (!$end)   return '<p>無効な終了日: ' . esc_html($atts['range_end']) . '</p>';
 
-    // 臨時休業による入力を優先する
-    if (!empty($atts['shtdn_sat'])) {
-        // 入力された次の営業日（土曜日）を優先
-        $saturday = DateTime::createFromFormat('n/j', $atts['shtdn_sat']);
-        if (!$saturday) {
-            return '<p>無効な日付形式が入力されています: ' . esc_html($atts['shtdn_sat']) . '</p>';
-        }
+        // 曜日を付与
+        $fmt_start = $start->format('n/j') . '(' . $weekday_jp[(int)$start->format('w')] . ')';
+        $fmt_end   = $end  ->format('n/j') . '(' . $weekday_jp[(int)$end  ->format('w')] . ')';
+
+        return sprintf(
+            '<div class="textwidget custom-html-widget"><span class="ffb">'
+            . '<span class="weekend-range-start">%s</span>'
+            . '<span class="weekend-range-separator">〜</span>'
+            . '<span class="weekend-range-end">%s</span>'
+            . '</span></div>',
+            esc_html($fmt_start),
+            esc_html($fmt_end)
+        );
     }
-    if (!empty($atts['shtdn_sun'])) {
-        // 入力された次の営業日（日曜日）を優先
-        $sunday = DateTime::createFromFormat('n/j', $atts['shtdn_sun']);
-        if (!$sunday) {
-            return '<p>無効な日付形式が入力されています: ' . esc_html($atts['shtdn_sun']) . '</p>';
+
+    // 2) 従来の「次の土日」モード
+    $today     = new DateTime();
+    $dow       = (int)$today->format('w'); // 0=日曜...6=土曜
+
+    // 次の土曜・日曜を取得
+    $saturday = ($dow === 6)
+        ? clone $today
+        : (clone $today)->modify('next Saturday');
+    $sunday   = (clone $saturday)->modify('+1 day');
+
+    // 3) 臨時休業上書き（属性が「存在かつ空欄でない」場合のみ）
+    if (isset($atts['shtdn_sat']) && trim($atts['shtdn_sat']) !== '') {
+        $tmp = DateTime::createFromFormat('n/j', $atts['shtdn_sat']);
+        if (!$tmp) {
+            return '<p>無効な臨時休業（土曜）: ' . esc_html($atts['shtdn_sat']) . '</p>';
         }
+        $saturday = $tmp;
+    }
+    if (isset($atts['shtdn_sun']) && trim($atts['shtdn_sun']) !== '') {
+        $tmp = DateTime::createFromFormat('n/j', $atts['shtdn_sun']);
+        if (!$tmp) {
+            return '<p>無効な臨時休業（日曜）: ' . esc_html($atts['shtdn_sun']) . '</p>';
+        }
+        $sunday = $tmp;
     }
 
-    // フォーマットした日付を取得
-    $formatted_saturday = $saturday->format('n/j(土)');
-    $formatted_sunday = $sunday->format('n/j(日)');
+    // フォーマットして返す
+    $fmt_sat = $saturday->format('n/j') . '(' . $weekday_jp[(int)$saturday->format('w')] . ')';
+    $fmt_sun = $sunday  ->format('n/j') . '(' . $weekday_jp[(int)$sunday  ->format('w')] . ')';
 
-    // HTML形式で出力
-    ob_start();
-    ?>
-    <div class="textwidget custom-html-widget">
-        <span class="ffb">
-            <span class="sat"><?php echo esc_html($formatted_saturday); ?></span>
-            <span class="holi"><?php echo esc_html($formatted_sunday); ?></span>
-        </span>
-    </div>
-    <?php
-    return ob_get_clean(); // バッファを返す
+    return sprintf(
+        '<div class="textwidget custom-html-widget"><span class="ffb">'
+        . '<span class="sat">%s </span>'
+        . '<span class="holi">%s</span>'
+        . '</span></div>',
+        esc_html($fmt_sat),
+        esc_html($fmt_sun)
+    );
 }
-
-// WordPress内で使用するショートコードを作成
 add_shortcode('next_weekend_dates', 'get_next_weekend_dates');
+

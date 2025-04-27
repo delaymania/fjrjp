@@ -1701,6 +1701,15 @@ event ZERO-CUBE
 .mainimg .bgbox .holi {
 	color: #c24141;
 }
+.mainimg .bgbox .weekend-range-start {
+	color: #c24141;
+}
+.mainimg .bgbox .weekend-range-separator {
+	color: #c24141;
+}
+.mainimg .bgbox .weekend-range-end {
+	color: #c24141;
+}
 .mainimg .day .ffb{
 	font-size: 20px;
 	margin: 0 0.1em;
