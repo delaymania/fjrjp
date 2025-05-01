@@ -51,13 +51,10 @@
 					<h3 class="titstylea ffc">CONCEPT</h3>
 					<p class="txt ffa">屋根の家や最新機能の家もいいけど<br>どれも複雑だったり、<br>どこか決まったカタチに見えてくる。</p>
 					<p class="txt ffa">服を選ぶように、<br>マイホームをもっと<br>スタイルに合わせて選びたい。</p>
-					<p class="txtb ffb"><span class="bor"><span class="lartxt">“</span>私たちにちょうどいい家<span class="lartxt">”</span></span></p>
-					<p class="txt ffa">シンプルだからこそ<br>どんなライフスタイルにもフィットする。</p>
 				</div>
 				<div class="youtubebox">
-					<div class="youtubein"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/mxE4uOHdfpM?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-					<p class="tit ffb">CM動画</p>
-					<p class="tittxt ffa">1000万円からはじめる家づくり。(90秒)</p>
+					<p class="txtb ffb"><span class="bor"><span class="lartxt">“</span>私たちにちょうどいい家<span class="lartxt">”</span></span></p>
+					<p class="txt ffa">シンプルだからこそ<br>どんなライフスタイルにもフィットする。</p>
 				</div>
 			</div>
 		</div>
@@ -75,7 +72,7 @@
 							</li>
 							<li>
 								<h4 class="tit ffb">こだわりや楽しみをプラス「+FUN」</h4>
-								<p class="txt ffa">1,350万円～の家をベースに、ご予算・ライフスタイルに合わせて必要なものを足していく「+FUN」。家づくりの楽しさが、さらに広がります。</p>
+								<p class="txt ffa">ご予算・ライフスタイルに合わせて必要なものを足していく「+FUN」。家づくりの楽しさが、さらに広がります。</p>
 							</li>
 							<li>
 								<h4 class="tit ffb">ストレスゼロの価格設定</h4>
@@ -145,7 +142,7 @@
 					</div>
 				</div>
 				<div class="txtbox">
-					<p class="txt ffa">それぞれのライフスタイルを受け止め、<br>その夢を家づくりに注ぎ込むというオーダー感覚の歓びをご提案。<br>居住空間を拡大したり、先進装備をプラスしたりと、<br>1,350万円~が基準だから、<br>お客様の負担が大幅に増すことはありません。<br>自由にセレクトして、<br>わが家だけの住み心地をコーディネートしてください。</p>
+					<p class="txt ffa">それぞれのライフスタイルを受け止め、<br>その夢を家づくりに注ぎ込むというオーダー感覚の歓びをご提案。<br>居住空間を拡大したり、先進装備をプラスしたりと、<br>お客様の負担が大幅に増すことはありません。<br>自由にセレクトして、<br>わが家だけの住み心地をコーディネートしてください。</p>
 				</div>
 			</div>
 			<div class="boxser">
