@@ -92,7 +92,7 @@ get_header(); ?>
                 <th><span>アクセス</span>
                 </th>
                 <td>[ 電車 ]<br>みなとみらい線「元町・中華街」駅徒歩1分<br>[ 車 ]<br>首都高「新山下」「山下町」「横浜公園」出口
-                  <div class="btn_access01"><a href="<?php echo get_stylesheet_directory_uri(); ?>/img/access_info-yokohama-guide.pdf" target="_blank">アクセスのご案内</a>
+                  <div class="btn_access01"><a href="https://fj-r.jp/pdf/access_info-yokohama-guide.pdf" target="_blank">アクセスのご案内</a>
                   </div>
                 </td>
               </tr>

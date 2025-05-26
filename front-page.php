@@ -84,11 +84,11 @@
   </div>
 </div>
 
-<!--
+
 <div class="top-page-banner">
-  <a href="" target="_blank" rel="noopener"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/xxx.jpg" alt=""></a>
+  <a href="https://fj-r.jp/news/news-12636/" target="_blank" rel="noopener"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/banner-news-12636.jpg" alt=""></a>
 </div>
--->
+
 
 <section id="aboutCont">
 	<div class="aboutCont-in">
