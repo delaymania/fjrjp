@@ -11,7 +11,7 @@
 	</div>
 <div class="zeh_logo">
   <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-sdgs.png" alt="かながわSDGsパートナーロゴ">
-  <p>20年長期保証プログラム詳細は<a href="<?php echo get_stylesheet_directory_uri(); ?>/img/sdgs.pdf" target="_blank" rel="noopener">こちら</a></p>
+  <p>20年長期保証プログラム詳細は<a href="https://fj-r.jp/pdf/sdgs.pdf" target="_blank" rel="noopener">こちら</a></p>
 </div>
 
 <footer id="footer" class="<?php if ( is_page() && $post->post_parent > 0 && get_post($post->post_parent)->post_name == 'lineup' || is_home() || is_front_page() || is_page('about') || is_page('message') || is_page('company') || is_page('studio') || is_archive('team') || is_archive('owners_voice') || get_post_type() === 'owners_voice' && is_single() ):?>fixedbnr<?php endif; ?>
