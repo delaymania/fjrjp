@@ -88,14 +88,7 @@
 						<th>場所</th>
 						<td>
 							<div class="evetabletxt">
-								<p class="txt"><span class="studio"><a href="https://maps.app.goo.gl/ncPoWTrzu4ycsnpy9">横浜スタジオ</a></span></p>
-
-<?php if ( is_page('tochi') ): ?>
-                <p class="txt"><span class="studio"><a href="https://maps.app.goo.gl/WzJGoLaBpVdXzuXDA">湘南スタジオ</a></span></p>
-<?php endif; ?>
-  
-
-              
+								<p class="txt"><span class="studio"><a href="https://maps.app.goo.gl/ncPoWTrzu4ycsnpy9">湘南乃工務店</a></span></p>
               </div>
 						</td>
 					</tr>
@@ -122,16 +115,13 @@
 					<div class="evereserbox02">
 						<p class="ffa">当日ご希望の方は下記の番号へお電話ください。</p>
 
-<?php if ( is_page('tochi') ): ?>
-            <p class="ffc tel"><span class="studio">湘南スタジオ</span><a href="tel:0466507000" id="tel_funabashi"><span>0466-50-7000</span></a></p>
-<?php endif; ?>
-						<p class="ffc tel"><span class="studio">横浜スタジオ</span><a href="tel:0120767221" id="tel_yokohama"><span>0120-767-221</span></a></p>
+						<p class="ffc tel"><span class="studio">湘南乃工務店</span><a href="tel:0120767221" id="tel_yokohama"><span>0120-767-221</span></a></p>
 						<p class="ffa">営業時間／AM9:30-PM6:30　定休／火曜・水曜</p>
 					</div>
 
 <?php if ( is_page('tochi') ): ?>
           <div style="background-color: #eee; padding: 10px 20px; font-size: 15px; font-weight: bold; margin: 30px auto -20px; max-width: 540px;">
-            <p style="margin: 0;">※お手数ですが、横浜スタジオと湘南スタジオのどちらにご来店いただくか、「その他・ご質問等」の欄にご記載ください。</p>
+            <p style="margin: 0;">※お手数ですが、湘南乃工務店にご来店いただくか、「その他・ご質問等」の欄にご記載ください。</p>
           </div>
 <?php endif; ?>
           

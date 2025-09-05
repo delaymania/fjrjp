@@ -95,7 +95,7 @@ LIFE LABELがプロデュースでつくった、<br>
 								<div class="leftP">
 									<h3><img src="<?php echo get_stylesheet_directory_uri(); ?>/lp/sunny-track-house/icon_access.svg" alt="">開催場所</h3>
                   <div class="eventAccess">
-										<p class="nameP">横浜スタジオ</p>
+										<p class="nameP">湘南乃工務店</p>
 										<p class="linkP"><a href="https://fj-r.jp/studio/#yokohama-studio" target="_blank" rel="noreferrer">アクセス</a></p>
 									</div>
 																	</div>

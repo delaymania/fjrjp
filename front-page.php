@@ -86,7 +86,7 @@
 
 <!--
 <div class="top-page-banner">
-  <a href="https://fj-r.jp/news/news-12636/" target="_blank" rel="noopener"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/banner-news-12636.jpg" alt=""></a>
+  <a href="https://fj-r.jp/pdf/202508-holiday.pdf" target="_blank" rel="noopener"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/banner-news-202508-holiday.jpg" alt=""></a>
 </div>
 -->
 

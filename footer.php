@@ -9,11 +9,12 @@
 
 ?>
 	</div>
+<!--
 <div class="zeh_logo">
   <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo-sdgs.png" alt="かながわSDGsパートナーロゴ">
   <p>20年長期保証プログラム詳細は<a href="https://fj-r.jp/pdf/sdgs.pdf" target="_blank" rel="noopener">こちら</a></p>
 </div>
-
+-->
 <footer id="footer" class="<?php if ( is_page() && $post->post_parent > 0 && get_post($post->post_parent)->post_name == 'lineup' || is_home() || is_front_page() || is_page('about') || is_page('message') || is_page('company') || is_page('studio') || is_archive('team') || is_archive('owners_voice') || get_post_type() === 'owners_voice' && is_single() ):?>fixedbnr<?php endif; ?>
 	<?php //ワンズキューボ
 		if(!( is_page('event') || is_page('form_confirm') || is_page('form_thanks') )): ?>	
@@ -38,7 +39,6 @@
                   
           <div class="addressBox">
 						<div class="column">
-						  <p class="studio">[ 横浜スタジオ ]</p>
 						  <p class="address">〒231-0023 <br>神奈川県横浜市中区山下町84-5-5F<a class="gm" href="https://maps.app.goo.gl/envvbQtKgaBMWzwC6" target="_blank">Google Map</a></p>
 						  <div class="tel_box">
 							  <p class="name pc_only"><i class="fa fa-volume-control-phone" aria-hidden="true"></i><span>0120-767-221</span></p><p class="name sp_only"><a href="tel:0120-767-221" id="tel_yokohama" onclick="yahoo_report_conversion('tel:0120-767-221')"><i class="fa fa-volume-control-phone" aria-hidden="true"></i><span>0120-767-221</span></a></p>
@@ -46,7 +46,9 @@
 						  <p class="tel"><span><?php if(wp_is_mobile()) : ?><a href="tel:0452227822" id="tel_yokohama" onclick="yahoo_report_conversion('tel:045-222-7822')">TEL/045-222-7822</a><?php else:?>TEL/045-222-7822<?php endif;?></span><span class="fax">FAX/045-222-7821</span></p>
 						  <p class="time">OPEN/9:30-18:30　<br>定休日/火曜日・水曜日</p>
 						</div><!-- .column -->
-						<div class="column">
+            
+						<!--
+            <div class="column">
 						  <p class="studio">[ 湘南スタジオ ]</p>
 						  <p class="address">〒251-0052 <br>神奈川県藤沢市藤沢1051-5-4F<a class="gm" href="https://maps.app.goo.gl/iQVQ9SarvBz9JrwC8" target="_blank">Google Map</a></p>
 						  <div class="tel_box">
@@ -54,8 +56,10 @@
 						  </div>
 						  <p class="tel"><span><?php if(wp_is_mobile()) : ?><a href="tel:0466507000" id="tel_yokohama" onclick="yahoo_report_conversion('tel:045-222-7822')">TEL/0466-50-7000</a><?php else:?>TEL/0466-50-7000<?php endif;?></span><span class="fax">FAX/0466-50-1005</span></p>
 						  <p class="time">OPEN/9:30-18:30　<br>定休日/水曜日・第一火曜日</p>
-						</div><!-- .column -->
+						</div>
+            -->
 				  </div><!-- addressBox -->
+
               </div><!--footerLogo -->
 			  <?php if(is_mobile()) : ?>
 			  <?php else:?>

@@ -72,7 +72,7 @@
 						<th>場所</th>
 						<td>
 							<div class="evetabletxt">
-								<p class="txt"><span class="studio"><a href="https://maps.app.goo.gl/ncPoWTrzu4ycsnpy9">横浜スタジオ</a></span></p>
+								<p class="txt"><span class="studio"><a href="https://maps.app.goo.gl/ncPoWTrzu4ycsnpy9">湘南乃工務店</a></span></p>
 			                </div>
 						</td>
 					</tr>
@@ -99,7 +99,7 @@
 					<div class="evereserbox02">
 						<p class="ffa">当日ご希望の方は下記の番号へお電話ください。</p>
 
-						<p class="ffc tel"><span class="studio">横浜スタジオ</span><a href="tel:0120767221" id="tel_yokohama"><span>0120-767-221</span></a></p>
+						<p class="ffc tel"><span class="studio">湘南乃工務店</span><a href="tel:0120767221" id="tel_yokohama"><span>0120-767-221</span></a></p>
 						<p class="ffa">営業時間／AM9:30-PM6:30　定休／火曜・水曜</p>
 					</div>
 

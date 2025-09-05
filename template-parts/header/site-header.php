@@ -14,8 +14,7 @@ defined( 'ABSPATH' ) || die();
   <div class="shs-inner">
     <div class="shs-txt">ライフスタイルをとことん楽しむための住まいづくり</div>
     <div class="shs-info">
-      <div class="shs-studio"><span class="shs-studio-name">藤沢スタジオ</span><i class="fa fa-volume-control-phone"></i><span class="shs-studio-phone">0466-50-7000</span></div>
-      <div class="shs-studio"><span class="shs-studio-name">横浜スタジオ</span><i class="fa fa-volume-control-phone"></i><span class="shs-studio-phone">0120-767-221</span></div>
+      <div class="shs-studio"><span class="shs-studio-name">湘南乃工務店</span><i class="fa fa-volume-control-phone"></i><span class="shs-studio-phone">0120-767-221</span></div>
       <div class="shs-contact"><a href="<?php echo home_url( '/contact/' ); ?>"><i class="fa fa-envelope"></i><span>お問い合わせ</span></a></div>
       <div class="shs-member"><a href="<?php echo home_url( '/member/' ); ?>"><i class="fa fa-user"></i>会員登録</a></div>
     </div>
@@ -35,7 +34,7 @@ defined( 'ABSPATH' ) || die();
 </div>
 <ul class="gnav-sp">
 <li><a href="<?php echo home_url( '/' ); ?>request"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico_catalog.png" alt="資料請求"><p>資料請求</p></a></li>
-<li id="spMenuFreedial01"><a href="tel:0466507000"><i class="fa fa-volume-control-phone" aria-hidden="true"></i><p>TEL</p></a></li>
+<li id="spMenuFreedial01"><a href="tel:0120767221"><i class="fa fa-volume-control-phone" aria-hidden="true"></i><p>TEL</p></a></li>
 <li><a href="<?php echo home_url( '/' ); ?>online"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/ico_online.png" alt="WEB相談"><p>WEB相談</p></a></li>
 </ul>
 <?php else: ?>

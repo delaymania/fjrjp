@@ -16,7 +16,7 @@ function initialize02() {
     position: latlng,
     map: map,
     icon: icon,
-    title: '(株)ネクスト 横浜スタジオ'
+    title: '湘南乃工務店'
   };
   var marker = new google.maps.Marker(markerOptions);
   /*取得スタイルの貼り付け*/
@@ -29,7 +29,7 @@ function initialize02() {
     ]
   }
   ];
-  var styledMapOptions = { name: '(株)ネクスト 横浜スタジオ' }
+  var styledMapOptions = { name: '湘南乃工務店' }
   var sampleType = new google.maps.StyledMapType(styleOptions, styledMapOptions);
   map.mapTypes.set('sample', sampleType);
   map.setMapTypeId('sample');

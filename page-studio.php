@@ -23,11 +23,12 @@ get_header(); ?>
     <div class="under_contents_wrap">
       <div class="undertitlewrap">
         <div class="undertitlebox">
-          <div class="comme"><span>各スタジオ・アクセスマップのご案内です。</span>
+          <div class="comme"><span>スタジオへのアクセスマップのご案内です。</span>
           </div>
         </div>
       </div>
       
+      <!--
       <div class="under_contents studio yokohama" id="shonan-studio">
         <div class="accessBox01 cf">
           <div class="area">
@@ -55,20 +56,20 @@ get_header(); ?>
                 <td>[ 電車 ]<br>JR「藤沢」駅徒歩8分</td>
               </tr>
             </table>
-          </div><!-- .txtBox -->
-        </div><!-- .accessBox01 -->
-
+          </div>
+        </div>
         
         <div class="map-canvas">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3254.612433933156!2d139.47971771170475!3d35.34044454850472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60184feb8d5aff59%3A0xd41d4f1735122a46!2z5rmY5Y2X5LmD5bel5YuZ5bqX!5e0!3m2!1sja!2sus!4v1704532115432!5m2!1sja!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
         <div class="textC"><a href="https://maps.app.goo.gl/ZhU1aTzeEpw4irff7" target="_blank" class="btn_access02 rev">Googleマップで見る</a></div>
       </div>
+-->
       
       <div class="under_contents studio yokohama" id="yokohama-studio">
         <div class="accessBox01 cf">
           <div class="area">
-            <h3><span class="en">YOKOHAMA STUDIO</span><span class="ja">横浜スタジオ</span></h3>
+            <h3><span class="en">湘南乃工務店</span><!--<span class="ja">湘南乃工務店</span></h3>-->
             <p>最寄り駅徒歩1分。中華街や山下公園も徒歩5分以内とアクセス抜群です。横浜市山下町地下駐車場をご利用いただければ、お帰りの際精算させていただきます。</p>
             <ul>
               <li>徒歩1分</li>
@@ -104,22 +105,22 @@ get_header(); ?>
           <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="slide-img">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/studio/studio_yokohama01.jpg" alt="横浜スタジオ 店内">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/studio/studio_yokohama01.jpg" alt="湘南乃工務店 店内">
             </div>
           </div>
           <div class="swiper-slide">
             <div class="slide-img">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/studio/studio_yokohama02.jpg" alt="横浜スタジオ 店内">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/studio/studio_yokohama02.jpg" alt="湘南乃工務店 店内">
             </div>
           </div>
           <div class="swiper-slide">
             <div class="slide-img">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/studio/studio_yokohama03.jpg" alt="横浜スタジオ キッズルーム">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/studio/studio_yokohama03.jpg" alt="湘南乃工務店 キッズルーム">
             </div>
           </div>
           <div class="swiper-slide">
             <div class="slide-img">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/studio/studio_yokohama04.jpg" alt="横浜スタジオ キッズルーム">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/studio/studio_yokohama04.jpg" alt="湘南乃工務店 キッズルーム">
             </div>
           </div>
           </div><!-- swiper-wrapper -->

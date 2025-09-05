@@ -39,12 +39,12 @@ function initialize2() {
       position: brooklyn,
       map: map,
       icon:image, //アイコン画像をセット
-      title: '(株)ネクスト 横浜スタジオ'
+      title: '湘南乃工務店'
   });
  
    
   var styledMapOptions = {
-   name: '(株)ネクスト 横浜スタジオ'
+   name: '湘南乃工務店'
   };
  
 var customMapType = new google.maps.StyledMapType(featureOpts, styledMapOptions);

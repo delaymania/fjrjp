@@ -53,7 +53,7 @@
 		<div class="evetextbox">
 			<div class="under_contents cf">
 				<div class="ico"><?php if ( wp_is_mobile() ):?><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/event/img_freakshouse02_sp.png" alt=""><?php else :?><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/event/img_freakshouse02.png" alt=""><?php endif ;?></div>
-				<p class="txt ffa">2020.9.27 OPENしたモデルハウス兼店舗の「さいたまスタジオ」で、<br><span class="ffb">FREAK'S HOUSE</span>をご覧いただけます。</p>
+        <p class="txt ffa"><span class="ffb">アメリカンローカルハウス</span>の平屋をイメージした家</p>
 			</div>
 		</div>
 <?php require("inc/event-comment01.php"); ?>
