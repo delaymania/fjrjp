@@ -88,7 +88,7 @@
 						<th>場所</th>
 						<td>
 							<div class="evetabletxt">
-								<p class="txt"><span class="studio"><a href="https://maps.app.goo.gl/ncPoWTrzu4ycsnpy9">湘南乃工務店</a></span></p>
+								<p class="txt"><span class="studio"><a href="https://maps.app.goo.gl/xt413rYr4H2cqjQm8">湘南乃工務店</a></span></p>
               </div>
 						</td>
 					</tr>
