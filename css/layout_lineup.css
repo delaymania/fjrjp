@@ -1638,12 +1638,6 @@ event ZERO-CUBE
 	background: url(../img/event/mainimg.jpg) center center no-repeat;
 	background-size: cover;
 }
-
-/* ZERO-CUBE無印専用の調整 */
-.zero-cube-muji .mainimg{
-	background: url(../img/event/zero-cube-muji-mainimg.jpg) center center no-repeat;
-}
-
 .mainimg .mainimgin{
 	padding-top: 55px;
 }
@@ -1774,16 +1768,6 @@ event ZERO-CUBE
 	margin-top: 30px;
 	position: relative;
 }
-
-/* ZERO-CUBE無印専用の調整 */
-.zero-cube-muji .eveplanbox .eveplanin ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-.zero-cube-muji .eveplanbox .eveplanin li {
-  float: none;
-}
-
 .eveplanbox .eveplanin li span {
 	position: absolute;
 	bottom: 0;
@@ -1793,15 +1777,6 @@ event ZERO-CUBE
 .eveplanbox .eveplanin li:nth-child(3) span {
 	right: 140px;
 }
-
-/* ZERO-CUBE無印専用の調整 */
-.zero-cube-muji .eveplanbox .eveplanin li:nth-child(3) span {
-	right: 50px;
-  bottom: -30px;
-}
-
-
-
 .eveinfobox{
 	padding: 20px;
 	border:1px solid #000;
@@ -1866,23 +1841,6 @@ event ZERO-CUBE
 	margin-top: 25px;
 	position: relative;
 }
-
-/* ZERO-CUBE無印専用の調整 */
-.zero-cube-muji .gallery ul {
-  display: flex;
-  flex-wrap: wrap;
-}
-.zero-cube-muji .gallery ul li {
-  float: none;
-  width: 33.3333%;
-}
-@media screen and (max-width: 600px) {
-  .zero-cube-muji .gallery ul li {
-    width: 100%;
-  }
-}
-
-
 .gallery {
 	padding: 44px 0;
 	position: relative;
