@@ -94,7 +94,7 @@
 	<div class="aboutCont-in">
 		<div class="aboutCont-box">
 			<div class="aboutCont-logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/logo_w.png" alt=""></div>
-			<p>当社は横浜市、藤沢市にある地域密着の工務店です。住まいのプロチームが、お家のことからローンのことまで住まいに関するあらゆるご要望やお悩みを解決致します。お気軽にご相談ください。</p>
+			<p>当社は横浜市にある地域密着の工務店です。住まいのプロチームが、お家のことからローンのことまで住まいに関するあらゆるご要望やお悩みを解決致します。お気軽にご相談ください。</p>
 			<dl>
 				<dt>取扱いブランド</dt>
 				<dd>LIFE LABEL / Doive</dd>
