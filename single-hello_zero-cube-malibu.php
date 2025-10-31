@@ -13,7 +13,7 @@
         <h1 id="logo">
         	<img src="<?php echo get_stylesheet_directory_uri(); ?>/lp/malibu/logo_lifelabel.png" alt="ライフレーベル" class="lifelabel">
 			<div class="name">湘南乃<span class="comna">工務店</span></div>
-			        	<span class="leadtxt">LIFE LABELとカリフォルニア工務店とのコラボレーション <br>ゼロキューブ マリブ(ZERO-CUBE MALIBU)見学会開催中<i>千葉県のLIFE LABEL加盟店。設計から施工までワンストップ</i></span>
+			        	<span class="leadtxt">LIFE LABELとカリフォルニア工務店とのコラボレーション <br>ゼロキューブ マリブ(ZERO-CUBE MALIBU)見学会開催中<i>設計から施工までワンストップ。LIFE LABEL加盟店。</i></span>
 			        </h1>
         <div id="copy">
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/lp/malibu/img_copy_malibu.png" alt="ZERO-CUBE MALIBU ゼロキューブ マリブ 豊かな時間を、シンプルに愉しむための家"></div>

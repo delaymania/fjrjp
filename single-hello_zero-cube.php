@@ -62,7 +62,7 @@
 					<ul class="cf">
 						<li class="hlg01"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/event/zero-cube-muji-img_eveplan01.jpg" alt="ZERO-CUBE+BOX SKYBALCONY間取り1F"><span class="ffc">1F</span></li>
 						<li class="hlg01"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/event/zero-cube-muji-img_eveplan02.jpg" alt="ZERO-CUBE+BOX SKYBALCONY間取り2F"><span class="ffc">2F</span></li>
-						<li class="hlg01"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/event/zero-cube-muji-img_eveplan03.jpg" alt="ZERO-CUBE+BOX SKYBALCONY間取り3F"><span class="ffc">3F</span></li>
+						<li class="hlg01"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/event/zero-cube-muji-img_eveplan03.jpg" alt="ZERO-CUBE+BOX SKYBALCONY間取りPHF"><span class="ffc">PHF</span></li>
 						<li>
 							<div class="cf">
 								<div class="eveinfobox">
@@ -119,7 +119,7 @@
 						<a href="#" class="close"></a>
 						<h5 class="tit ffc">HALL</h5>
 						<p class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/event/zero-cube-muji-img_gall03.jpg" alt="HALL"></p>
-						<p class="txt">玄関を入るとレッドシダーの板張りがお出迎えブラックのドアがその先のワクワク感を引き立たせます。</p>
+						<p class="txt">玄関を入るとレッドシダーの板張りがお出迎え。ブラックのドアがその先のワクワク感を引き立たせます。</p>
 					</div>
 				</div>
 				<div id="item04" class="port">
@@ -151,7 +151,7 @@
 						<a href="#" class="close"></a>
 						<h5 class="tit ffc">POWDER ROOM</h5>
 						<p class="img"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/event/zero-cube-muji-img_gall07.jpg" alt="POWDER ROOM"></p>
-						<p class="txt">木の温もりを感じる造作洗面で、毎日の支度も特別に。</p>
+						<p class="txt">木の温もりを感じる造作洗面化粧台で、毎日の支度も特別に。</p>
 					</div>
 				</div>
 				<div id="item08" class="port">
