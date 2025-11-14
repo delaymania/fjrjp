@@ -128,7 +128,7 @@ body:not(.has-sidebar) .site-content {
     background-color: #a8d2c8;
     z-index: -1;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .site-header {
     background-color: #000;
   }

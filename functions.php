@@ -445,3 +445,28 @@ function get_next_weekend_dates($atts) {
 }
 add_shortcode('next_weekend_dates', 'get_next_weekend_dates');
 
+
+/*================================================================================================================================
+ wp_is_mobileからタブレットを省いて、スマホorタブレット・PCの分岐に改変する記述
+================================================================================================================================*/
+function is_smartphone() {
+    // まず WP 標準でモバイル判定
+    if ( ! wp_is_mobile() ) {
+        return false;
+    }
+
+    $ua = isset( $_SERVER['HTTP_USER_AGENT'] ) ? $_SERVER['HTTP_USER_AGENT'] : '';
+
+    // iPad を PC 扱い（スマホではない）
+    if ( strpos( $ua, 'iPad' ) !== false ) {
+        return false;
+    }
+    // Android タブレットを PC 扱い（Mobile トークンがなければタブレット）
+    if ( strpos( $ua, 'Android' ) !== false
+         && strpos( $ua, 'Mobile' ) === false ) {
+        return false;
+    }
+
+    // 上記以外はスマホとみなす
+    return true;
+}
