@@ -105,11 +105,7 @@
 
 <section id="new_catalog">
   <a href="<?php echo home_url( '/' ); ?>request">
-<?php if ( wp_is_mobile() ) : ?>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bnr_gordonmiller_nihonnoie_sp.jpg" alt="資料請求はこちら">
-<?php else: ?>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/img/bnr_gordonmiller_nihonnoie_pc.jpg" alt="資料請求はこちら">
-<?php endif; ?>
   </a>
 </section>
 

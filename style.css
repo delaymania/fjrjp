@@ -182,8 +182,11 @@ body:not(.has-sidebar) .site-content {
 .hide {
   display: none;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1200px) {
 /* スマホ用のメニューページに関するもの -------------------------- */
+  .global-nav {
+    display: none;
+  }
   .menubox-frame {
     background: #000;
     box-sizing: border-box;
