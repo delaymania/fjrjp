@@ -358,18 +358,23 @@ function is_mobile() {
 
 	return preg_match( $pattern, $_SERVER['HTTP_USER_AGENT'] );
 }
-
 /*================================================================================================================================
  イベントの開催日の土日自動出力
+ ・range_start / range_end：連休モード
+ ・single_sat / single_sun：事前入力できる単発日（12/27, 1/5 など）
+ ・single_buffer_days     ：「何日前〜当日まで」単発日を有効にするか（デフォルト7日）
 ================================================================================================================================*/
 function get_next_weekend_dates($atts) {
-    // デフォルト含め、４つの属性を受け取る
+    // デフォルト含め、7つの属性を受け取る
     $atts = shortcode_atts(
         array(
-            'shtdn_sat'   => '',    // 臨時休業（土曜）
-            'shtdn_sun'   => '',    // 臨時休業（日曜）
-            'range_start' => '',    // 連休開始
-            'range_end'   => '',    // 連休終了
+            'shtdn_sat'          => '',    // 臨時休業（土曜）
+            'shtdn_sun'          => '',    // 臨時休業（日曜）
+            'range_start'        => '',    // 連休開始 (n/j)
+            'range_end'          => '',    // 連休終了 (n/j)
+            'single_sat'         => '',    // 単発開催（土曜のみ） "12/27"
+            'single_sun'         => '',    // 単発開催（日曜のみ） "1/5"
+            'single_buffer_days' => '7',   // 何日前から単発日を有効にするか（0以上の整数）
         ),
         $atts
     );
@@ -377,12 +382,14 @@ function get_next_weekend_dates($atts) {
     // 日本語曜日配列
     $weekday_jp = array('日','月','火','水','木','金','土');
 
-    // 1) 連休モード
+    // ----------------------------------------------------------------
+    // 1) 連休モード（range_start / range_end が両方入っているとき最優先）
+    // ----------------------------------------------------------------
     if (isset($atts['range_start'], $atts['range_end'])
         && $atts['range_start'] !== ''
         && $atts['range_end']   !== ''
     ) {
-        // 開始日と終了日を n/j でパース
+        // 開始日と終了日を n/j でパース（今年の日付として解釈）
         $start = DateTime::createFromFormat('n/j', $atts['range_start']);
         $end   = DateTime::createFromFormat('n/j', $atts['range_end']);
 
@@ -404,9 +411,124 @@ function get_next_weekend_dates($atts) {
         );
     }
 
-    // 2) 従来の「次の土日」モード
-    $today     = new DateTime();
-    $dow       = (int)$today->format('w'); // 0=日曜...6=土曜
+    // ----------------------------------------------------------------
+    // 2) 単発開催モード（single_* が指定されている場合）
+    //    → 「0日以上 & buffer日以内」の未来日だけを有効にする
+    // ----------------------------------------------------------------
+    $today   = new DateTime();
+    $todayY  = (int)$today->format('Y');
+    $todayM  = (int)$today->format('n');
+    $todayD  = (int)$today->format('j');
+
+    // バッファ日数（整数でなければ 7 にフォールバック）
+    $buffer_days = (int)$atts['single_buffer_days'];
+    if ($buffer_days < 0) {
+        $buffer_days = 0;
+    }
+    if ($buffer_days === 0 && $atts['single_buffer_days'] === '') {
+        // 未指定の場合は 7日に
+        $buffer_days = 7;
+    }
+
+    // 「m/d」を「今年または来年の日付」に解釈するヘルパー
+    $parse_single_date = function ($md) use ($todayY, $todayM, $todayD) {
+        $md = trim($md);
+        if ($md === '') return null;
+
+        // "12/27" や "12-27" を許容
+        $parts = preg_split('#[/-]#', $md);
+        if (count($parts) !== 2) return null;
+
+        $m = (int)$parts[0];
+        $d = (int)$parts[1];
+        if ($m < 1 || $m > 12 || $d < 1 || $d > 31) {
+            return null;
+        }
+
+        $year = $todayY;
+        // すでに今年は過ぎている日付の場合は「来年」とみなす
+        if ($m < $todayM || ($m === $todayM && $d < $todayD)) {
+            $year++;
+        }
+
+        $dt = DateTime::createFromFormat('Y-n-j', sprintf('%d-%d-%d', $year, $m, $d));
+        return $dt ?: null;
+    };
+
+    $single_events = array();
+
+    // 土曜単発
+    if (isset($atts['single_sat']) && trim($atts['single_sat']) !== '') {
+        $dt = $parse_single_date($atts['single_sat']);
+        if (!$dt) {
+            return '<p>無効な日付（土曜のみ開催 single_sat）: ' . esc_html($atts['single_sat']) . '</p>';
+        }
+        $diff_days = (int)$today->diff($dt)->format('%r%a'); // 0, 1, 2... / -1, -2...
+        $single_events[] = array(
+            'type' => 'sat',
+            'date' => $dt,
+            'diff' => $diff_days,
+        );
+    }
+
+    // 日曜単発
+    if (isset($atts['single_sun']) && trim($atts['single_sun']) !== '') {
+        $dt = $parse_single_date($atts['single_sun']);
+        if (!$dt) {
+            return '<p>無効な日付（日曜のみ開催 single_sun）: ' . esc_html($atts['single_sun']) . '</p>';
+        }
+        $diff_days = (int)$today->diff($dt)->format('%r%a');
+        $single_events[] = array(
+            'type' => 'sun',
+            'date' => $dt,
+            'diff' => $diff_days,
+        );
+    }
+
+    // 「0日以上 & buffer日以内」のイベントだけを有効候補とする
+    $valid_events = array();
+    foreach ($single_events as $ev) {
+        if ($ev['diff'] >= 0 && $ev['diff'] <= $buffer_days) {
+            $valid_events[] = $ev;
+        }
+    }
+
+    if (!empty($valid_events)) {
+        // 一番近い日付（diff が最小）のイベント日を採用
+        usort($valid_events, function($a, $b) {
+            return $a['diff'] <=> $b['diff'];
+        });
+        $target_date = $valid_events[0]['date'];
+
+        $parts_html = array();
+
+        // 同じ日付のもの（sat / sun 両方が同じ日なら両方）を出力
+        foreach ($valid_events as $ev) {
+            if ($ev['date']->format('Y-m-d') !== $target_date->format('Y-m-d')) {
+                continue;
+            }
+            $w = (int)$ev['date']->format('w');
+            $fmt = $ev['date']->format('n/j') . '(' . $weekday_jp[$w] . ')';
+
+            if ($ev['type'] === 'sat') {
+                $parts_html[] = '<span class="sat">'  . esc_html($fmt) . '</span>';
+            } else {
+                $parts_html[] = '<span class="holi">' . esc_html($fmt) . '</span>';
+            }
+        }
+
+        if (!empty($parts_html)) {
+            return '<div class="textwidget custom-html-widget"><span class="ffb">'
+                 . implode(' ', $parts_html)
+                 . '</span></div>';
+        }
+        // 万一ここに来たら、このあと通常モードへフォールバック
+    }
+
+    // ----------------------------------------------------------------
+    // 3) 従来の「次の土日」モード（単発や連休の対象でないとき）
+    // ----------------------------------------------------------------
+    $dow = (int)$today->format('w'); // 0=日曜...6=土曜
 
     // 次の土曜・日曜を取得
     $saturday = ($dow === 6)
@@ -414,7 +536,7 @@ function get_next_weekend_dates($atts) {
         : (clone $today)->modify('next Saturday');
     $sunday   = (clone $saturday)->modify('+1 day');
 
-    // 3) 臨時休業上書き（属性が「存在かつ空欄でない」場合のみ）
+    // 臨時休業上書き（属性が「存在かつ空欄でない」場合のみ）
     if (isset($atts['shtdn_sat']) && trim($atts['shtdn_sat']) !== '') {
         $tmp = DateTime::createFromFormat('n/j', $atts['shtdn_sat']);
         if (!$tmp) {
@@ -432,7 +554,7 @@ function get_next_weekend_dates($atts) {
 
     // フォーマットして返す
     $fmt_sat = $saturday->format('n/j') . '(' . $weekday_jp[(int)$saturday->format('w')] . ')';
-    $fmt_sun = $sunday  ->format('n/j') . '(' . $weekday_jp[(int)$sunday  ->format('w')] . ')';
+    $fmt_sun = $sunday  ->format('n/j') . '(' . $weekday_jp[(int)$sunday->format('w')] . ')';
 
     return sprintf(
         '<div class="textwidget custom-html-widget"><span class="ffb">'
