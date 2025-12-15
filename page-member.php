@@ -25,9 +25,20 @@ get_header(); ?>
 				<div class="entry-content">
 					<h3 class="form_title">無料会員登録フォーム</h3>
 
+          <!--
 					<div class="iframe-container">
 						<iframe id="iframeMember" src="https://info.fuji-realty.com/l/1063212/2024-05-24/dz4ttz" width="100%" height="1800px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
 					</div>
+            -->
+  
+
+      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>  
+
+      <?php the_content(); ?>
+
+      <?php endwhile; else: ?>
+      <?php endif; ?>
+
           
 				</div><!-- .entry-content -->
 					
