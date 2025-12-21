@@ -592,3 +592,49 @@ function is_smartphone() {
     // 上記以外はスマホとみなす
     return true;
 }
+
+/*================================================================================================================================
+ メール送信したページのタイトルとURLを取得する機能が動かなかった時用のコード
+ https://wordpress.org/support/topic/%E7%89%B9%E6%AE%8A%E3%83%A1%E3%83%BC%E3%83%AB%E3%82%BF%E3%82%B0-_post_title-%E3%81%8C%E5%8A%B9%E3%81%8B%E3%81%AA%E3%81%84/
+================================================================================================================================*/
+add_filter( 'wpcf7_special_mail_tags', 'my_cf7_get_post_title', 10, 3 );
+function my_cf7_get_post_title( $output, $name, $html ) {
+    if ( '_post_title' !== $name ) {
+        return $output;
+    }
+
+    // 1) 通常の global $post
+    global $post;
+    if ( isset( $post->ID ) && $post->ID ) {
+        return get_the_title( $post->ID );
+    }
+
+    // 2) フォームに hidden で post_id を入れている場合のフォールバック
+    if ( ! empty( $_POST['post_id'] ) ) {
+        $id = intval( wp_unslash( $_POST['post_id'] ) );
+        if ( $id ) return get_the_title( $id );
+    }
+
+    // 3) 参照元 URL から post_id を取得（Ajax送信時によく効く）
+    if ( ! empty( $_SERVER['HTTP_REFERER'] ) ) {
+        $ref = wp_unslash( $_SERVER['HTTP_REFERER'] );
+        $id = url_to_postid( $ref );
+        if ( $id ) return get_the_title( $id );
+    }
+
+    // 4) CF7 の Submission オブジェクトにページ URL がある場合のフォールバック
+    if ( class_exists( 'WPCF7_Submission' ) ) {
+        $submission = WPCF7_Submission::get_instance();
+        if ( $submission ) {
+            $meta_url = $submission->get_meta( 'url' );
+            if ( $meta_url ) {
+                $id2 = url_to_postid( $meta_url );
+                if ( $id2 ) return get_the_title( $id2 );
+            }
+        }
+    }
+
+    // 最後に何も取れなければ空のまま
+    return $output;
+}
+

@@ -25,21 +25,19 @@ get_header(); ?>
 
 			<h2 class="form_title">資料請求</h2>
 
-      <!--
 			<div class="iframe-container">
-			<iframe id="iframeRequest" src="https://info.fuji-realty.com/l/1063212/2024-05-23/dz4ts9" width="100%" height="2500px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
+			<iframe id="iframeRequest" src="https://info.shonan-no-koumuten.jp/l/1063212/2024-05-23/dz4ts9" width="100%" height="2500px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
 			</div>	
-  -->
   
 
+  <!--
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>  
-
       <?php the_content(); ?>
-
       <?php endwhile; else: ?>
       <?php endif; ?>
+  -->
 
-		</div>
+    </div>
 	</div>
 
 	</main><!-- .site-main -->
