@@ -382,6 +382,44 @@ function get_next_weekend_dates($atts) {
     // 日本語曜日配列
     $weekday_jp = array('日','月','火','水','木','金','土');
 
+    // 「m/d」を「今年または来年の日付」に解釈するヘルパー
+    $today   = new DateTime();
+    $todayY  = (int)$today->format('Y');
+    $todayM  = (int)$today->format('n');
+    $todayD  = (int)$today->format('j');
+
+    $parse_md_to_future = function ($md, DateTime $base) use ($todayY, $todayM, $todayD) {
+        $md = trim($md);
+        if ($md === '') return null;
+
+        // "12/27" や "12-27" を許容
+        $parts = preg_split('#[/-]#', $md);
+        if (count($parts) !== 2) return null;
+
+        $m = (int)$parts[0];
+        $d = (int)$parts[1];
+        if ($m < 1 || $m > 12 || $d < 1 || $d > 31) {
+            return null;
+        }
+
+        $year = $todayY;
+        if ($m < $todayM || ($m === $todayM && $d < $todayD)) {
+            $year++;
+        }
+
+        $dt = DateTime::createFromFormat('Y-n-j', sprintf('%d-%d-%d', $year, $m, $d));
+        if (!$dt) {
+            return null;
+        }
+
+        // 基準日より前なら翌年に補正
+        if ($dt < $base) {
+            $dt = (clone $dt)->modify('+1 year');
+        }
+
+        return $dt;
+    };
+
     // ----------------------------------------------------------------
     // 1) 連休モード（range_start / range_end が両方入っているとき最優先）
     // ----------------------------------------------------------------
@@ -390,11 +428,15 @@ function get_next_weekend_dates($atts) {
         && $atts['range_end']   !== ''
     ) {
         // 開始日と終了日を n/j でパース（今年の日付として解釈）
-        $start = DateTime::createFromFormat('n/j', $atts['range_start']);
-        $end   = DateTime::createFromFormat('n/j', $atts['range_end']);
+        $start = $parse_md_to_future($atts['range_start'], $today);
+        $end   = $parse_md_to_future($atts['range_end'], $today);
 
         if (!$start) return '<p>無効な開始日: ' . esc_html($atts['range_start']) . '</p>';
         if (!$end)   return '<p>無効な終了日: ' . esc_html($atts['range_end']) . '</p>';
+
+        if ($end < $start) {
+            $end = (clone $end)->modify('+1 year');
+        }
 
         // 曜日を付与
         $fmt_start = $start->format('n/j') . '(' . $weekday_jp[(int)$start->format('w')] . ')';
@@ -415,11 +457,6 @@ function get_next_weekend_dates($atts) {
     // 2) 単発開催モード（single_* が指定されている場合）
     //    → 「0日以上 & buffer日以内」の未来日だけを有効にする
     // ----------------------------------------------------------------
-    $today   = new DateTime();
-    $todayY  = (int)$today->format('Y');
-    $todayM  = (int)$today->format('n');
-    $todayD  = (int)$today->format('j');
-
     // バッファ日数（整数でなければ 7 にフォールバック）
     $buffer_days = (int)$atts['single_buffer_days'];
     if ($buffer_days < 0) {
@@ -430,29 +467,8 @@ function get_next_weekend_dates($atts) {
         $buffer_days = 7;
     }
 
-    // 「m/d」を「今年または来年の日付」に解釈するヘルパー
-    $parse_single_date = function ($md) use ($todayY, $todayM, $todayD) {
-        $md = trim($md);
-        if ($md === '') return null;
-
-        // "12/27" や "12-27" を許容
-        $parts = preg_split('#[/-]#', $md);
-        if (count($parts) !== 2) return null;
-
-        $m = (int)$parts[0];
-        $d = (int)$parts[1];
-        if ($m < 1 || $m > 12 || $d < 1 || $d > 31) {
-            return null;
-        }
-
-        $year = $todayY;
-        // すでに今年は過ぎている日付の場合は「来年」とみなす
-        if ($m < $todayM || ($m === $todayM && $d < $todayD)) {
-            $year++;
-        }
-
-        $dt = DateTime::createFromFormat('Y-n-j', sprintf('%d-%d-%d', $year, $m, $d));
-        return $dt ?: null;
+    $parse_single_date = function ($md) use ($parse_md_to_future, $today) {
+        return $parse_md_to_future($md, $today);
     };
 
     $single_events = array();
@@ -538,14 +554,14 @@ function get_next_weekend_dates($atts) {
 
     // 臨時休業上書き（属性が「存在かつ空欄でない」場合のみ）
     if (isset($atts['shtdn_sat']) && trim($atts['shtdn_sat']) !== '') {
-        $tmp = DateTime::createFromFormat('n/j', $atts['shtdn_sat']);
+        $tmp = $parse_md_to_future($atts['shtdn_sat'], $today);
         if (!$tmp) {
             return '<p>無効な臨時休業（土曜）: ' . esc_html($atts['shtdn_sat']) . '</p>';
         }
         $saturday = $tmp;
     }
     if (isset($atts['shtdn_sun']) && trim($atts['shtdn_sun']) !== '') {
-        $tmp = DateTime::createFromFormat('n/j', $atts['shtdn_sun']);
+        $tmp = $parse_md_to_future($atts['shtdn_sun'], $today);
         if (!$tmp) {
             return '<p>無効な臨時休業（日曜）: ' . esc_html($atts['shtdn_sun']) . '</p>';
         }
@@ -637,4 +653,3 @@ function my_cf7_get_post_title( $output, $name, $html ) {
     // 最後に何も取れなければ空のまま
     return $output;
 }
-
