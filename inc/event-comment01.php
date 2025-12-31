@@ -137,9 +137,9 @@
 				<div class="iframe-container" id="event-mailform">
           <iframe id="iframeEvent" src="https://info.shonan-no-koumuten.jp/l/1063212/2024-11-08/f1jy74?EventName=<?php the_title(); ?>" width="100%" height="2200px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
 				</div>
-<!--
+        <!--
 <?php echo do_shortcode('[contact-form-7 id="18b730e" title="イベントページ"]'); ?>
--->
+              -->
   
 		    </div>
 		</div>
