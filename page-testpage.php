@@ -39,11 +39,11 @@ get_header(); ?>
 <script src="https://sdk.form.run/js/v2/embed.js"></script>
 <div
   class="formrun-embed"
-  data-formrun-form="@grp-ic-sfZXooRil0Ivupw14Rtc"
+  data-formrun-form="@arc-form"
   data-formrun-redirect="true"
+  data-formrun-host="https://forms.shonan-no-koumuten.jp"
 >
 </div>
-
   
   <!--
 <div class="iframe-container">
