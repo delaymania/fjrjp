@@ -84,16 +84,15 @@
 		</div>
 		
 
-		<div class="iframe-container">
-			<iframe id="iframeOnline" src="https://info.shonan-no-koumuten.jp/l/1063212/2024-05-23/dz4tsl" width="100%" height="2200px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
-		</div>
-  
-  <!--
-      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>  
-      <?php the_content(); ?>
-      <?php endwhile; else: ?>
-      <?php endif; ?>
-  -->
+<script src="https://sdk.form.run/js/v2/embed.js"></script>
+<div
+  class="formrun-embed"
+  data-formrun-form="@arc-form"
+  data-formrun-redirect="true"
+  data-formrun-host="https://forms.shonan-no-koumuten.jp"
+>
+</div>
+
 
 
 </div>

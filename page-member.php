@@ -26,16 +26,14 @@ get_header(); ?>
 					<h3 class="form_title">無料会員登録フォーム</h3>
 
 
-					<div class="iframe-container">
-						<iframe id="iframeMember" src="https://info.shonan-no-koumuten.jp/l/1063212/2024-05-24/dz4ttz" width="100%" height="1800px" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
-					</div>
-  
-  <!--
-      <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>  
-      <?php the_content(); ?>
-      <?php endwhile; else: ?>
-      <?php endif; ?>
-  -->
+<script src="https://sdk.form.run/js/v2/embed.js"></script>
+<div
+  class="formrun-embed"
+  data-formrun-form="@arc-form"
+  data-formrun-redirect="true"
+  data-formrun-host="https://forms.shonan-no-koumuten.jp"
+>
+</div>
 
           
 				</div><!-- .entry-content -->
