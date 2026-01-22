@@ -18,14 +18,82 @@ get_header(); ?>
 
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/page-housecanvas.css">
 <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/page-freakshouse.css">
-		<div id="freaks-house" class="under_contents_wrap">
+<style>
+#freaks-house.request-catalogue-lp .freaks-house-cta a {
+	display: block;
+	background: #ff8f73;
+	width: 440px;
+	margin: 2rem auto;
+	font-size: 1.8em;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	padding: 0.8em 1.3em;
+	position: relative;
+}
+#freaks-house.request-catalogue-lp .freaks-house-cta a:after {
+	content: ' ';
+	width: 5px;
+	height: 5px;
+	border-top: 1px solid #fff;
+	border-right: 1px solid #fff;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	margin-top: -3px;
+}
+#freaks-house.request-catalogue-lp .freaks-house-cta a span {
+	background: #fff;
+	text-align: center;
+	font-size: 0.8em;
+	color: #00427d;
+	padding: 0.4em 1em;
+	margin-right: 0.5em;
+	display: inline-block;
+	line-height: 1;
+}
+@media screen and (max-width: 768px) {
+	#freaks-house.request-catalogue-lp .freaks-house-cta a {
+		width: 440px;
+		margin: 1rem auto;
+		font-size: 1.4em;
+		padding: 0.9em 1.3em;
+	}
+}
+@media screen and (max-width: 520px) {
+	#freaks-house.request-catalogue-lp .collabo-head {
+		margin-top: -11rem;
+		margin-bottom: 5.5rem;
+	}
+	#freaks-house.request-catalogue-lp .collabo .logo {
+		margin-top: 0;
+		margin-bottom: 1rem;
+	}
+	#freaks-house.request-catalogue-lp .freaks-house-cta a {
+		width: auto;
+	}
+    #freaks-house .collabo {
+        padding: 1em 1.5em 3.5em;
+        margin: 11rem auto 1.5rem;
+    }
+}
+</style>
+		<div id="freaks-house" class="under_contents_wrap request-catalogue-lp">
 			<div class="under_contents idee">
-				<div class="logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/freaks-house/log_freakshouse.gif" alt="FREAK'S HOUSE（フリークス ハウス）ロゴ"></div>
+				<h1 class="logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/freaks-house/log_freakshouse.gif" alt="FREAK'S HOUSE（フリークス ハウス）ロゴ"></h1>
 				<div class="keyvisual"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/freaks-house/img_freakshouse_keyvisual.jpg" alt="FREAK'S HOUSE（フリークス ハウス）キービジュアル"></div>
 				<p class="boxtype_tit">フリークストアがつくる家。</p>
 				<p class="boxtype01">家は、もっともっと楽しい場所であるべきだと思う。<br>お気に入りの服を着て気分が上がるように、<br>お気に入りの家に住めば人生はもっと楽しくなる。<br><br>家族や仲間、自然とのつながりを大切にし、<br>大好きな家で豊かな人生を楽しむ。<br>それがフリークスストアが考えるTHE FUN LIFE。</p>
 				<div class="collabo">
-					<div class="logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/freaks-house/logo_freakshouse_collago.gif" alt="LIFE LABELとFREAK'S STORE（フリークス ストア）のコラボレーション"></div>
+					<div class="collabo-head">
+						<div class="logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/freaks-house/logo_freakshouse_collago.gif" alt="LIFE LABELとFREAK'S STORE（フリークス ストア）のコラボレーション"></div>
+						<div class="freaks-house-cta">
+							<a href="https://forms.shonan-no-koumuten.jp/@request-catalog" id="freaks_link">資料請求はこちら</a>
+						</div>
+					</div>
 					<p class="strong">コンセプトは、”つながる(＝セッション)を楽しむ家”。</p>
 					<p>さまざまなスタイルにあった暮らし方を提案する住宅ブランド「ライフレーベル」とアメリカンライフスタイルを軸に展開するセレクトショップ「フリークスストア」がタッグを組み、家族や仲間、自然とのゆるやかなつながりを生み出す空間をデザインしました。</p>
 				</div>
@@ -69,7 +137,9 @@ get_header(); ?>
 				<div class="box_link">
 					<div class="image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/freaks-house/img_freakshouse05.jpg"></div>
 					<p class="text">アメリカのローカルハウスをモチーフに家族や仲間、自然とのつながりが生まれていくFREAK'S HOUSE。住宅とファッションが、ジャンルを超えて新しいライフスタイルをつくる、住宅業界の常識に縛られない自由で楽しい住まいです。もうワクワクしますよね！</p>
-					<a href="https://forms.shonan-no-koumuten.jp/@request-catalog" id="freaks_link" style="background-color: #ff8f73 !important;">資料請求はこちら</a>
+      			  <div class="box_link-cta freaks-house-cta">
+					<a href="https://forms.shonan-no-koumuten.jp/@request-catalog" id="freaks_link">資料請求はこちら</a>
+				  </div>
 				</div>
 				
 			</div>
