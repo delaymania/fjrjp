@@ -85,7 +85,7 @@ get_header(); ?>
 			<div class="under_contents idee">
 				<h1 class="logo"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/freaks-house/log_freakshouse.gif" alt="FREAK'S HOUSE（フリークス ハウス）ロゴ"></h1>
 				<div class="keyvisual"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/freaks-house/img_freakshouse_keyvisual.jpg" alt="FREAK'S HOUSE（フリークス ハウス）キービジュアル"></div>
-				<p class="boxtype_tit">フリークストアがつくる家。</p>
+				<p class="boxtype_tit">フリークスストアがつくる家。</p>
 				<p class="boxtype01">家は、もっともっと楽しい場所であるべきだと思う。<br>お気に入りの服を着て気分が上がるように、<br>お気に入りの家に住めば人生はもっと楽しくなる。<br><br>家族や仲間、自然とのつながりを大切にし、<br>大好きな家で豊かな人生を楽しむ。<br>それがフリークスストアが考えるTHE FUN LIFE。</p>
 				<div class="collabo">
 					<div class="collabo-head">
