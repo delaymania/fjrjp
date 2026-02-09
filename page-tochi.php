@@ -28,6 +28,13 @@
 <link data-optimized="1" rel="stylesheet" id="buildico-toolkit-main-css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/tochi/fad2077e52c6566fd41c9e3622ed4646.css" type="text/css" media="all">
 <link data-optimized="1" rel="stylesheet" id="elementor-icons-shared-0-css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/tochi/815c834c19cf878824405d91363c2cb1.css" type="text/css" media="all">
 <link data-optimized="1" rel="stylesheet" id="elementor-style-css" href="<?php echo get_stylesheet_directory_uri(); ?>/lp/tochi/elementor-style.css" type="text/css" media="all">
+<style>
+@media (min-width: 1025px) {
+  .elementor-573 .elementor-element.elementor-element-256deae > .elementor-container {
+    max-width: 1320px;
+  }
+}
+</style>
 
 
 <div class="hfeed site" id="page" style="background-color: #fff;">
@@ -63,8 +70,8 @@
 <div class="elementor-widget-container">
 <div id="wt-at-ae8a4c0" class="headng-wrap">
 <div class="section-heading">
-<h2>センチュリー21</h2>
-<p>世界最大の不動産ネットワーク「センチュリー21」の加盟店です。</p>
+<h2>TERASS</h2>
+<p>当社は全国に800人の不動産エージェントがいる株式会社TERASSの関連企業です。</p>
 </div>
 </div>
 </div>
