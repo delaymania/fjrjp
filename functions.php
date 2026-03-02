@@ -2,7 +2,7 @@
 
 /*================================================================================================================================
  イベントのテンプレートファイル
- ※page-hello_商品名.phpファイルを複製する際には下記の設定もコピペで増やす
+ ※single-hello_商品名.phpファイルを複製する際には下記の設定もコピペで増やす
 ================================================================================================================================*/
 
 add_filter( 'template_include', 'load_custom_template_for_specific_slugs', 99 );
@@ -17,6 +17,12 @@ function load_custom_template_for_specific_slugs( $template ) {
                 break;
             case 'hello_freaks-house':
                 $new_template = locate_template( array( 'single-hello_freaks-house.php' ) );
+                break;
+            case 'hello_vr-freaks-house':
+                $new_template = locate_template( array( 'single-hello_vr-freaks-house.php' ) );
+                break;
+            case 'vr-freaks-house':
+                $new_template = locate_template( array( 'single-hello_vr-freaks-house.php' ) );
                 break;
             case 'hello_zero-cube':
                 $new_template = locate_template( array( 'single-hello_zero-cube.php' ) );
