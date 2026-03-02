@@ -9,7 +9,7 @@
 <?php endif; ?>
 
         
-<?php if ( get_post_type() == 'event' && (is_single('hello_zero-cube') || is_single('hello_zero-cube-stepfloor') || is_single('hello_zero-cube-tools') || is_single('hello_zero-cube-freaks') || is_single('hello_freaks-house')) ): ?>
+<?php if ( get_post_type() == 'event' && (is_single('hello_zero-cube') || is_single('hello_zero-cube-stepfloor') || is_single('hello_zero-cube-tools') || is_single('hello_zero-cube-freaks') || is_single('hello_freaks-house') || is_single('vr_freaks-house')) ): ?>
 	<?php if ( get_post_type() == 'event' && (is_single('hello_zero-cube') || is_single('hello_zero-cube-stepfloor') || is_single('hello_zero-cube-freaks') || is_single('hello_freaks-house')) ): ?>
 				<!--<div class="txtbox">
 					<p class="txt ffa">モデルハウス見学会では、ご来店いただくお客様にじっくり見学していただくため、「完全予約制」とさせていただいております。時間帯によっては、すぐに埋まってしまう場合もございます。予めご了承ください。</p>
@@ -55,7 +55,7 @@
 <?php endif; ?>
 				
 
-				<table class="evetable ffa">
+			<table class="evetable ffa">
 					<tr>
 						<th class="evetablebg">イベント名</th>
 						<td class="evetablebg">
@@ -131,17 +131,19 @@
 <?php endif; ?>
 			</div>
 		</div>
+
+
+<?php if ( is_singular('event') && ! is_single( array('vr-freaks-house', 'hello_vr-freaks-house') ) ) : ?>
 		<div class="under_contents">
 			<div class="entry-content">
-
-<script src="https://sdk.form.run/js/v2/embed.js"></script>
-<div
-  class="formrun-embed"
-  data-formrun-form="@arc-form"
-  data-formrun-redirect="true"
-  data-formrun-host="https://forms.shonan-no-koumuten.jp"
->
-</div>
-  
+				<script src="https://sdk.form.run/js/v2/embed.js"></script>
+				<div
+				class="formrun-embed"
+				data-formrun-form="@arc-form"
+				data-formrun-redirect="true"
+				data-formrun-host="https://forms.shonan-no-koumuten.jp"
+				>
+				</div>
 		    </div>
 		</div>
+<?php endif; ?>

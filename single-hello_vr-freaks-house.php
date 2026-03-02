@@ -115,6 +115,12 @@ get_header(); ?>
 	padding: 0 0.05em;
 	line-height: 1;
 }
+#freaks-house .everesertit {
+	background: #6a7b5e;
+}
+#freaks-house .box_link {
+	margin-top: 180px;
+}
 @media screen and (max-width: 768px) {
 	#freaks-house.request-catalogue-lp .freaks-house-cta a {
 		width: 440px;
@@ -142,6 +148,13 @@ get_header(); ?>
         padding: 1em 1.5em 3.5em;
         margin: 11rem auto 1.5rem;
     }
+	#freaks-house.request-catalogue-lp .collabo {
+        padding: 7em 1.5em 3.5em;
+        margin: 8rem auto 1.5rem;
+    }
+	#freaks-house .box_link {
+		margin-top: 140px;
+	}
 }
 </style>
 		<div id="freaks-house" class="under_contents_wrap request-catalogue-lp">
@@ -151,7 +164,7 @@ get_header(); ?>
 				<div class="freaks-house-cta fv-cta">
 					<p class="boxtype_tit">FREAK'S HOUSE VR見学会</p>
 					<p class="event-day"><span class="label">開催日</span><span class="day sat"><?php echo esc_html( $saturday_label ); ?></span><span class="sep">/</span><span class="day sun"><?php echo esc_html( $sunday_label ); ?></span></p>
-					<a href="https://forms.shonan-no-koumuten.jp/embed/@arc-form" id="vr_reserve_link_top">来場予約はこちら</a>
+					<a href="https://forms.shonan-no-koumuten.jp/@arc-form" id="vr_reserve_link_top">来場予約はこちら</a>
 				</div>
 				<p class="boxtype01">家は、もっともっと楽しい場所であるべきだと思う。<br>お気に入りの服を着て気分が上がるように、<br>お気に入りの家に住めば人生はもっと楽しくなる。<br><br>家族や仲間、自然とのつながりを大切にした住まいを、<br>VRでリアルに体験しながらご案内します。</p>
 				<div class="collabo">
@@ -199,11 +212,13 @@ get_header(); ?>
 					<p class="txt03">※価格は、消費税を含まない商品本体の価格であり建築する際は、付帯工事や登録に係る手数料等、別途費用が必要となります。また、家具・調度品・植栽等は本体費用に含まれておりません。</p>
 				</div>
 
+				<?php require("inc/event-comment01.php"); ?>
+				
 				<div class="box_link">
 					<div class="image"><img src="<?php echo get_stylesheet_directory_uri(); ?>/img/freaks-house/img_freakshouse05.jpg" alt="FREAK'S HOUSEの外観"></div>
 					<p class="text">アメリカのローカルハウスをモチーフに家族や仲間、自然とのつながりが生まれていくFREAK'S HOUSE。住宅とファッションが、ジャンルを超えて新しいライフスタイルをつくる、住宅業界の常識に縛られない自由で楽しい住まいです。VR見学会では、この魅力をVRでリアルに体験しながらご確認いただけます。</p>
 				  <div class="box_link-cta freaks-house-cta">
-					<a href="https://forms.shonan-no-koumuten.jp/embed/@arc-form" id="vr_reserve_link_bottom">来場予約はこちら</a>
+					<a href="https://forms.shonan-no-koumuten.jp/@arc-form" id="vr_reserve_link_bottom">来場予約はこちら</a>
 				  </div>
 				</div>
 
