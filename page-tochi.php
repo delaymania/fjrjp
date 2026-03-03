@@ -709,82 +709,82 @@
 <table class="tablesorter eael-data-table center" id="eael-data-table-4e8019f">
 <thead>
 <tr class="table-header">
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">プロジェクト名</span>
 </th>
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">湘南MIYU海友</span>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">所在地</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">神奈川県藤沢市大鋸1丁目</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">敷地面積</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">300㎡</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物構造</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">木造4階建て</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物種別</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">中高層複合</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">利回り</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">8～ 9％</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">着工・竣工</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">令和3年</div>
 </div>
@@ -911,82 +911,82 @@
 <table class="tablesorter eael-data-table center" id="eael-data-table-c443255">
 <thead>
 <tr class="table-header">
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">プロジェクト名</span>
 </th>
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">辻堂カリフォルニアテラスハウス</span>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">所在地</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">神奈川県藤沢市辻堂</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">敷地面積</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">492㎡</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物構造</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">木造2階建</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物種別</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">共同住宅　テラスハウス</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">利回り</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">利回り10%以上</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">着工・竣工</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">令和5年</div>
 </div>
@@ -1120,82 +1120,82 @@
 <table class="tablesorter eael-data-table center" id="eael-data-table-d4c8ad1">
 <thead>
 <tr class="table-header">
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">プロジェクト名</span>
 </th>
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">コンフォートヴィラ茅ヶ崎</span>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">所在地</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">神奈川県茅ヶ崎市浜竹</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">敷地面積</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">187.41㎡</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物構造</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">木造3階建</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物種別</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">共同住宅　1LDK.1DK</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">利回り</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">利回り10%以上</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">着工・竣工</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">令和2年</div>
 </div>
@@ -1329,82 +1329,82 @@
 <table class="tablesorter eael-data-table center" id="eael-data-table-f229a27">
 <thead>
 <tr class="table-header">
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">プロジェクト名</span>
 </th>
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">FJアスレイ壱番館</span>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">所在地</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">藤沢市六会</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">敷地面積</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">82.83㎡</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物構造</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">木造3階建</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物種別</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">共同住宅、ワンルーム</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">利回り</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">利回り10%以上</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">着工・竣工</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">令和5年</div>
 </div>
@@ -1537,82 +1537,82 @@
 <table class="tablesorter eael-data-table center" id="eael-data-table-0e94af7">
 <thead>
 <tr class="table-header">
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">プロジェクト名</span>
 </th>
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">FJアスレイ2番館</span>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">所在地</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">藤沢市六会</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">敷地面積</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">65.90㎡</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物構造</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">木造3階建</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物種別</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">共同住宅、ワンルーム</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">利回り</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">利回り10%以上</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">着工・竣工</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">令和5年</div>
 </div>
@@ -1745,34 +1745,34 @@
 <table class="tablesorter eael-data-table center" id="eael-data-table-371c1fb">
 <thead>
 <tr class="table-header">
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">プロジェクト名</span>
 </th>
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">川名戸建て賃貸ABC棟</span>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">所在地</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">藤沢市川名</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">敷地面積</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">
 </div>
@@ -1780,48 +1780,48 @@
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物構造</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">木造２階建　3棟</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物種別</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">戸建て　3LDK</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">利回り</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">利回り10%以上</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">着工・竣工</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">令和5年</div>
 </div>
@@ -1954,82 +1954,82 @@
 <table class="tablesorter eael-data-table center" id="eael-data-table-616b0c5">
 <thead>
 <tr class="table-header">
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">プロジェクト名</span>
 </th>
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">this is me</span>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">所在地</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">藤沢市辻堂新町</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">敷地面積</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">300㎡</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物構造</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">木造5階建て</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物種別</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">中高層複合ビル</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">利回り</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">無賃貸物件のため無し</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">着工・竣工</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">令和４年、竣工５年</div>
 </div>
@@ -2162,82 +2162,82 @@
 <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257e">
 <thead>
 <tr class="table-header">
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">プロジェクト名</span>
 </th>
-<th class="" id="" colspan="">
+<th>
 <span class="data-table-header-text">GATE MAISON FUJISAWA</span>
 </th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">所在地</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">藤沢市藤沢</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">敷地面積</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">102.02㎡</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物構造</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">木造3階建</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">建物種別</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">店舗併用共同住宅</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">利回り</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">一部施主様利用のため無</div>
 </div>
 </td>
 </tr>
 <tr>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">着工・竣工</div>
 </div>
 </td>
-<td colspan="" rowspan="" class="" id="">
+<td>
 <div class="td-content-wrapper">
 <div class="td-content">令和４年、竣工５年</div>
 </div>
@@ -2526,7 +2526,7 @@
                 <div class="elementor-element elementor-element-27b0f3b elementor-widget elementor-widget-image-gallery" data-id="27b0f3b" data-element_type="widget" data-widget_type="image-gallery.default">
                     <div class="elementor-widget-container">
                         <div class="elementor-image-gallery">
-                            <div id="gallery-8" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
+                            <div id="gallery-9" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
                               <figure class="gallery-item">
                                   <div class="gallery-icon landscape">
                                       <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3b" data-elementor-lightbox-title="1C7A3512" href="https://fj-r.jp/wp-content/uploads/2024/09/1C7A3512.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
@@ -2766,8 +2766,8 @@
             <div class="elementor-widget-wrap elementor-element-populated">
                 <div class="elementor-element elementor-element-8c2257f eael-table-align-center eael-dt-th-align-left eael-dt-td-align-left elementor-widget elementor-widget-eael-data-table" data-id="8c2257f" data-element_type="widget" data-widget_type="eael-data-table.default">
                     <div class="elementor-widget-container">
-                        <div class="eael-data-table-wrap" data-table_id="8c2257f" data-custom_responsive="false">
-                            <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257f">
+                        <div class="eael-data-table-wrap" data-table_id="8c2257f2" data-custom_responsive="false">
+                            <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257f2">
                                 <thead>
                                     <tr class="table-header">
                                         <th><span class="data-table-header-text">プロジェクト名</span></th>
@@ -2872,7 +2872,7 @@
                     <div class="elementor-widget-container">
                         
                       <div class="elementor-image-gallery">
-    <div id="gallery-8" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
+    <div id="gallery-10" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
         <figure class="gallery-item">
             <div class="gallery-icon landscape">
                 <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3c" data-elementor-lightbox-title="LINE_ALBUM_朝日町マンション_241126_10" href="https://fj-r.jp/wp-content/uploads/2024/11/LINE_ALBUM_朝日町マンション_241126_10.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
@@ -2963,8 +2963,8 @@
             <div class="elementor-widget-wrap elementor-element-populated">
                 <div class="elementor-element elementor-element-8c2257f eael-table-align-center eael-dt-th-align-left eael-dt-td-align-left elementor-widget elementor-widget-eael-data-table" data-id="8c2257f" data-element_type="widget" data-widget_type="eael-data-table.default">
                     <div class="elementor-widget-container">
-                        <div class="eael-data-table-wrap" data-table_id="8c2257f" data-custom_responsive="false">
-                            <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257f">
+                        <div class="eael-data-table-wrap" data-table_id="8c2257f3" data-custom_responsive="false">
+                            <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257f3">
                                 <thead>
                                     <tr class="table-header">
                                         <th><span class="data-table-header-text">プロジェクト名</span></th>
@@ -3068,7 +3068,7 @@
                 <div class="elementor-element elementor-element-27b0f3b elementor-widget elementor-widget-image-gallery" data-id="27b0f3b" data-element_type="widget" data-widget_type="image-gallery.default">
                     <div class="elementor-widget-container">                      
                       <div class="elementor-image-gallery">
-    <div id="gallery-8" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
+    <div id="gallery-11" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
         <figure class="gallery-item">
             <div class="gallery-icon landscape">
                 <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3d" data-elementor-lightbox-title="伊勢原市石田ブランメゾンB 01" href="https://fj-r.jp/wp-content/uploads/2024/12/LINE_ALBUM_%E4%BC%8A%E5%8B%A2%E5%8E%9F%E3%83%9E%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%B3_241214_10.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
@@ -3165,8 +3165,8 @@
             <div class="elementor-widget-wrap elementor-element-populated">
                 <div class="elementor-element elementor-element-8c2257f eael-table-align-center eael-dt-th-align-left eael-dt-td-align-left elementor-widget elementor-widget-eael-data-table" data-id="8c2257f" data-element_type="widget" data-widget_type="eael-data-table.default">
                     <div class="elementor-widget-container">
-                        <div class="eael-data-table-wrap" data-table_id="8c2257f" data-custom_responsive="false">
-                            <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257f">
+                        <div class="eael-data-table-wrap" data-table_id="8c2257f4" data-custom_responsive="false">
+                            <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257f4">
                                 <thead>
                                     <tr class="table-header">
                                         <th><span class="data-table-header-text">プロジェクト名</span></th>
@@ -3272,7 +3272,7 @@
                 <div class="elementor-element elementor-element-27b0f3e elementor-widget elementor-widget-image-gallery" data-id="27b0f3e" data-element_type="widget" data-widget_type="image-gallery.default">
                     <div class="elementor-widget-container">                      
                       <div class="elementor-image-gallery">
-<div id="gallery-8" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
+<div id="gallery-12" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
     <figure class="gallery-item">
         <div class="gallery-icon landscape">
             <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3e" data-elementor-lightbox-title="Image a" href="https://fj-r.jp/wp-content/uploads/2025/01/a.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
@@ -3359,8 +3359,8 @@
             <div class="elementor-widget-wrap elementor-element-populated">
                 <div class="elementor-element elementor-element-8c2257f eael-table-align-center eael-dt-th-align-left eael-dt-td-align-left elementor-widget elementor-widget-eael-data-table" data-id="8c2257f" data-element_type="widget" data-widget_type="eael-data-table.default">
                     <div class="elementor-widget-container">
-                        <div class="eael-data-table-wrap" data-table_id="8c2257f" data-custom_responsive="false">
-                            <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257f">
+                        <div class="eael-data-table-wrap" data-table_id="8c2257f5" data-custom_responsive="false">
+                            <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257f5">
                                 <thead>
                                     <tr class="table-header">
                                         <th><span class="data-table-header-text">プロジェクト名</span></th>
@@ -3464,7 +3464,7 @@
                 <div class="elementor-element elementor-element-27b0f3e elementor-widget elementor-widget-image-gallery" data-id="27b0f3e" data-element_type="widget" data-widget_type="image-gallery.default">
                     <div class="elementor-widget-container">                      
                       <div class="elementor-image-gallery">
-<div id="gallery-8" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
+<div id="gallery-13" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
     <figure class="gallery-item">
         <div class="gallery-icon landscape">
             <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3e" data-elementor-lightbox-title="Image a" href="https://fj-r.jp/wp-content/uploads/2025/04/1C7A0605-scaled.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
@@ -3580,8 +3580,8 @@
             <div class="elementor-widget-wrap elementor-element-populated">
                 <div class="elementor-element elementor-element-8c2257f eael-table-align-center eael-dt-th-align-left eael-dt-td-align-left elementor-widget elementor-widget-eael-data-table" data-id="8c2257f" data-element_type="widget" data-widget_type="eael-data-table.default">
                     <div class="elementor-widget-container">
-                        <div class="eael-data-table-wrap" data-table_id="8c2257f" data-custom_responsive="false">
-                            <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257f">
+                        <div class="eael-data-table-wrap" data-table_id="8c2257f6" data-custom_responsive="false">
+                            <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257f6">
                                 <thead>
                                     <tr class="table-header">
                                         <th><span class="data-table-header-text">プロジェクト名</span></th>
@@ -3686,7 +3686,7 @@
                     <div class="elementor-widget-container">                      
                       <div class="elementor-image-gallery">
 
-<div id="gallery-8" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
+<div id="gallery-14" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
     <figure class="gallery-item">
         <div class="gallery-icon landscape">
             <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3e" data-elementor-lightbox-title="Image a" href="https://fj-r.jp/wp-content/uploads/2025/04/1C7A0009-scaled.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
@@ -3801,8 +3801,8 @@
             <div class="elementor-widget-wrap elementor-element-populated">
                 <div class="elementor-element elementor-element-8c2257f eael-table-align-center eael-dt-th-align-left eael-dt-td-align-left elementor-widget elementor-widget-eael-data-table" data-id="8c2257f" data-element_type="widget" data-widget_type="eael-data-table.default">
                     <div class="elementor-widget-container">
-                        <div class="eael-data-table-wrap" data-table_id="8c2257f" data-custom_responsive="false">
-                            <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257f">
+                        <div class="eael-data-table-wrap" data-table_id="8c2257f7" data-custom_responsive="false">
+                            <table class="tablesorter eael-data-table center" id="eael-data-table-8c2257f7">
                                 <thead>
                                     <tr class="table-header">
                                         <th><span class="data-table-header-text">プロジェクト名</span></th>
@@ -3810,20 +3810,6 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                  <!--
-                                    <tr>
-                                        <td>
-                                            <div class="td-content-wrapper">
-                                                <div class="td-content">住所</div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="td-content-wrapper">
-                                                <div class="td-content"></div>
-                                            </div>
-                                        </td>
-                                    </tr>
--->
                                     <tr>
                                         <td>
                                             <div class="td-content-wrapper">
@@ -3912,7 +3898,7 @@
                     <div class="elementor-widget-container">                      
                       <div class="elementor-image-gallery">
 
-<div id="gallery-8" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
+<div id="gallery-15" class="gallery galleryid-573 gallery-columns-6 gallery-size-thumbnail">
 <figure class="gallery-item">
     <div class="gallery-icon landscape">
         <a data-elementor-open-lightbox="yes" data-elementor-lightbox-slideshow="27b0f3e" data-elementor-lightbox-title="Image a" href="https://fj-r.jp/wp-content/uploads/2025/08/S__201555975_0.jpg" class="fancybox image" rel="gallery-7" aria-controls="fancybox-wrap" aria-haspopup="dialog">
@@ -4039,9 +4025,6 @@
 <div class="elementor-widget-container">
 <p>湘南乃工務店は、国産・地域産木材を構造体に活用した環境配慮型の建築物を得意としています。木造施設をご検討の方はお気軽にご相談ください。</p>
 </div>
-</div>
-<div class="elementor-element elementor-element-9ca1de7 wt-mobile-align-center wt-align-left elementor-widget elementor-widget-wt_b_button" data-id="9ca1de7" data-element_type="widget" data-widget_type="wt_b_button.default">
-
 </div>
 </div>
 </div>

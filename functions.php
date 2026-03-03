@@ -659,3 +659,22 @@ function my_cf7_get_post_title( $output, $name, $html ) {
     // 最後に何も取れなければ空のまま
     return $output;
 }
+
+/*================================================================================================================================
+ PixelYourSite: Facebook Pixel ID の重複除去
+================================================================================================================================*/
+add_filter( 'pys_facebook_ids', 'fjrjp_unique_facebook_pixel_ids', 9999 );
+function fjrjp_unique_facebook_pixel_ids( $ids ) {
+    if ( ! is_array( $ids ) ) {
+        return $ids;
+    }
+
+    return array_values(
+        array_filter(
+            array_unique( $ids ),
+            static function ( $id ) {
+                return $id !== null && $id !== '';
+            }
+        )
+    );
+}
