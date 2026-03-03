@@ -4109,7 +4109,7 @@
                                 <thead>
                                     <tr class="table-header">
                                         <th><span class="data-table-header-text">プロジェクト名</span></th>
-                                        <th><span class="data-table-header-text">茅ヶ崎市中海岸ＰＪ</span></th>
+                                        <th><span class="data-table-header-text">茅ヶ崎市中海岸PJ</span></th>
                                     </tr>
                                 </thead>
                                 <tbody>
