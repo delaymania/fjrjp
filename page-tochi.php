@@ -4217,6 +4217,20 @@
 
   <div id="contact">
     <?php require("inc/event-comment01.php"); ?>
+
+    	<div class="under_contents">
+			<div class="entry-content">
+				<script src="https://sdk.form.run/js/v2/embed.js"></script>
+				<div
+				class="formrun-embed"
+				data-formrun-form="@arc-form"
+				data-formrun-redirect="true"
+				data-formrun-host="https://forms.shonan-no-koumuten.jp"
+				>
+				</div>
+		    </div>
+		</div>
+
   </div>
 
 </div>
