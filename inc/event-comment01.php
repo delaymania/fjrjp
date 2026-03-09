@@ -133,7 +133,7 @@
 		</div>
 
 
-<?php if ( is_singular('event') && ! is_single( array('vr-freaks-house', 'hello_vr-freaks-house') ) ) : ?>
+<?php if ( is_singular('event') && ! is_single( array('vr-freaks-house', 'hello_vr-freaks-house', 'zero-cube') ) ) : ?>
 		<div class="under_contents">
 			<div class="entry-content">
 				<script src="https://sdk.form.run/js/v2/embed.js"></script>

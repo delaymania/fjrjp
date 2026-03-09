@@ -27,6 +27,9 @@ function load_custom_template_for_specific_slugs( $template ) {
             case 'hello_zero-cube':
                 $new_template = locate_template( array( 'single-hello_zero-cube.php' ) );
                 break;
+            case 'zero-cube':
+                $new_template = locate_template( array( 'single-zero-cube.php' ) );
+                break;
             case 'hello_zero-cube-malibu':/* 元ページのURLが違っているためテンプレートの作り直し */
                 $new_template = locate_template( array( 'single-hello_zero-cube-malibu.php' ) );
                 break;
