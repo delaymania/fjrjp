@@ -11,11 +11,9 @@
  * @since Twenty Sixteen 1.0
  */
 
-$today_ts            = current_time( 'timestamp' );
-$weekday             = (int) date( 'w', $today_ts );
-$days_until_saturday = ( 6 - $weekday + 7 ) % 7;
-$saturday_ts         = strtotime( '+' . $days_until_saturday . ' day', $today_ts );
-$sunday_ts           = strtotime( '+1 day', $saturday_ts );
+$weekend_dates       = fjrjp_get_display_weekend_dates();
+$saturday_ts         = $weekend_dates['saturday']->getTimestamp();
+$sunday_ts           = $weekend_dates['sunday']->getTimestamp();
 $sat_month           = date_i18n( 'n', $saturday_ts );
 $sun_month           = date_i18n( 'n', $sunday_ts );
 $saturday_label      = date_i18n( 'n月j日(土)', $saturday_ts );

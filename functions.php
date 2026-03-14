@@ -367,6 +367,72 @@ function is_mobile() {
 
 	return preg_match( $pattern, $_SERVER['HTTP_USER_AGENT'] );
 }
+function fjrjp_get_site_timezone() {
+    if (function_exists('wp_timezone')) {
+        return wp_timezone();
+    }
+
+    $timezone_string = get_option('timezone_string');
+    if (!empty($timezone_string)) {
+        return new DateTimeZone($timezone_string);
+    }
+
+    $offset = (float)get_option('gmt_offset', 0);
+    $hours  = (int)$offset;
+    $minutes = (int)round(abs($offset - $hours) * 60);
+    $sign   = $offset < 0 ? '-' : '+';
+
+    return new DateTimeZone(sprintf('%s%02d:%02d', $sign, abs($hours), $minutes));
+}
+
+function fjrjp_create_datetime($datetime = null) {
+    if ($datetime instanceof DateTime) {
+        return clone $datetime;
+    }
+
+    if (
+        is_object($datetime)
+        && method_exists($datetime, 'format')
+        && method_exists($datetime, 'getTimezone')
+    ) {
+        return new DateTime($datetime->format('Y-m-d H:i:s'), $datetime->getTimezone());
+    }
+
+    return new DateTime('now', fjrjp_get_site_timezone());
+}
+
+function fjrjp_get_display_weekend_dates($base = null) {
+    if ($base === null) {
+        if (function_exists('current_datetime')) {
+            $base = current_datetime();
+        } else {
+            $base = new DateTime('now', fjrjp_get_site_timezone());
+        }
+    }
+
+    $reference = fjrjp_create_datetime($base);
+    $weekday   = (int)$reference->format('w');
+    $hour      = (int)$reference->format('G');
+
+    $saturday = clone $reference;
+    if ($weekday !== 6) {
+        $saturday->modify('next Saturday');
+    }
+
+    if ($weekday === 6 && $hour >= 21) {
+        $saturday->modify('+7 days');
+    }
+
+    $saturday->setTime(0, 0, 0);
+    $sunday = clone $saturday;
+    $sunday->modify('+1 day');
+
+    return array(
+        'saturday' => $saturday,
+        'sunday'   => $sunday,
+    );
+}
+
 /*================================================================================================================================
  イベントの開催日の土日自動出力
  ・range_start / range_end：連休モード
@@ -392,7 +458,11 @@ function get_next_weekend_dates($atts) {
     $weekday_jp = array('日','月','火','水','木','金','土');
 
     // 「m/d」を「今年または来年の日付」に解釈するヘルパー
-    $today   = new DateTime();
+    if (function_exists('current_datetime')) {
+        $today = fjrjp_create_datetime(current_datetime());
+    } else {
+        $today = new DateTime('now', fjrjp_get_site_timezone());
+    }
     $todayY  = (int)$today->format('Y');
     $todayM  = (int)$today->format('n');
     $todayD  = (int)$today->format('j');
@@ -553,13 +623,9 @@ function get_next_weekend_dates($atts) {
     // ----------------------------------------------------------------
     // 3) 従来の「次の土日」モード（単発や連休の対象でないとき）
     // ----------------------------------------------------------------
-    $dow = (int)$today->format('w'); // 0=日曜...6=土曜
-
-    // 次の土曜・日曜を取得
-    $saturday = ($dow === 6)
-        ? clone $today
-        : (clone $today)->modify('next Saturday');
-    $sunday   = (clone $saturday)->modify('+1 day');
+    $weekend_dates = fjrjp_get_display_weekend_dates($today);
+    $saturday      = fjrjp_create_datetime($weekend_dates['saturday']);
+    $sunday        = fjrjp_create_datetime($weekend_dates['sunday']);
 
     // 臨時休業上書き（属性が「存在かつ空欄でない」場合のみ）
     if (isset($atts['shtdn_sat']) && trim($atts['shtdn_sat']) !== '') {
